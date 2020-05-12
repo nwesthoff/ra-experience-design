@@ -49,37 +49,45 @@ const IndexPage = () => (
         </p>
       </PageIntroduction>
 
-      <ChapterBlock
-        title="Analyse"
-        introduction="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend placerat justo, vitae auctor purus eleifend id. Phasellus pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel. "
-        index={1}
-      />
+      <ChapterBlock title="Analyse" index={1}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
+        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
+        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
+        lorem volutpat vel.
+      </ChapterBlock>
 
-      <ChapterBlock
-        title="Synthesise"
-        introduction="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend placerat justo, vitae auctor purus eleifend id. Phasellus pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel. "
-        index={2}
-        reverse
-      />
+      <ChapterBlock title="Synthesise" index={2} reverse>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
+        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
+        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
+        lorem volutpat vel.
+      </ChapterBlock>
 
-      <ChapterBlock
-        title="Simulate"
-        introduction="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend placerat justo, vitae auctor purus eleifend id. Phasellus pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel. "
-        index={3}
-      />
+      <ChapterBlock title="Simulate" index={3}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
+        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
+        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
+        lorem volutpat vel.
+      </ChapterBlock>
 
-      <ChapterBlock
-        title="Evaluate"
-        introduction="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend placerat justo, vitae auctor purus eleifend id. Phasellus pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel. "
-        index={4}
-        reverse
-      />
+      <ChapterBlock title="Evaluate" index={4} reverse>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
+        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
+        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
+        lorem volutpat vel.
+      </ChapterBlock>
 
-      <ChapterBlock
-        title="Repeat"
-        introduction="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend placerat justo, vitae auctor purus eleifend id. Phasellus pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel. "
-        index={5}
-      />
+      <ChapterBlock title="Repeat" index={5}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
+        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
+        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
+        lorem volutpat vel.
+      </ChapterBlock>
     </PageWrapper>
   </Layout>
 );

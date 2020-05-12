@@ -34,23 +34,23 @@ const Layout: React.FunctionComponent<Props> = ({
           <a>Home</a>
         </Link>{" "}
         |{" "}
-        <Link href="/analyse">
+        <Link href="/chapters/1-analyse">
           <a>Analyse</a>
         </Link>{" "}
         |{" "}
-        <Link href="/synthesise">
+        <Link href="/chapters/2-synthesise">
           <a>Synthesise</a>
         </Link>{" "}
         |{" "}
-        <Link href="/simulate">
+        <Link href="/chapters/3-simulate">
           <a>Simulate</a>
         </Link>{" "}
         |{" "}
-        <Link href="/evaluate">
+        <Link href="/chapters/4-evaluate">
           <a>Evaluate</a>
         </Link>{" "}
         |{" "}
-        <Link href="/repeat">
+        <Link href="/chapters/5-repeat">
           <a>Repeat</a>
         </Link>
       </nav>

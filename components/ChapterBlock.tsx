@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { theme } from "../config/theme";
 import { Parallax } from "react-scroll-parallax";
+import Link from "next/link";
 
 const Spacer = styled.div`
   width: 5rem;
@@ -53,6 +54,15 @@ const ChapterTitle = styled.h1`
   font-size: 4rem;
   line-height: 1em;
 
+  a {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      color: #444;
+    }
+  }
+
   @media (max-width: ${theme.breakpoints.tablet}px) {
     font-size: 2rem;
   }
@@ -65,7 +75,7 @@ const ChapterImage = styled.img`
 
 interface Props {
   title: string;
-  introduction?: string;
+  children?: string;
   index: number;
   reverse?: boolean;
 }
@@ -79,8 +89,14 @@ const ChapterBlock = (props: Props) => {
             {props.index}
           </Parallax>
         </ChapterIndex>
-        <ChapterTitle>{props.title}</ChapterTitle>
-        <p>{props.introduction}</p>
+
+        <ChapterTitle>
+          <Link href={`/chapters/${props.index}-${props.title.toLowerCase()}`}>
+            <a>{props.title}</a>
+          </Link>
+        </ChapterTitle>
+
+        <p>{props.children}</p>
       </ChapterTextContainer>
       <Spacer />
       <div>
