@@ -6,6 +6,14 @@ import { Fragment } from "react";
 
 const Spacer = styled.div`
   width: 5rem;
+
+  @media (max-width: ${theme.breakpoints.desktop}px) {
+    width: 2rem;
+  }
+
+  @media (max-width: ${theme.breakpoints.tablet}px) {
+    display: none;
+  }
 `;
 
 const ChapterIndex = styled.span`
@@ -72,7 +80,8 @@ const ChapterTitle = styled.h1`
 
 const ChapterImage = styled.img`
   width: 100%;
-  min-width: 250px;
+  min-width: 125px;
+  max-width: 250px;
 `;
 
 interface Props {
