@@ -19,6 +19,14 @@ const IndexPage = () => (
         </p>
       </PageIntroduction>
 
+      <ChapterBlock title="Introduction" index={0} disableImage>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
+        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
+        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
+        lorem volutpat vel.
+      </ChapterBlock>
+
       <ChapterBlock title="Analyse" index={1}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
@@ -52,6 +60,14 @@ const IndexPage = () => (
       </ChapterBlock>
 
       <ChapterBlock title="Repeat" index={5}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
+        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
+        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
+        lorem volutpat vel.
+      </ChapterBlock>
+
+      <ChapterBlock title="Conclusion" index={6} disableImage>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id

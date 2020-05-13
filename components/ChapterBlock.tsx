@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { theme } from "../config/theme";
 import { Parallax } from "react-scroll-parallax";
 import Link from "next/link";
+import { Fragment } from "react";
 
 const Spacer = styled.div`
   width: 5rem;
@@ -44,7 +45,8 @@ const ChapterContainer = styled.div`
 
 const ChapterTextContainer = styled.div`
   position: relative;
-  max-width: 380px;
+  max-width: ${(props: { disableImage?: boolean }) =>
+    props.disableImage ? "630px" : "380px"};
   color: #0f0f0f;
 `;
 
@@ -55,11 +57,11 @@ const ChapterTitle = styled.h1`
   line-height: 1em;
 
   a {
-    color: #000;
+    color: white;
     text-decoration: none;
 
     &:hover {
-      color: #444;
+      color: #ddd;
     }
   }
 
@@ -78,12 +80,13 @@ interface Props {
   children?: string;
   index: number;
   reverse?: boolean;
+  disableImage?: boolean;
 }
 
 const ChapterBlock = (props: Props) => {
   return (
     <ChapterContainer reverse={props.reverse}>
-      <ChapterTextContainer>
+      <ChapterTextContainer disableImage={props.disableImage}>
         <ChapterIndex>
           <Parallax y={[5, -5]} tagOuter="div">
             {props.index}
@@ -98,12 +101,16 @@ const ChapterBlock = (props: Props) => {
 
         <p>{props.children}</p>
       </ChapterTextContainer>
-      <Spacer />
-      <div>
-        <Parallax y={[15, -15]} tagOuter="figure">
-          <ChapterImage src={`img/${props.title.toLowerCase()}.png`} />
-        </Parallax>
-      </div>
+      {props.disableImage ? null : (
+        <Fragment>
+          <Spacer />
+          <div>
+            <Parallax y={[15, -15]} tagOuter="figure">
+              <ChapterImage src={`img/${props.title.toLowerCase()}.png`} />
+            </Parallax>
+          </div>
+        </Fragment>
+      )}
     </ChapterContainer>
   );
 };
