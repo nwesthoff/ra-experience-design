@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: #000;
   }
+
+  p {
+    line-height: 1.5;
+  }
 `;
 
 export default GlobalStyle;
