@@ -1,13 +1,8 @@
 import * as React from "react";
 import Link from "next/link";
 import Head from "next/head";
-import { createGlobalStyle } from "styled-components";
-
-const GlobalStyle = createGlobalStyle`
-  * {
-    font-family: 'IBM Plex Sans', sans-serif;
-  }
-`;
+import { PageWrapper } from "./PageWrapper";
+import GlobalStyle from "../config/GlobalStyle";
 
 type Props = {
   title?: string;
@@ -56,9 +51,14 @@ const Layout: React.FunctionComponent<Props> = ({
       </nav>
     </header>
     {children}
-    <footer>
-      <span>This Footer will be everywhere</span>
-    </footer>
+    <PageWrapper>
+      <footer>
+        Made with ❤️ by{" "}
+        <a href="https://nilswesthoff.com" target="blank">
+          Nils
+        </a>
+      </footer>
+    </PageWrapper>
   </div>
 );
 

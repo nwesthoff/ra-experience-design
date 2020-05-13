@@ -1,13 +1,6 @@
 import Layout from "../../components/Layout";
-import styled from "styled-components";
 import PageIntroduction from "../../components/PageIntroduction";
-
-const PageWrapper = styled.div`
-  padding: 0 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
+import { PageWrapper } from "../../components/PageWrapper";
 
 const SynthesisePage = () => (
   <Layout title="Analyse | RA Experience Design">
