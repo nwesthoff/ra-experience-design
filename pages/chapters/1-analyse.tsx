@@ -1,6 +1,5 @@
 import Layout from "../../components/Layout";
 import PageIntroduction from "../../components/PageIntroduction";
-import styled from "styled-components";
 import { PageWrapper } from "../../components/PageWrapper";
 
 const AnalysePage = () => (
