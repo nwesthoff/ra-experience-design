@@ -19,7 +19,7 @@ const IndexPage = () => (
         </p>
       </PageIntroduction>
 
-      <ChapterBlock title="Introduction" index={0} disableImage>
+      <ChapterBlock title="Introduction" index={0}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
@@ -27,7 +27,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Analyse" index={1}>
+      <ChapterBlock title="Analyse" index={1} reverse>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
@@ -35,7 +35,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Synthesise" index={2} reverse>
+      <ChapterBlock title="Synthesise" index={2}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
@@ -43,7 +43,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Simulate" index={3}>
+      <ChapterBlock title="Simulate" index={3} reverse>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
@@ -51,7 +51,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Evaluate" index={4} reverse>
+      <ChapterBlock title="Evaluate" index={4}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
@@ -59,7 +59,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Repeat" index={5}>
+      <ChapterBlock title="Repeat" index={5} reverse>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
@@ -67,7 +67,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Conclusion" index={6} disableImage>
+      <ChapterBlock title="Conclusion" index={6}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
