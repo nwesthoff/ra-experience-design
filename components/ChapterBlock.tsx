@@ -7,11 +7,11 @@ import { Fragment } from "react";
 const Spacer = styled.div`
   width: 5rem;
 
-  @media (max-width: ${theme.breakpoints.desktop}px) {
+  @media (max-width: ${theme.breakpoints.tablet}px) {
     width: 2rem;
   }
 
-  @media (max-width: ${theme.breakpoints.tablet}px) {
+  @media (max-width: ${theme.breakpoints.phone}px) {
     display: none;
   }
 `;
@@ -40,7 +40,7 @@ const ChapterContainer = styled.div`
   flex-wrap: wrap;
   flex-direction: ${(props: { reverse?: boolean }) =>
     props.reverse === true ? "row-reverse" : "row"};
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 900px;
@@ -53,9 +53,21 @@ const ChapterContainer = styled.div`
 
 const ChapterTextContainer = styled.div`
   position: relative;
-  max-width: ${(props: { disableImage?: boolean }) =>
-    props.disableImage ? "630px" : "380px"};
   color: #0f0f0f;
+  flex-basis: 55%;
+  flex-grow: 1;
+
+  p {
+    min-width: 200px;
+    max-width: 540px;
+  }
+`;
+
+const ChapterImageContainer = styled.div`
+  flex-basis: 30%;
+  flex-grow: 1;
+  min-width: 200px;
+  max-width: 350px;
 `;
 
 const ChapterTitle = styled.h1`
@@ -80,8 +92,6 @@ const ChapterTitle = styled.h1`
 
 const ChapterImage = styled.img`
   width: 100%;
-  min-width: 125px;
-  max-width: 250px;
 `;
 
 interface Props {
@@ -95,7 +105,7 @@ interface Props {
 const ChapterBlock = (props: Props) => {
   return (
     <ChapterContainer reverse={props.reverse}>
-      <ChapterTextContainer disableImage={props.disableImage}>
+      <ChapterTextContainer>
         <ChapterIndex>
           <Parallax y={[5, -5]} tagOuter="div">
             {props.index}
@@ -110,14 +120,20 @@ const ChapterBlock = (props: Props) => {
 
         <p>{props.children}</p>
       </ChapterTextContainer>
+
       {props.disableImage ? null : (
         <Fragment>
           <Spacer />
-          <div>
-            <Parallax y={[15, -15]} tagOuter="figure">
-              <ChapterImage src={`img/${props.title.toLowerCase()}.png`} />
-            </Parallax>
-          </div>
+          <ChapterImageContainer>
+            <div>
+              <Parallax y={[20, -20]} tagOuter="div">
+                <ChapterImage
+                  src={`img/${props.title.toLowerCase()}@2x.png`}
+                  srcSet={`img/${props.title.toLowerCase()}.svg`}
+                />
+              </Parallax>
+            </div>
+          </ChapterImageContainer>
         </Fragment>
       )}
     </ChapterContainer>
