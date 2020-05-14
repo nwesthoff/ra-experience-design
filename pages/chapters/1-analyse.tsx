@@ -19,37 +19,60 @@ const AnalysePage: NextPage = () => (
       <PageIntroduction>
         <h1>Analyse</h1>
         <p>
-          Experience Design Introduction... Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Pellentesque eleifend placerat justo,
-          vitae auctor purus eleifend id. Phasellus pulvinar, erat quis
-          consequat vestibulum, diam odio pretium felis, id sodales odio eros
-          non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel.
+          Every good design process begins with research, to <i>learn</i> about
+          the context we're designing for. The analysis phase has two main
+          functions, to inspire us in preparation of synthesis, <i>and</i>{" "}
+          provide constraints during evaluation. There's a whole plethora of{" "}
+          <i>tools</i>,<i>methodologies</i> and <i>practises</i> to guide us
+          through this process. These tools help us explore and make sense of
+          the context which we'll go over in this chapter.
         </p>
       </PageIntroduction>
 
       <ContentContainer>
+        <h3>Exploration</h3>
         <p>
-          Lipsum <Citation id="ref1" references={myReferences} />. Nulla sed
-          vehicula tortor. Quisque eros arcu, sagittis eu augue non, malesuada
-          sagittis odio. Duis eleifend vitae lacus in convallis. Donec at nulla
-          eu nisi ultricies vulputate non venenatis libero. Etiam eget nibh eu
-          urna porta porta. Proin rhoncus augue sed massa accumsan pretium. Duis
-          vehicula, nibh sit amet hendrerit ornare, lectus sapien malesuada
-          tortor, nec porttitor sapien nibh eu metus. Proin non ornare nisi,
-          maximus scelerisque dui. Nam ac aliquet lorem. Donec mattis massa quis
-          felis venenatis fermentum. Vivamus ac vehicula mauris. Proin
-          consectetur sapien a ligula lacinia, at tempus sem mollis. Vestibulum
-          ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-          curae; Nunc sit amet blandit purus, rutrum luctus erat. Aenean
-          lacinia, tellus a iaculis viverra, urna mauris accumsan erat, non
-          dignissim nunc diam et mauris. Cras vitae dui varius, maximus massa
-          vitae, tempus nulla.
+          Lipsu Nulla sed vehicula tortor. Quisque eros arcu, sagittis eu augue
+          non, malesuada sagittis odio. Duis eleifend vitae lacus in convallis.
+          Donec at nulla eu nisi ultricies vulputate non venenatis libero. Etiam
+          eget nibh eu urna porta porta. Proin rhoncus augue sed massa accumsan
+          pretium. Duis vehicula, nibh sit amet hendrerit ornare, lectus sapien
+          malesuada tortor, nec porttitor sapien nibh eu metus. Proin non ornare
+          nisi, maximus scelerisque dui. Nam ac aliquet lorem. Donec mattis
+          massa quis felis venenatis fermentum. Vivamus ac vehicula mauris.
+          Proin consectetur sapien a ligula lacinia, at tempus sem mollis.
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae; Nunc sit amet blandit purus, rutrum luctus
+          erat. Aenean lacinia, tellus a iaculis viverra, urna mauris accumsan
+          erat, non dignissim nunc diam et mauris. Cras vitae dui varius,
+          maximus massa vitae, tempus nulla.
+        </p>
+
+        <h3>Sense-making</h3>
+        <p>
+          Persona's combine similar user needs, habits, and attitudes and
+          communicate the nuanced commonalities and differences between our
+          users <Citation id="spotify1" references={myReferences} />.
+        </p>
+
+        <p>
+          <i>
+            "For us the real magic is in the insight — the interpretation of
+            that information"
+          </i>
+          , Spotify's Adrian Buendia says{" "}
+          <Citation id="spotify2" references={myReferences} />.
+        </p>
+
+        <p>
+          Insight depth is defined to measure an insight's influential extent{" "}
+          <Citation id="insight1" references={myReferences} />.
         </p>
       </ContentContainer>
     </PageWrapper>
 
     <CaseStudyWrapper>
-      <ContentContainer>
+      <ContentContainer wide>
         <h2>Case Study</h2>
         <CaseStudyText>
           Practically applied knowledge...Lorem ipsum dolor sit amet,

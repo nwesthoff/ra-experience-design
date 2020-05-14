@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { theme } from "./theme";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -6,9 +7,23 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
   }
 
-  p, a {
-    color: white;
+  p {
+    font-size: 1.2rem;
     line-height: 1.6em;
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    color: ${theme.colors.primary};
+    font-size: 1.5rem;
   }
 
   body {

@@ -21,6 +21,9 @@ const ReferenceListItem = styled.li`
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
+  font-size: 0.9rem;
+  color: #ddd;
+  margin-bottom: 0.8rem;
 `;
 
 interface Props {
@@ -28,7 +31,7 @@ interface Props {
 }
 
 export default function References(props: Props) {
-  const sortedReferences = props.references.sort(function (a, b) {
+  const sortedReferences = props.references.sort((a, b) => {
     return a.entryTags.inBib > b.entryTags.inBib
       ? 1
       : b.entryTags.inBib > a.entryTags.inBib
@@ -38,7 +41,7 @@ export default function References(props: Props) {
 
   return (
     <ReferenceWrapper>
-      <ContentContainer>
+      <ContentContainer wide>
         <h2>References</h2>
         <ReferenceList>
           {sortedReferences.map((ref) => (
