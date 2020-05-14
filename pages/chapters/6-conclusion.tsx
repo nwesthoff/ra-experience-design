@@ -2,7 +2,6 @@ import Layout from "../../components/Layout";
 import PageIntroduction from "../../components/PageIntroduction";
 import { PageWrapper } from "../../components/PageWrapper";
 import References from "../../components/Bibliography/References";
-import myReferences from "../../config/MyReferences";
 import { NextPage } from "next";
 import ContentContainer from "../../components/ContentContainer";
 
@@ -37,7 +36,7 @@ const AnalysePage: NextPage = () => (
       </ContentContainer>
     </PageWrapper>
 
-    <References references={myReferences} />
+    <References />
   </Layout>
 );
 

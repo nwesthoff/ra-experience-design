@@ -2,15 +2,19 @@ import Layout from "../../components/Layout";
 import PageIntroduction from "../../components/PageIntroduction";
 import { PageWrapper } from "../../components/PageWrapper";
 import Citation from "../../components/Bibliography/Citation";
-import myReferences from "../../config/MyReferences";
 import { NextPage } from "next";
 import ContentContainer from "../../components/ContentContainer";
 import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
 import styled from "styled-components";
+import { theme } from "../../config/theme";
 
 const CaseStudyText = styled.p`
   column-count: 2;
   column-gap: 4rem;
+
+  @media (max-width: ${theme.breakpoints.tablet}px) {
+    column-count: 1;
+  }
 `;
 
 const AnalysePage: NextPage = () => (
@@ -52,7 +56,7 @@ const AnalysePage: NextPage = () => (
         <p>
           Persona's combine similar user needs, habits, and attitudes and
           communicate the nuanced commonalities and differences between our
-          users <Citation id="spotify1" references={myReferences} />.
+          users <Citation id="spotify1" />.
         </p>
 
         <p>
@@ -60,13 +64,12 @@ const AnalysePage: NextPage = () => (
             "For us the real magic is in the insight — the interpretation of
             that information"
           </i>
-          , Spotify's Adrian Buendia says{" "}
-          <Citation id="spotify2" references={myReferences} />.
+          , Spotify's Adrian Buendia says <Citation id="spotify2" />.
         </p>
 
         <p>
           Insight depth is defined to measure an insight's influential extent{" "}
-          <Citation id="insight1" references={myReferences} />.
+          <Citation id="insight1" />.
         </p>
       </ContentContainer>
     </PageWrapper>

@@ -1,13 +1,14 @@
-import React, { ReactElement } from "react";
-import { AcademicRef } from "../../config/MyReferences";
+import React, { ReactElement, useContext } from "react";
+import { ReferenceContext } from "./ReferenceProvider";
 
 interface Props {
   id: string;
-  references: AcademicRef[];
 }
 
 export default function Citation(props: Props): ReactElement {
-  const currentRef = props.references.find((ref) => {
+  const references = useContext(ReferenceContext);
+
+  const currentRef = references?.find((ref) => {
     return ref.citationKey === props.id;
   });
 

@@ -1,8 +1,9 @@
-import React from "react";
-import { AcademicRef } from "../../config/MyReferences";
+import React, { useContext } from "react";
 import styled from "styled-components";
-import Linkify from "react-linkify";
 import ContentContainer from "../ContentContainer";
+import { ReferenceContext } from "./ReferenceProvider";
+import ReactLinkify from "react-linkify";
+import { theme } from "../../config/theme";
 
 const ReferenceWrapper = styled.div`
   display: flex;
@@ -15,6 +16,14 @@ const ReferenceWrapper = styled.div`
 const ReferenceList = styled.ul`
   column-count: 2;
   column-gap: 4rem;
+
+  @media (max-width: ${theme.breakpoints.desktop}px) {
+    column-gap: 3rem;
+  }
+
+  @media (max-width: ${theme.breakpoints.tablet}px) {
+    column-count: 1;
+  }
 `;
 
 const ReferenceListItem = styled.li`
@@ -26,12 +35,22 @@ const ReferenceListItem = styled.li`
   margin-bottom: 0.8rem;
 `;
 
-interface Props {
-  references: AcademicRef[];
-}
+const ReferenceLink = styled.a`
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  max-width: 280px;
 
-export default function References(props: Props) {
-  const sortedReferences = props.references.sort((a, b) => {
+  @media (max-width: ${theme.breakpoints.tablet}px) {
+    max-width: 200px;
+  }
+`;
+
+export default function References() {
+  const references = useContext(ReferenceContext);
+
+  const sortedReferences = references?.sort((a, b) => {
     return a.entryTags.inBib > b.entryTags.inBib
       ? 1
       : b.entryTags.inBib > a.entryTags.inBib
@@ -44,22 +63,28 @@ export default function References(props: Props) {
       <ContentContainer wide>
         <h2>References</h2>
         <ReferenceList>
-          {sortedReferences.map((ref) => (
-            <ReferenceListItem
-              id={`ref-${ref.citationKey}`}
-              key={ref.citationKey}
-            >
-              <Linkify
-                componentDecorator={(decoratedHref, decoratedText, key) => (
-                  <a target="blank" href={decoratedHref} key={key}>
-                    {decoratedText}
-                  </a>
-                )}
-              >
-                {ref.entryTags.inBib}
-              </Linkify>
-            </ReferenceListItem>
-          ))}
+          {sortedReferences && sortedReferences.length > 0
+            ? sortedReferences.map((ref) => (
+                <ReferenceListItem
+                  id={`ref-${ref.citationKey}`}
+                  key={ref.citationKey}
+                >
+                  <ReactLinkify
+                    componentDecorator={(decoratedHref, decoratedText, key) => (
+                      <ReferenceLink
+                        target="blank"
+                        href={decoratedHref}
+                        key={key}
+                      >
+                        {decoratedText}
+                      </ReferenceLink>
+                    )}
+                  >
+                    {ref.entryTags.inBib}
+                  </ReactLinkify>
+                </ReferenceListItem>
+              ))
+            : null}
         </ReferenceList>
       </ContentContainer>
     </ReferenceWrapper>
