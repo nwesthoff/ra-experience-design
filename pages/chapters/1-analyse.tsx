@@ -1,7 +1,6 @@
 import Layout from "../../components/Layout";
 import PageIntroduction from "../../components/PageIntroduction";
 import { PageWrapper } from "../../components/PageWrapper";
-import References from "../../components/Bibliography/References";
 import Citation from "../../components/Bibliography/Citation";
 import myReferences from "../../config/MyReferences";
 import { NextPage } from "next";
@@ -61,7 +60,6 @@ const AnalysePage: NextPage = () => (
         </CaseStudyText>
       </ContentContainer>
     </CaseStudyWrapper>
-    <References references={myReferences} />
   </Layout>
 );
 

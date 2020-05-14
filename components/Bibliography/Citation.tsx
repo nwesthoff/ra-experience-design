@@ -12,7 +12,9 @@ export default function Citation(props: Props): ReactElement {
   });
 
   return currentRef ? (
-    <a href={`#ref-${currentRef.citationKey}`}>{currentRef.entryTags.inText}</a>
+    <a href={`/chapters/6-conclusion#ref-${currentRef.citationKey}`}>
+      {currentRef.entryTags.inText}
+    </a>
   ) : (
     <span style={{ color: "red" }}>[FIX SOURCE]</span>
   );
