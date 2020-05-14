@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../config/theme";
 import { Parallax } from "react-scroll-parallax";
 import Link from "next/link";
-import { Fragment, ReactChildren, ReactNode } from "react";
+import { Fragment, ReactNode } from "react";
 
 const Spacer = styled.div`
   width: 5rem;

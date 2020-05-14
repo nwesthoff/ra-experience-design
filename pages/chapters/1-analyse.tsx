@@ -4,9 +4,7 @@ import { PageWrapper } from "../../components/PageWrapper";
 import References from "../../components/Bibliography/References";
 import Citation from "../../components/Bibliography/Citation";
 import myReferences from "../../config/MyReferences";
-import ReferenceContainer from "../../components/Bibliography/ReferenceContainer";
 import { NextPage } from "next";
-import styled from "styled-components";
 
 const AnalysePage: NextPage = () => (
   <Layout title="Analyse | RA Experience Design">
