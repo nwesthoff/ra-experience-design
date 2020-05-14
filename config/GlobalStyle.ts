@@ -17,6 +17,19 @@ const GlobalStyle = createGlobalStyle`
     color: white;
   }
 
+  blockquote {
+    font-family: 'IBM Plex Serif', serif;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 1.3em;
+    color: ${theme.colors.primary};
+
+    @media (max-width: ${theme.breakpoints.phone}px) {
+      font-size: 1.6rem;
+      margin: 2rem 1.2rem;
+    }
+  }
+
   h2 {
     font-size: 2.5rem;
   }

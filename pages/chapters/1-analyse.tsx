@@ -60,11 +60,11 @@ const AnalysePage: NextPage = () => (
         </p>
 
         <p>
-          <i>
-            "For us the real magic is in the insight — the interpretation of
+          <blockquote>
+            "[F]or us the real magic is in the insight — the interpretation of
             that information"
-          </i>
-          , Spotify's Adrian Buendia says <Citation id="spotify2" />.
+          </blockquote>
+          Spotify's Adrian Buendia says <Citation id="spotify2" />.
         </p>
 
         <p>

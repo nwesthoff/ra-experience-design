@@ -43,6 +43,10 @@ const Layout: React.FunctionComponent<Props> = ({
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,400;"
+          rel="stylesheet"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <header>
