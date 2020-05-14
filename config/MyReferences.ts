@@ -26,6 +26,15 @@ const myReferences: AcademicRef[] = [
         "Yuan, S.-T.D. and Hsieh, P.-K. (2015). Using association reasoning tool to achieve semantic reframing of service design insight discovery. Design Studies, [online] 40, pp.143–175. Available at: https://www.sciencedirect.com/science/article/pii/S0142694X15000526 [Accessed 14 May 2020].",
     },
   },
+  {
+    citationKey: "basic-design-cycle",
+    entryType: "ACADEMIC",
+    entryTags: {
+      inText: "(Roozenburg and Eekels, 1995, pp.84–93)",
+      inBib:
+        "Roozenburg, N.F.M. and Eekels, J. (1995). Product Design: Fundamentals and Methods. Chichester: Wiley, pp.84–93.",
+    },
+  },
 ];
 
 export interface AcademicRef {

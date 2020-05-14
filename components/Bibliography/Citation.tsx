@@ -13,7 +13,10 @@ export default function Citation(props: Props): ReactElement {
   });
 
   return currentRef ? (
-    <a href={`/chapters/6-conclusion#ref-${currentRef.citationKey}`}>
+    <a
+      href={`/chapters/6-conclusion#ref-${currentRef.citationKey}`}
+      style={{ color: "inherit" }}
+    >
       {currentRef.entryTags.inText}
     </a>
   ) : (
