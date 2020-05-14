@@ -1,0 +1,19 @@
+{
+    "name": "RA Experience Design",
+    "short_name": "RA Experience Design",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#FF3F56",
+    "background_color": "#FF3F56",
+    "display": "standalone"
+}
