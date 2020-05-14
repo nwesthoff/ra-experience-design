@@ -2,19 +2,14 @@ import React from "react";
 import { AcademicRef } from "../../config/MyReferences";
 import styled from "styled-components";
 import Linkify from "react-linkify";
+import ContentContainer from "../ContentContainer";
 
 const ReferenceWrapper = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
   background-color: #111;
-  margin: 4rem 0;
-`;
-
-const ReferenceContainer = styled.div`
-  width: 100%;
-  max-width: 1200px;
-  padding: 2rem 0;
+  margin: 0 0 4rem 0;
 `;
 
 const ReferenceList = styled.ul`
@@ -43,7 +38,7 @@ export default function References(props: Props) {
 
   return (
     <ReferenceWrapper>
-      <ReferenceContainer>
+      <ContentContainer>
         <h2>References</h2>
         <ReferenceList>
           {sortedReferences.map((ref) => (
@@ -63,7 +58,7 @@ export default function References(props: Props) {
             </ReferenceListItem>
           ))}
         </ReferenceList>
-      </ReferenceContainer>
+      </ContentContainer>
     </ReferenceWrapper>
   );
 }
