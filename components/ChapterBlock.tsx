@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../config/theme";
 import { Parallax } from "react-scroll-parallax";
 import Link from "next/link";
-import { Fragment } from "react";
+import { Fragment, ReactNode } from "react";
 
 const Spacer = styled.div`
   width: 5rem;
@@ -96,7 +96,7 @@ const ChapterImage = styled.img`
 
 interface Props {
   title: string;
-  children?: string;
+  children?: ReactNode;
   index: number;
   reverse?: boolean;
   disableImage?: boolean;
