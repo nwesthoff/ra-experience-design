@@ -9,7 +9,7 @@ const ReferenceWrapper = styled.div`
   justify-content: center;
   width: 100%;
   background-color: #111;
-  margin: 0 0 4rem 0;
+  margin: 4rem 0;
 `;
 
 const ReferenceList = styled.ul`
