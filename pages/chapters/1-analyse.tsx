@@ -1,8 +1,14 @@
 import Layout from "../../components/Layout";
 import PageIntroduction from "../../components/PageIntroduction";
 import { PageWrapper } from "../../components/PageWrapper";
+import References from "../../components/Bibliography/References";
+import Citation from "../../components/Bibliography/Citation";
+import myReferences from "../../config/MyReferences";
+import ReferenceContainer from "../../components/Bibliography/ReferenceContainer";
+import { NextPage } from "next";
+import styled from "styled-components";
 
-const AnalysePage = () => (
+const AnalysePage: NextPage = () => (
   <Layout title="Analyse | RA Experience Design">
     <PageWrapper>
       <PageIntroduction>
@@ -15,7 +21,13 @@ const AnalysePage = () => (
           non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel.
         </p>
       </PageIntroduction>
+
+      <p>
+        Lipsum <Citation id="ref1" references={myReferences} />.
+      </p>
     </PageWrapper>
+
+    <References references={myReferences} />
   </Layout>
 );
 
