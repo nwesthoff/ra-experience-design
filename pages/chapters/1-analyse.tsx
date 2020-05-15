@@ -8,6 +8,7 @@ import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
 import styled from "styled-components";
 import { theme } from "../../config/theme";
 import Personas from "../../components/Personas";
+import NextChapter from "../../components/Navigation/NextChapter";
 
 const CaseStudyText = styled.p`
   column-count: 2;
@@ -98,6 +99,7 @@ const AnalysePage: NextPage = () => (
         </CaseStudyText>
       </ContentContainer>
     </CaseStudyWrapper>
+    <NextChapter title="Synthesise" index={2} />
   </Layout>
 );
 

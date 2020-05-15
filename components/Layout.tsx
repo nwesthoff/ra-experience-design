@@ -2,7 +2,12 @@ import * as React from "react";
 import Head from "next/head";
 import { PageWrapper } from "./PageWrapper";
 import GlobalStyle from "../config/GlobalStyle";
-import Nav from "./Nav";
+import Nav from "./Navigation/Nav";
+import styled from "styled-components";
+
+const StyledFooter = styled.footer`
+  margin: 2rem 0;
+`;
 
 type Props = {
   title?: string;
@@ -44,7 +49,7 @@ const Layout: React.FunctionComponent<Props> = ({
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1"
           rel="stylesheet"
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -54,12 +59,12 @@ const Layout: React.FunctionComponent<Props> = ({
       </header>
       {children}
       <PageWrapper>
-        <footer>
+        <StyledFooter>
           Made with ❤️ by{" "}
           <a href="https://nilswesthoff.com" target="blank">
             Nils
           </a>
-        </footer>
+        </StyledFooter>
       </PageWrapper>
     </div>
   );

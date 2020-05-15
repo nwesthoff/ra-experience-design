@@ -1,6 +1,7 @@
 import Layout from "../../components/Layout";
 import PageIntroduction from "../../components/PageIntroduction";
 import { PageWrapper } from "../../components/PageWrapper";
+import NextChapter from "../../components/Navigation/NextChapter";
 
 const SynthesisePage = () => (
   <Layout title="Analyse | RA Experience Design">
@@ -16,6 +17,7 @@ const SynthesisePage = () => (
         </p>
       </PageIntroduction>
     </PageWrapper>
+    <NextChapter title="Simulate" index={3} />
   </Layout>
 );
 

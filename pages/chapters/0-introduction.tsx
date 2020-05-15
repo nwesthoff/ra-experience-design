@@ -4,6 +4,7 @@ import { PageWrapper } from "../../components/PageWrapper";
 import { NextPage } from "next";
 import ContentContainer from "../../components/ContentContainer";
 import Citation from "../../components/Bibliography/Citation";
+import NextChapter from "../../components/Navigation/NextChapter";
 
 const IntroductionPage: NextPage = () => (
   <Layout title="Introduction | RA Experience Design">
@@ -69,6 +70,7 @@ const IntroductionPage: NextPage = () => (
         </figure>
       </ContentContainer>
     </PageWrapper>
+    <NextChapter title="Analyse" index={1} />
   </Layout>
 );
 

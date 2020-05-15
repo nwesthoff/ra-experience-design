@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styled from "styled-components";
 import { useState } from "react";
-import { theme } from "../config/theme";
+import { theme } from "../../config/theme";
 
 const NavCollapse = styled.div`
   position: fixed;
