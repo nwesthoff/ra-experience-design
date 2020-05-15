@@ -3,6 +3,22 @@ import { theme } from "../config/theme";
 import { Parallax } from "react-scroll-parallax";
 import Link from "next/link";
 import { Fragment, ReactNode } from "react";
+import { darken } from "polished";
+
+const ReadChapterButton = styled.a`
+  text-decoration: none;
+  font-size: 0.8rem;
+  background: ${theme.colors.primary};
+  color: #ffffff;
+  padding: 0.8rem 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  &:hover {
+    background: ${darken(0.05, theme.colors.primary)};
+  }
+`;
 
 const Spacer = styled.div`
   width: 5rem;
@@ -39,7 +55,7 @@ const ChapterContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction: ${(props: { reverse?: boolean }) =>
-    props.reverse === true ? "row-reverse" : "row"};
+    props.reverse ? "row-reverse" : "row"};
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -102,34 +118,44 @@ interface Props {
   disableImage?: boolean;
 }
 
-const ChapterBlock = (props: Props) => {
+const ChapterBlock = ({
+  reverse,
+  children,
+  index,
+  title,
+  disableImage,
+}: Props) => {
   return (
-    <ChapterContainer reverse={props.reverse}>
+    <ChapterContainer reverse={reverse}>
       <ChapterTextContainer>
         <ChapterIndex>
           <Parallax y={[5, -5]} tagOuter="div">
-            {props.index}
+            {index}
           </Parallax>
         </ChapterIndex>
 
         <ChapterTitle>
-          <Link href={`/chapters/${props.index}-${props.title.toLowerCase()}`}>
-            <a>{props.title}</a>
+          <Link href={`/chapters/${index}-${title.toLowerCase()}`}>
+            <a>{title}</a>
           </Link>
         </ChapterTitle>
 
-        <p>{props.children}</p>
+        <p>{children}</p>
+
+        <ReadChapterButton href={`/chapters/${index}-${title.toLowerCase()}`}>
+          Read Chapter
+        </ReadChapterButton>
       </ChapterTextContainer>
 
-      {props.disableImage ? null : (
+      {disableImage ? null : (
         <Fragment>
           <Spacer />
           <ChapterImageContainer>
             <div>
               <Parallax y={[20, -20]} tagOuter="div">
                 <ChapterImage
-                  src={`img/${props.title.toLowerCase()}@2x.png`}
-                  srcSet={`img/${props.title.toLowerCase()}.svg`}
+                  src={`img/${title.toLowerCase()}@2x.png`}
+                  srcSet={`img/${title.toLowerCase()}.svg`}
                 />
               </Parallax>
             </div>

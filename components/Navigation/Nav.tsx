@@ -53,7 +53,6 @@ const NavToggle = styled.button`
   text-decoration: none;
   background: ${theme.colors.primary};
   color: #ffffff;
-  font-family: sans-serif;
   font-size: 1rem;
   line-height: 1;
   cursor: pointer;
