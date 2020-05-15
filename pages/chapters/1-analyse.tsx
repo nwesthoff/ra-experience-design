@@ -7,6 +7,7 @@ import ContentContainer from "../../components/ContentContainer";
 import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
 import styled from "styled-components";
 import { theme } from "../../config/theme";
+import Personas from "../../components/Personas";
 
 const CaseStudyText = styled.p`
   column-count: 2;
@@ -60,13 +61,19 @@ const AnalysePage: NextPage = () => (
         </p>
 
         <p>
-          <blockquote>
-            "[F]or us the real magic is in the insight — the interpretation of
-            that information"
-          </blockquote>
-          Spotify's Adrian Buendia says <Citation id="spotify2" />.
+          Spotify's Adrian Buendia says <Citation id="spotify2" />:
         </p>
+        <blockquote>
+          "[F]or us the real magic is in the insight — the interpretation of
+          that information"
+        </blockquote>
+      </ContentContainer>
+    </PageWrapper>
 
+    <Personas />
+
+    <PageWrapper>
+      <ContentContainer>
         <p>
           Insight depth is defined to measure an insight's influential extent{" "}
           <Citation id="insight1" />.
