@@ -5,6 +5,14 @@ import { theme } from "../config/theme";
 const FlickitySlide = styled.div`
   width: 66%;
   margin-right: 1.2rem;
+
+  @media (max-width: ${theme.breakpoints.desktop}px) {
+    width: 75%;
+  }
+
+  @media (max-width: ${theme.breakpoints.phone}px) {
+    width: 85%;
+  }
 `;
 
 const StyledPersonaCard = styled.div`

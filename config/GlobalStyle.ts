@@ -30,6 +30,11 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  figcaption {
+    text-align: center;
+    font-style: italic;
+  }
+
   h2 {
     font-size: 2.5rem;
   }
@@ -45,6 +50,17 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* FLICKITY */
 
   .flickity-enabled {
     position: relative;
