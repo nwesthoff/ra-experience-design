@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { theme } from "../config/theme";
 
 const FlickitySlide = styled.div`
-  width: 100%;
-  margin: 1.2rem;
+  width: 66%;
+  margin-right: 1.2rem;
 `;
 
 const StyledPersonaCard = styled.div`

@@ -55,7 +55,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .flickity-viewport {
-    overflow: hidden;
     position: relative;
     height: 100%;
   }
@@ -91,7 +90,6 @@ const GlobalStyle = createGlobalStyle`
   /* ---- flickity-button ---- */
 
   .flickity-button {
-    display: none;
     position: absolute;
     background: hsla(0, 0%, 100%, 0.75);
     border: none;

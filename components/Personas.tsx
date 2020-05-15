@@ -1,7 +1,5 @@
 import React, { ReactElement } from "react";
-// import TinderCard from "react-tinder-card";
 import styled from "styled-components";
-import ContentContainer from "./ContentContainer";
 import { theme } from "../config/theme";
 import Flickity from "react-flickity-component";
 import PersonaCard from "./PersonaCard";
@@ -15,13 +13,13 @@ const PersonaHeading = styled.div`
 `;
 
 const PersonaComponentWrapper = styled.div`
+  overflow: hidden;
   color: black;
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  overflow-x: hidden;
   background: linear-gradient(#000, #121212, #000);
   padding: 4rem 0rem;
 
@@ -32,7 +30,7 @@ const PersonaComponentWrapper = styled.div`
 
 const flickityOptions = {
   wrapAround: true,
-  adaptiveHeight: true,
+  prevNextButtons: false,
 };
 
 export default function PersonaTinder(): ReactElement {
@@ -41,11 +39,10 @@ export default function PersonaTinder(): ReactElement {
       <PersonaHeading>
         <h2>Personas</h2>
       </PersonaHeading>
-      <ContentContainer wide>
+      <div style={{ width: "100%", margin: "2rem 0" }}>
         <Flickity
           elementType="div"
           options={flickityOptions} // takes flickity options {}
-          disableImagesLoaded={true} // default false
           reloadOnUpdate // default false
         >
           <PersonaCard
@@ -54,7 +51,7 @@ export default function PersonaTinder(): ReactElement {
             bio="Emilios' business has been slowing lately and he could really use a set
           of skills that would help him understand the evolution of his work."
             loveHate={{ love: ["French Fries"], hate: ["Sweets"] }}
-            imageUrl="https://source.unsplash.com/500x500/?portrait,man"
+            imageUrl="https://source.unsplash.com/250x250/?portrait,man"
           />
           <PersonaCard
             key="2"
@@ -62,18 +59,18 @@ export default function PersonaTinder(): ReactElement {
             bio="Emilie's business has been slowing lately and she could really use a set
             of skills that would help her understand the evolution of his work."
             loveHate={{ love: ["French Fries"], hate: ["Sweets"] }}
-            imageUrl="https://source.unsplash.com/500x500/?portrait,woman"
+            imageUrl="https://source.unsplash.com/250x250/?portrait,woman"
           />
           <PersonaCard
             key="3"
             name="Marcos Emilios"
             bio="Marcos' business has been slowing lately and he could really use a set
           of skills that would help him understand the evolution of his work."
-            imageUrl="https://source.unsplash.com/500x500/?portrait,boy"
+            imageUrl="https://source.unsplash.com/250x250/?portrait,boy"
             loveHate={{ love: ["Apples"], hate: ["Soda"] }}
           />
         </Flickity>
-      </ContentContainer>
+      </div>
     </PersonaComponentWrapper>
   );
 }
