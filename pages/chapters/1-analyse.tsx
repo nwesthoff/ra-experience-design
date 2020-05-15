@@ -67,6 +67,11 @@ const AnalysePage: NextPage = () => (
           "[F]or us the real magic is in the insight — the interpretation of
           that information"
         </blockquote>
+        <p>
+          Personas come in all kinds of ways, shapes and forms, but generally
+          they look like a profile of a user within the user group they
+          represent. Here are some examples, have a swipe!
+        </p>
       </ContentContainer>
     </PageWrapper>
 
