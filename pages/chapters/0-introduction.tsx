@@ -6,6 +6,12 @@ import ContentContainer from "../../components/ContentContainer";
 import Citation from "../../components/Bibliography/Citation";
 import NextChapter from "../../components/Navigation/NextChapter";
 import ScrollToReveal from "../../components/ScrollToReveal";
+import styled from "styled-components";
+
+const RevealImageOverlay = styled.img`
+  position: absolute;
+  top: 0;
+`;
 
 const IntroductionPage: NextPage = () => (
   <Layout title="Introduction | RA Experience Design">
@@ -63,18 +69,40 @@ const IntroductionPage: NextPage = () => (
           process.
         </p>
 
-        <ScrollToReveal opacity={[0, 1]}>
-          <figure>
+        <figure style={{ position: "relative" }}>
+          <ScrollToReveal opacity={[0, 1]}>
+            <RevealImageOverlay
+              src="/img/double-diamond.png"
+              style={{ maxWidth: "100%" }}
+            />
+          </ScrollToReveal>
+          <img
+            src="/img/double-diamond-cleaned.png"
+            style={{ maxWidth: "100%" }}
+          />
+          <figcaption>
+            Figure: Design Council's Double Diamond (
             <a
               download
               href="/img/double-diamond.png"
               title="Click to download"
             >
-              <img src="/img/double-diamond.png" style={{ maxWidth: "100%" }} />
+              download
             </a>
-            <figcaption>Figure: Design Council's Double Diamond</figcaption>
-          </figure>
-        </ScrollToReveal>
+            )
+          </figcaption>
+        </figure>
+
+        <p>
+          Nunc in sagittis eros. Suspendisse potenti. Pellentesque ipsum augue,
+          faucibus venenatis tortor hendrerit, aliquam ultricies odio. Nullam et
+          orci fringilla, dictum massa et, hendrerit sapien. Mauris sit amet sem
+          bibendum, molestie sapien nec, pharetra arcu. Nullam ut tellus sit
+          amet ante varius molestie. Nulla consequat hendrerit sapien, a egestas
+          diam suscipit quis. Suspendisse a nunc quis lorem ullamcorper
+          sagittis. Orci varius natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus.
+        </p>
       </ContentContainer>
     </PageWrapper>
     <NextChapter title="Analyse" index={1} />

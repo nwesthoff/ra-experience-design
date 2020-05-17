@@ -24,8 +24,9 @@ export default function ScrollToReveal({
   const readAndUpdatePage = () => {
     if (wrapper?.current !== null) {
       const scrollTop = wrapper.current.getBoundingClientRect().top;
+      const elementHeight = wrapper.current.getBoundingClientRect().height;
       const windowHeight = window.innerHeight;
-      let progress = scrollTop / windowHeight;
+      let progress = (scrollTop - elementHeight / 2) / windowHeight;
 
       if (progress > 1) {
         progress = 1;
@@ -53,7 +54,7 @@ export default function ScrollToReveal({
   }, []);
 
   return (
-    <div ref={wrapper} style={{ opacity: currentOpacity }}>
+    <div ref={wrapper} style={{ opacity: currentOpacity.toFixed(2) }}>
       {children}
     </div>
   );
