@@ -24,9 +24,8 @@ export default function ScrollToReveal({
   const readAndUpdatePage = () => {
     if (wrapper?.current !== null) {
       const scrollTop = wrapper.current.getBoundingClientRect().top;
-      const elementHeight = wrapper.current.getBoundingClientRect().height;
       const windowHeight = window.innerHeight;
-      let progress = (scrollTop - elementHeight / 2) / windowHeight;
+      let progress = (scrollTop + 100) / windowHeight;
 
       if (progress > 1) {
         progress = 1;
@@ -35,7 +34,7 @@ export default function ScrollToReveal({
       } else {
       }
 
-      const mappedProgress = mapRange(progress, 1, 0, opacity[0], opacity[1]);
+      const mappedProgress = mapRange(progress, opacity[0], opacity[1], 1, 0);
 
       setCurrentOpacity(mappedProgress);
       scheduledAnimationFrame = false;
