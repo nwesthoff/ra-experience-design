@@ -5,6 +5,7 @@ import { NextPage } from "next";
 import ContentContainer from "../../components/ContentContainer";
 import Citation from "../../components/Bibliography/Citation";
 import NextChapter from "../../components/Navigation/NextChapter";
+import ScrollToReveal from "../../components/ScrollToReveal";
 
 const IntroductionPage: NextPage = () => (
   <Layout title="Introduction | RA Experience Design">
@@ -62,12 +63,18 @@ const IntroductionPage: NextPage = () => (
           process.
         </p>
 
-        <figure>
-          <a download href="/img/double-diamond.png" title="Click to download">
-            <img src="/img/double-diamond.png" style={{ maxWidth: "100%" }} />
-          </a>
-          <figcaption>Figure: Design Council's Double Diamond</figcaption>
-        </figure>
+        <ScrollToReveal opacity={[0, 1]}>
+          <figure>
+            <a
+              download
+              href="/img/double-diamond.png"
+              title="Click to download"
+            >
+              <img src="/img/double-diamond.png" style={{ maxWidth: "100%" }} />
+            </a>
+            <figcaption>Figure: Design Council's Double Diamond</figcaption>
+          </figure>
+        </ScrollToReveal>
       </ContentContainer>
     </PageWrapper>
     <NextChapter title="Analyse" index={1} />
