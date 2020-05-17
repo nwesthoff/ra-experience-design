@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React from "react";
 import styled from "styled-components";
 import { theme } from "../config/theme";
 import Flickity from "react-flickity-component";
