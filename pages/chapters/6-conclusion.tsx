@@ -35,7 +35,6 @@ const AnalysePage: NextPage = () => (
         </p>
       </ContentContainer>
     </PageWrapper>
-
     <References />
   </Layout>
 );

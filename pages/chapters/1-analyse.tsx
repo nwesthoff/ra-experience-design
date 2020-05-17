@@ -5,19 +5,8 @@ import Citation from "../../components/Bibliography/Citation";
 import { NextPage } from "next";
 import ContentContainer from "../../components/ContentContainer";
 import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
-import styled from "styled-components";
-import { theme } from "../../config/theme";
 import Personas from "../../components/Personas";
 import NextChapter from "../../components/Navigation/NextChapter";
-
-const CaseStudyText = styled.p`
-  column-count: 2;
-  column-gap: 4rem;
-
-  @media (max-width: ${theme.breakpoints.tablet}px) {
-    column-count: 1;
-  }
-`;
 
 const AnalysePage: NextPage = () => (
   <Layout title="Analyse | RA Experience Design">
@@ -90,13 +79,13 @@ const AnalysePage: NextPage = () => (
     <CaseStudyWrapper>
       <ContentContainer wide>
         <h2>Case Study</h2>
-        <CaseStudyText>
+        <p>
           Practically applied knowledge...Lorem ipsum dolor sit amet,
           consectetur adipiscing elit. Pellentesque eleifend placerat justo,
           vitae auctor purus eleifend id. Phasellus pulvinar, erat quis
           consequat vestibulum, diam odio pretium felis, id sodales odio eros
           non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel.
-        </CaseStudyText>
+        </p>
       </ContentContainer>
     </CaseStudyWrapper>
     <NextChapter title="Synthesise" index={2} />
