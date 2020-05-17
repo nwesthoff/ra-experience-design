@@ -30,7 +30,12 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  figure {
+    margin: 0
+  }
+
   figcaption {
+    margin-top: 1.2rem;
     text-align: center;
     font-style: italic;
   }

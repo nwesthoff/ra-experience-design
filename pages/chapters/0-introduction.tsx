@@ -32,11 +32,38 @@ const IntroductionPage: NextPage = () => (
       </PageIntroduction>
 
       <ContentContainer>
+        <figure>
+          <div
+            style={{
+              width: "100%",
+              height: 0,
+              paddingBottom: "56%",
+              position: "relative",
+            }}
+          >
+            <iframe
+              src="https://giphy.com/embed/dyL2kjw1msOpHjxKh8"
+              width="100%"
+              height="100%"
+              style={{ position: "absolute" }}
+              frameBorder="0"
+              className="giphy-embed"
+              allowFullScreen
+            />
+          </div>
+
+          <figcaption>
+            Figure: Faculty of Industrial Design Engineering
+          </figcaption>
+        </figure>
+      </ContentContainer>
+
+      <ContentContainer>
         <p>
-          Digital design, has the benefit that they're highly flexible. After a
+          Digital design has the benefit that it's highly flexible. After a
           product is launched, it's easy to rework or even repurpose (pivot) the
           product. Industrial design, originating from Mechanical Engineering,
-          is focused on physical products. These don't enjoy the same
+          is focused on physical products and these don't enjoy the same
           flexibility as digital products. That flexibility is a luxury I've
           come to appreciate a lot in my experience with digital products.
           Knowing this, it's easy to see why the Basic Design Cycle is much more
@@ -71,7 +98,7 @@ const IntroductionPage: NextPage = () => (
       </ContentContainer>
 
       <ContentContainer wide>
-        <figure style={{ position: "relative", margin: 0 }}>
+        <figure style={{ position: "relative" }}>
           <ScrollToReveal opacity={[0, 1]}>
             <RevealImageOverlay
               src="/img/double-diamond.png"
