@@ -40,6 +40,7 @@ const NavCollapse = styled.div`
 const NavBar = styled.div`
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 4rem;
 `;
 
 const NavToggle = styled.button`
