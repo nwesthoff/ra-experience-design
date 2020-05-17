@@ -70,25 +70,31 @@ const IntroductionPage: NextPage = () => (
         </p>
       </ContentContainer>
 
-      <figure style={{ position: "relative" }}>
-        <ScrollToReveal opacity={[0, 1]}>
-          <RevealImageOverlay
-            src="/img/double-diamond.png"
+      <ContentContainer wide>
+        <figure style={{ position: "relative", margin: 0 }}>
+          <ScrollToReveal opacity={[0, 1]}>
+            <RevealImageOverlay
+              src="/img/double-diamond.png"
+              style={{ maxWidth: "100%" }}
+            />
+          </ScrollToReveal>
+          <img
+            src="/img/double-diamond-cleaned.png"
             style={{ maxWidth: "100%" }}
           />
-        </ScrollToReveal>
-        <img
-          src="/img/double-diamond-cleaned.png"
-          style={{ maxWidth: "100%" }}
-        />
-        <figcaption>
-          Figure: Design Council's Double Diamond (
-          <a download href="/img/double-diamond.png" title="Click to download">
-            download
-          </a>
-          )
-        </figcaption>
-      </figure>
+          <figcaption>
+            Figure: Design Council's Double Diamond (
+            <a
+              download
+              href="/img/double-diamond.png"
+              title="Click to download"
+            >
+              download
+            </a>
+            )
+          </figcaption>
+        </figure>
+      </ContentContainer>
 
       <ContentContainer>
         <p>
