@@ -33,7 +33,7 @@ const flickityOptions = {
   prevNextButtons: false,
 };
 
-export default function PersonaTinder(): ReactElement {
+const PersonaCarousel = () => {
   return (
     <PersonaComponentWrapper>
       <PersonaHeading>
@@ -44,6 +44,7 @@ export default function PersonaTinder(): ReactElement {
           elementType="div"
           options={flickityOptions} // takes flickity options {}
           reloadOnUpdate // default false
+          static
         >
           <PersonaCard
             key="1"
@@ -73,4 +74,6 @@ export default function PersonaTinder(): ReactElement {
       </div>
     </PersonaComponentWrapper>
   );
-}
+};
+
+export default PersonaCarousel;

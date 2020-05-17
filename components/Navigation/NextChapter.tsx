@@ -4,6 +4,17 @@ import { PageWrapper } from "../PageWrapper";
 import styled from "styled-components";
 import { theme } from "../../config/theme";
 import { darken } from "polished";
+import { ArrowForward } from "@material-ui/icons";
+
+const NextLinkTitle = styled.h3`
+  display: flex;
+  align-items: center;
+`;
+
+const NextLinkArrow = styled(ArrowForward)`
+  margin-left: 0.4rem;
+  opacity: 0.6;
+`;
 
 const NextLinkWrapper = styled.div`
   background-color: ${theme.colors.primary};
@@ -20,8 +31,17 @@ const NextLinkWrapper = styled.div`
     text-transform: uppercase;
   }
 
+  svg {
+    transition: all 120ms ease-out;
+  }
+
   &:hover {
     background-color: ${darken(0.05, theme.colors.primary)};
+
+    svg {
+      transform: translate3d(20%, 0, 0);
+      opacity: 1;
+    }
   }
 `;
 
@@ -45,7 +65,10 @@ export default function NextChapter({
         <PageWrapper>
           <ContentContainer wide>
             <h4>To chapter {index}</h4>
-            <h3>{title}</h3>
+            <NextLinkTitle>
+              {title}
+              <NextLinkArrow fontSize="inherit" />
+            </NextLinkTitle>
           </ContentContainer>
         </PageWrapper>
       </NextLinkWrapper>

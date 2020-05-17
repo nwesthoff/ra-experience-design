@@ -3,6 +3,32 @@ import Link from "next/link";
 import styled from "styled-components";
 import { useState } from "react";
 import { theme } from "../../config/theme";
+import { Home, Menu } from "@material-ui/icons";
+import { darken } from "polished";
+
+const HomeButton = styled.a`
+  cursor: pointer;
+  margin: 0;
+  text-decoration: none;
+  color: ${theme.colors.primary};
+  text-align: center;
+  line-height: 1;
+  padding: 0.8rem;
+  background: white;
+
+  &:hover {
+    background: #ddd;
+  }
+`;
+
+const SmallNav = styled.div`
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  display: flex;
+  align-items: stretch;
+`;
 
 const NavCollapse = styled.div`
   position: fixed;
@@ -38,17 +64,10 @@ const NavCollapse = styled.div`
 `;
 
 const NavBar = styled.div`
-  display: flex;
-  justify-content: flex-end;
   margin-bottom: 4rem;
 `;
 
 const NavToggle = styled.button`
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 99;
-  display: inline-block;
   border: none;
   margin: 0;
   text-decoration: none;
@@ -58,24 +77,33 @@ const NavToggle = styled.button`
   line-height: 1;
   cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
-  height: 50px;
-  width: 50px;
+  padding: 0.8rem;
+
+  &:hover {
+    background: ${darken(0.05, theme.colors.primary)};
+  }
 `;
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <NavBar>
-      <NavToggle
-        onClick={() => {
-          setMenuOpen(!menuOpen);
-        }}
-      >
-        {menuOpen ? "close" : "menu"}
-      </NavToggle>
+      <SmallNav>
+        <Link href="/">
+          <HomeButton>
+            <Home color="inherit" fontSize="large" />
+          </HomeButton>
+        </Link>
+        <NavToggle
+          onClick={() => {
+            setMenuOpen(!menuOpen);
+          }}
+        >
+          <Menu fontSize="large" />
+        </NavToggle>
+      </SmallNav>
       {menuOpen ? (
         <nav>
           <NavCollapse>
