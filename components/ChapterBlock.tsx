@@ -49,6 +49,10 @@ const ChapterIndex = styled.span`
     left: -1rem;
     font-size: 4rem;
   }
+
+  @media (max-width: ${theme.breakpoints.phone}px) {
+    -webkit-text-stroke-width: 1px;
+  }
 `;
 
 const ChapterContainer = styled.div`
