@@ -68,31 +68,29 @@ const IntroductionPage: NextPage = () => (
           depth to the purpose and the expected results of each step of the
           process.
         </p>
+      </ContentContainer>
 
-        <figure style={{ position: "relative" }}>
-          <ScrollToReveal opacity={[0, 1]}>
-            <RevealImageOverlay
-              src="/img/double-diamond.png"
-              style={{ maxWidth: "100%" }}
-            />
-          </ScrollToReveal>
-          <img
-            src="/img/double-diamond-cleaned.png"
+      <figure style={{ position: "relative" }}>
+        <ScrollToReveal opacity={[0, 1]}>
+          <RevealImageOverlay
+            src="/img/double-diamond.png"
             style={{ maxWidth: "100%" }}
           />
-          <figcaption>
-            Figure: Design Council's Double Diamond (
-            <a
-              download
-              href="/img/double-diamond.png"
-              title="Click to download"
-            >
-              download
-            </a>
-            )
-          </figcaption>
-        </figure>
+        </ScrollToReveal>
+        <img
+          src="/img/double-diamond-cleaned.png"
+          style={{ maxWidth: "100%" }}
+        />
+        <figcaption>
+          Figure: Design Council's Double Diamond (
+          <a download href="/img/double-diamond.png" title="Click to download">
+            download
+          </a>
+          )
+        </figcaption>
+      </figure>
 
+      <ContentContainer>
         <p>
           Nunc in sagittis eros. Suspendisse potenti. Pellentesque ipsum augue,
           faucibus venenatis tortor hendrerit, aliquam ultricies odio. Nullam et
