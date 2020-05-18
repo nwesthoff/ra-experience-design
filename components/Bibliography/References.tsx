@@ -16,6 +16,7 @@ const ReferenceWrapper = styled.div`
 const ReferenceList = styled.ul`
   column-count: 2;
   column-gap: 4rem;
+  padding-left: 1rem;
 
   @media (max-width: ${theme.breakpoints.desktop}px) {
     column-gap: 3rem;
@@ -41,6 +42,9 @@ const ReferenceLink = styled.a`
   overflow: hidden;
   display: inline-block;
   max-width: 280px;
+  vertical-align: baseline;
+  top: 3px;
+  position: relative;
 
   @media (max-width: ${theme.breakpoints.tablet}px) {
     max-width: 200px;
@@ -58,13 +62,25 @@ export default function References() {
       : 0;
   });
 
+  const academicReferences = sortedReferences?.filter(
+    (ref) => ref.entryType === "ACADEMIC"
+  );
+  const tradeReferences = sortedReferences?.filter(
+    (ref) => ref.entryType === "TRADEMAG"
+  );
+  const popularReferences = sortedReferences?.filter(
+    (ref) => ref.entryType === "POPULAR"
+  );
+
   return (
     <ReferenceWrapper>
       <ContentContainer wide>
         <h2>References</h2>
-        <ReferenceList>
-          {sortedReferences && sortedReferences.length > 0
-            ? sortedReferences.map((ref) => (
+        {academicReferences && academicReferences?.length > 0 ? (
+          <div>
+            <h4>Academic</h4>
+            <ReferenceList>
+              {academicReferences.map((ref) => (
                 <ReferenceListItem
                   id={`ref-${ref.citationKey}`}
                   key={ref.citationKey}
@@ -83,9 +99,66 @@ export default function References() {
                     {ref.entryTags.inBib}
                   </ReactLinkify>
                 </ReferenceListItem>
-              ))
-            : null}
-        </ReferenceList>
+              ))}
+            </ReferenceList>
+          </div>
+        ) : null}
+
+        {tradeReferences && tradeReferences?.length > 0 ? (
+          <div>
+            <h4>Trade magazines</h4>
+            <ReferenceList>
+              {tradeReferences.map((ref) => (
+                <ReferenceListItem
+                  id={`ref-${ref.citationKey}`}
+                  key={ref.citationKey}
+                >
+                  <ReactLinkify
+                    componentDecorator={(decoratedHref, decoratedText, key) => (
+                      <ReferenceLink
+                        target="blank"
+                        href={decoratedHref}
+                        key={key}
+                      >
+                        {decoratedText}
+                      </ReferenceLink>
+                    )}
+                  >
+                    {ref.entryTags.inBib}
+                  </ReactLinkify>
+                </ReferenceListItem>
+              ))}
+            </ReferenceList>
+          </div>
+        ) : null}
+
+        {popularReferences && popularReferences?.length > 0 ? (
+          <div>
+            <h4>Popular</h4>
+            <ReferenceList>
+              {popularReferences.map((ref) => (
+                <ReferenceListItem
+                  id={`ref-${ref.citationKey}`}
+                  key={ref.citationKey}
+                >
+                  <ReactLinkify
+                    componentDecorator={(decoratedHref, decoratedText, key) => (
+                      <ReferenceLink
+                        target="blank"
+                        href={decoratedHref}
+                        key={key}
+                      >
+                        {decoratedText}
+                      </ReferenceLink>
+                    )}
+                  >
+                    {ref.entryTags.inBib}
+                  </ReactLinkify>
+                </ReferenceListItem>
+              ))}
+            </ReferenceList>
+          </div>
+        ) : null}
       </ContentContainer>
     </ReferenceWrapper>
   );
