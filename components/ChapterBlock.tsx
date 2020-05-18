@@ -141,7 +141,7 @@ const ChapterBlock = ({
     <ChapterContainer reverse={reverse}>
       <ChapterTextContainer>
         <ChapterIndex>
-          <Parallax y={[5, -5]} tagOuter="div" disabled={!parallaxEnabled}>
+          <Parallax y={[10, -10]} tagOuter="div" disabled={!parallaxEnabled}>
             {index}
           </Parallax>
         </ChapterIndex>
@@ -165,7 +165,7 @@ const ChapterBlock = ({
           <ChapterImageContainer>
             <div>
               <Parallax
-                y={[20, -20]}
+                y={[25, -25]}
                 tagOuter="div"
                 disabled={!parallaxEnabled}
               >

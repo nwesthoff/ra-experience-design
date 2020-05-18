@@ -2,14 +2,14 @@ import Layout from "../../components/Layout";
 import PageIntroduction from "../../components/PageIntroduction";
 import { PageWrapper } from "../../components/PageWrapper";
 import NextChapter from "../../components/Navigation/NextChapter";
-import ContentContainer from "../../components/ContentContainer";
 import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
+import ContentContainer from "../../components/ContentContainer";
 
-const RepeatPage = () => (
-  <Layout title="Repeat | RA Experience Design">
+const PrototypePage = () => (
+  <Layout title="Prototype | RA Experience Design">
     <PageWrapper>
       <PageIntroduction>
-        <h1>Repeat</h1>
+        <h1>Prototype</h1>
         <p>
           Experience Design Introduction... Lorem ipsum dolor sit amet,
           consectetur adipiscing elit. Pellentesque eleifend placerat justo,
@@ -31,8 +31,8 @@ const RepeatPage = () => (
         </p>
       </ContentContainer>
     </CaseStudyWrapper>
-    <NextChapter title="Conclusion" index={6} />
+    <NextChapter title="Test" index={5} />
   </Layout>
 );
 
-export default RepeatPage;
+export default PrototypePage;

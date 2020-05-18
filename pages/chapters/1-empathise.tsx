@@ -8,11 +8,11 @@ import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
 import Personas from "../../components/Personas";
 import NextChapter from "../../components/Navigation/NextChapter";
 
-const AnalysePage: NextPage = () => (
-  <Layout title="Analyse | RA Experience Design">
+const EmpathisePage: NextPage = () => (
+  <Layout title="Empathise | RA Experience Design">
     <PageWrapper>
       <PageIntroduction>
-        <h1>Analyse</h1>
+        <h1>Empathise</h1>
         <p>
           Every good design process begins with research, to <i>learn</i> about
           the context we're designing for. The analysis phase has two main
@@ -97,8 +97,8 @@ const AnalysePage: NextPage = () => (
         </p>
       </ContentContainer>
     </CaseStudyWrapper>
-    <NextChapter title="Synthesise" index={2} />
+    <NextChapter title="define" index={2} />
   </Layout>
 );
 
-export default AnalysePage;
+export default EmpathisePage;

@@ -136,7 +136,7 @@ const IntroductionPage: NextPage = () => (
         </p>
       </ContentContainer>
     </PageWrapper>
-    <NextChapter title="Analyse" index={1} />
+    <NextChapter title="Empathise" index={1} />
   </Layout>
 );
 

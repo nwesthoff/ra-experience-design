@@ -119,28 +119,28 @@ export default function Nav() {
                 </Link>
               </li>
               <li>
-                <Link href="/chapters/1-analyse">
-                  <a>Analyse</a>
+                <Link href="/chapters/1-empathise">
+                  <a>Empathise</a>
                 </Link>
               </li>
               <li>
-                <Link href="/chapters/2-synthesise">
-                  <a>Synthesise</a>
+                <Link href="/chapters/2-define">
+                  <a>Define</a>
                 </Link>
               </li>
               <li>
-                <Link href="/chapters/3-simulate">
-                  <a>Simulate</a>
+                <Link href="/chapters/3-ideate">
+                  <a>Ideate</a>
                 </Link>
               </li>
               <li>
-                <Link href="/chapters/4-evaluate">
-                  <a>Evaluate</a>
+                <Link href="/chapters/4-prototype">
+                  <a>Prototype</a>
                 </Link>
               </li>
               <li>
-                <Link href="/chapters/5-repeat">
-                  <a>Repeat</a>
+                <Link href="/chapters/5-test">
+                  <a>Test</a>
                 </Link>
               </li>
               <li>

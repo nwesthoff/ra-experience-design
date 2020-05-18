@@ -5,7 +5,7 @@ import References from "../../components/Bibliography/References";
 import { NextPage } from "next";
 import ContentContainer from "../../components/ContentContainer";
 
-const AnalysePage: NextPage = () => (
+const EmpathisePage: NextPage = () => (
   <Layout title="Conclusion | RA Experience Design">
     <PageWrapper>
       <PageIntroduction>
@@ -39,4 +39,4 @@ const AnalysePage: NextPage = () => (
   </Layout>
 );
 
-export default AnalysePage;
+export default EmpathisePage;

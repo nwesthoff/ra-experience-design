@@ -2,14 +2,14 @@ import Layout from "../../components/Layout";
 import PageIntroduction from "../../components/PageIntroduction";
 import { PageWrapper } from "../../components/PageWrapper";
 import NextChapter from "../../components/Navigation/NextChapter";
-import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
 import ContentContainer from "../../components/ContentContainer";
+import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
 
-const EvaluatePage = () => (
-  <Layout title="Evaluate | RA Experience Design">
+const TestPage = () => (
+  <Layout title="Test | RA Experience Design">
     <PageWrapper>
       <PageIntroduction>
-        <h1>Evaluate</h1>
+        <h1>Test</h1>
         <p>
           Experience Design Introduction... Lorem ipsum dolor sit amet,
           consectetur adipiscing elit. Pellentesque eleifend placerat justo,
@@ -31,8 +31,8 @@ const EvaluatePage = () => (
         </p>
       </ContentContainer>
     </CaseStudyWrapper>
-    <NextChapter title="Repeat" index={5} />
+    <NextChapter title="Conclusion" index={6} />
   </Layout>
 );
 
-export default EvaluatePage;
+export default TestPage;
