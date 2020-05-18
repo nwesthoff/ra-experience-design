@@ -31,8 +31,8 @@ const DefinePage = () => (
 
         <p>Spotify says:</p>
         <blockquote>
-          "[F]or us the real magic is in the insight — the interpretation of
-          that information"
+          “[F]or us the real magic is in the insight — the interpretation of
+          that information”
           <span className="quoteBy">
             <Citation id="spotify2" />
           </span>

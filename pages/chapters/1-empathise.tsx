@@ -22,9 +22,9 @@ const EmpathisePage: NextPage = () => (
           the context which we'll go over in this chapter.
         </p>
         <blockquote>
-          Give room to feelings and intuition as they do at art schools, but
+          “Give room to feelings and intuition as they do at art schools, but
           simultaneously develop a sound argument in order to justify and
-          explain each and every decision they make.{" "}
+          explain each and every decision they make.”
           <span className="quoteBy">
             <Citation id="ViP" />
           </span>
