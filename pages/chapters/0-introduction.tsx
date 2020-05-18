@@ -129,8 +129,8 @@ const IntroductionPage: NextPage = () => (
       <ContentContainer>
         <p>
           The structure of this report will follow d.school's definition of
-          Design Thinking; EDIPT, short for <i>Empathise</i>, <i>Define</i>,{" "}
-          <i>Ideate</i>, <i>Prototype</i> & <i>Test</i> <Citation id="edipt" />.
+          Design Thinking; <i>Empathise</i>, <i>Define</i>, <i>Ideate</i>,{" "}
+          <i>Prototype</i> & <i>Test</i> <Citation id="edipt" />.
         </p>
       </ContentContainer>
 
