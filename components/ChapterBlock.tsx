@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../config/theme";
 import { Parallax } from "react-scroll-parallax";
 import Link from "next/link";
-import { Fragment, ReactNode } from "react";
+import { Fragment, ReactNode, useState, useEffect } from "react";
 import { darken } from "polished";
 
 const ReadChapterButton = styled.a`
@@ -129,11 +129,19 @@ const ChapterBlock = ({
   title,
   disableImage,
 }: Props) => {
+  const [parallaxEnabled, setParallaxEnabled] = useState(true);
+
+  useEffect(() => {
+    if (window?.innerWidth < theme.breakpoints.tablet) {
+      setParallaxEnabled(false);
+    }
+  }, []);
+
   return (
     <ChapterContainer reverse={reverse}>
       <ChapterTextContainer>
         <ChapterIndex>
-          <Parallax y={[5, -5]} tagOuter="div">
+          <Parallax y={[5, -5]} tagOuter="div" disabled={!parallaxEnabled}>
             {index}
           </Parallax>
         </ChapterIndex>
@@ -156,7 +164,11 @@ const ChapterBlock = ({
           <Spacer />
           <ChapterImageContainer>
             <div>
-              <Parallax y={[20, -20]} tagOuter="div">
+              <Parallax
+                y={[20, -20]}
+                tagOuter="div"
+                disabled={!parallaxEnabled}
+              >
                 <ChapterImage
                   src={`img/${title.toLowerCase()}@2x.png`}
                   srcSet={`img/${title.toLowerCase()}.svg`}
