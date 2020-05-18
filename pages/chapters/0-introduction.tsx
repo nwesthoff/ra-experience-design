@@ -113,7 +113,7 @@ const IntroductionPage: NextPage = () => (
             Figure: Design Council's Double Diamond (
             <a
               download
-              href="/img/double-diamond.png"
+              href="/img/double-diamond-large.png"
               title="Click to download"
             >
               download
