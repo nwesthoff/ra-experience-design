@@ -35,6 +35,15 @@ const myReferences: AcademicRef[] = [
         "Roozenburg, N.F.M. and Eekels, J. (1995). Product Design: Fundamentals and Methods. Chichester: Wiley, pp.84–93.",
     },
   },
+  {
+    citationKey: "ViP",
+    entryType: "ACADEMIC",
+    entryTags: {
+      inText: "(Hekkert & van Dijk, 2011, pp. 128-129)",
+      inBib:
+        "Hekkert, P. and van Dijk, M. (2011). ViP: Vision in Design. 1st ed. Amsterdam: BIS Publishers BV, pp.128–129.",
+    },
+  },
 ];
 
 export interface AcademicRef {

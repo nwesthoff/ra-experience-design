@@ -22,6 +22,14 @@ const AnalysePage: NextPage = () => (
           through this process. These tools help us explore and make sense of
           the context which we'll go over in this chapter.
         </p>
+        <blockquote>
+          Give room to feelings and intuition as they do at art schools, but
+          simultaneously develop a sound argument in order to justify and
+          explain each and every decision they make.{" "}
+          <span className="quoteBy">
+            <Citation id="ViP" />
+          </span>
+        </blockquote>
       </PageIntroduction>
 
       <ContentContainer>
@@ -50,12 +58,13 @@ const AnalysePage: NextPage = () => (
           users <Citation id="spotify1" />.
         </p>
 
-        <p>
-          Spotify's Adrian Buendia says <Citation id="spotify2" />:
-        </p>
+        <p>Spotify says:</p>
         <blockquote>
           "[F]or us the real magic is in the insight — the interpretation of
           that information"
+          <span className="quoteBy">
+            <Citation id="spotify2" />
+          </span>
         </blockquote>
         <p>
           Personas come in all kinds of ways, shapes and forms, but generally
