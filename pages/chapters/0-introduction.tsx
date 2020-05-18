@@ -125,15 +125,26 @@ const IntroductionPage: NextPage = () => (
 
       <ContentContainer>
         <p>
-          Nunc in sagittis eros. Suspendisse potenti. Pellentesque ipsum augue,
-          faucibus venenatis tortor hendrerit, aliquam ultricies odio. Nullam et
-          orci fringilla, dictum massa et, hendrerit sapien. Mauris sit amet sem
-          bibendum, molestie sapien nec, pharetra arcu. Nullam ut tellus sit
-          amet ante varius molestie. Nulla consequat hendrerit sapien, a egestas
-          diam suscipit quis. Suspendisse a nunc quis lorem ullamcorper
-          sagittis. Orci varius natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus.
+          The structure of this report will follow d.school's definition of
+          Design Thinking; EDIPT, short for <i>Empathise</i>, <i>Define</i>,{" "}
+          <i>Ideate</i>, <i>Prototype</i> & <i>Test</i> <Citation id="edipt" />.
         </p>
+      </ContentContainer>
+
+      <ContentContainer wide>
+        <figure>
+          <img src="/img/edipt.png" style={{ maxWidth: "100%" }} />
+          <figcaption>
+            Figure: EDIPT illustrated (
+            <a
+              href="https://brasil.uxdesign.cc/design-thinking-o-que-n%C3%A3o-falta-s%C3%A3o-problemas-506f03ad960f"
+              target="blank"
+            >
+              source
+            </a>
+            )
+          </figcaption>
+        </figure>
       </ContentContainer>
     </PageWrapper>
     <NextChapter title="Empathise" index={1} />

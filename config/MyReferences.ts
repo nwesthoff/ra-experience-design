@@ -44,6 +44,15 @@ const myReferences: AcademicRef[] = [
         "Hekkert, P. and van Dijk, M. (2011). ViP: Vision in Design. 1st ed. Amsterdam: BIS Publishers BV, pp.128–129.",
     },
   },
+  {
+    citationKey: "edipt",
+    entryType: "TRADEMAG",
+    entryTags: {
+      inText: "(d.school, 2017)",
+      inBib:
+        "d.school (2017). Stanford d.school. [online] Stanford d.school. Available at: https://dschool.stanford.edu/resources/getting-started-with-design-thinking [Accessed 18 May 2020].",
+    },
+  },
 ];
 
 export interface AcademicRef {

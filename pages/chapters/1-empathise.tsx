@@ -5,7 +5,6 @@ import Citation from "../../components/Bibliography/Citation";
 import { NextPage } from "next";
 import ContentContainer from "../../components/ContentContainer";
 import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
-import Personas from "../../components/Personas";
 import NextChapter from "../../components/Navigation/NextChapter";
 
 const EmpathisePage: NextPage = () => (
@@ -50,38 +49,6 @@ const EmpathisePage: NextPage = () => (
           erat, non dignissim nunc diam et mauris. Cras vitae dui varius,
           maximus massa vitae, tempus nulla.
         </p>
-
-        <h3>Sense-making</h3>
-        <p>
-          Persona's combine similar user needs, habits, and attitudes and
-          communicate the nuanced commonalities and differences between our
-          users <Citation id="spotify1" />.
-        </p>
-
-        <p>Spotify says:</p>
-        <blockquote>
-          "[F]or us the real magic is in the insight — the interpretation of
-          that information"
-          <span className="quoteBy">
-            <Citation id="spotify2" />
-          </span>
-        </blockquote>
-        <p>
-          Personas come in all kinds of ways, shapes and forms, but generally
-          they look like a profile of a user within the user group they
-          represent. Here are some examples, have a swipe!
-        </p>
-      </ContentContainer>
-    </PageWrapper>
-
-    <Personas />
-
-    <PageWrapper>
-      <ContentContainer>
-        <p>
-          Insight depth is defined to measure an insight's influential extent{" "}
-          <Citation id="insight1" />.
-        </p>
       </ContentContainer>
     </PageWrapper>
 
@@ -97,7 +64,7 @@ const EmpathisePage: NextPage = () => (
         </p>
       </ContentContainer>
     </CaseStudyWrapper>
-    <NextChapter title="define" index={2} />
+    <NextChapter title="Define" index={2} />
   </Layout>
 );
 
