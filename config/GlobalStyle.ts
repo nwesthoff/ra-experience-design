@@ -28,6 +28,17 @@ const GlobalStyle = createGlobalStyle`
       font-size: 1.6rem;
       margin: 2rem 1.2rem;
     }
+
+    .quoteBy {
+      text-align: end;
+      display: block;
+      color: white;
+      font-size: 1.2rem;
+
+      &:before {
+        content: "— "
+      }
+    }
   }
 
   figure {
