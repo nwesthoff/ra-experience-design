@@ -172,6 +172,7 @@ const ChapterBlock = ({
                 <ChapterImage
                   src={`img/${title.toLowerCase()}@2x.png`}
                   srcSet={`img/${title.toLowerCase()}.svg`}
+                  loading="lazy"
                 />
               </Parallax>
             </div>

@@ -83,7 +83,7 @@ const PersonaCard = ({ imageUrl, name, bio, occupation, loveHate }: Props) => {
     <FlickitySlide>
       <StyledPersonaCard>
         <PersonaImageContainer>
-          <PersonaImage src={imageUrl} />
+          <PersonaImage src={imageUrl} loading="lazy" />
         </PersonaImageContainer>
         <PersonaContentContainer>
           <h3>{name}</h3>

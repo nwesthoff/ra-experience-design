@@ -81,6 +81,7 @@ const IntroductionPage: NextPage = () => (
             <img
               src="/img/basic-design-cycle.jpg"
               style={{ maxWidth: "100%" }}
+              loading="lazy"
             />
           </a>
           <figcaption>
@@ -103,11 +104,13 @@ const IntroductionPage: NextPage = () => (
             <RevealImageOverlay
               src="/img/double-diamond.png"
               style={{ maxWidth: "100%" }}
+              loading="lazy"
             />
           </ScrollToReveal>
           <img
             src="/img/double-diamond-cleaned.png"
             style={{ maxWidth: "100%" }}
+            loading="lazy"
           />
           <figcaption>
             Figure: Design Council's Double Diamond (
@@ -133,7 +136,11 @@ const IntroductionPage: NextPage = () => (
 
       <ContentContainer wide>
         <figure>
-          <img src="/img/edipt.png" style={{ maxWidth: "100%" }} />
+          <img
+            src="/img/edipt.png"
+            style={{ maxWidth: "100%" }}
+            loading="lazy"
+          />
           <figcaption>
             Figure: EDIPT illustrated (
             <a
