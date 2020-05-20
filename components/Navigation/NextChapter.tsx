@@ -4,14 +4,14 @@ import { PageWrapper } from "../PageWrapper";
 import styled from "styled-components";
 import { theme } from "../../config/theme";
 import { darken } from "polished";
-import { ArrowForward } from "@material-ui/icons";
+import { MdArrowForward } from "react-icons/md";
 
 const NextLinkTitle = styled.h3`
   display: flex;
   align-items: center;
 `;
 
-const NextLinkArrow = styled(ArrowForward)`
+const NextLinkArrow = styled(MdArrowForward)`
   margin-left: 0.4rem;
   opacity: 0.6;
 `;

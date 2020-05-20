@@ -21,6 +21,9 @@ const EmpathisePage: NextPage = () => (
           through this process. These tools help us explore and make sense of
           the context which we'll go over in this chapter.
         </p>
+      </PageIntroduction>
+
+      <ContentContainer>
         <blockquote>
           “Give room to feelings and intuition as they do at art schools, but
           simultaneously develop a sound argument in order to justify and
@@ -29,7 +32,7 @@ const EmpathisePage: NextPage = () => (
             <Citation id="ViP" />
           </span>
         </blockquote>
-      </PageIntroduction>
+      </ContentContainer>
 
       <ContentContainer>
         <h3>Exploration</h3>

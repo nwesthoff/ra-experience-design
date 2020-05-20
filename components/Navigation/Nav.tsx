@@ -3,7 +3,7 @@ import Link from "next/link";
 import styled from "styled-components";
 import { useState } from "react";
 import { theme } from "../../config/theme";
-import { Home, Menu } from "@material-ui/icons";
+import { MdHome, MdMenu } from "react-icons/md";
 import { darken } from "polished";
 
 const HomeButton = styled.a`
@@ -93,7 +93,7 @@ export default function Nav() {
       <SmallNav>
         <Link href="/">
           <HomeButton>
-            <Home color="inherit" fontSize="large" />
+            <MdHome color="inherit" fontSize="large" />
           </HomeButton>
         </Link>
         <NavToggle
@@ -101,7 +101,7 @@ export default function Nav() {
             setMenuOpen(!menuOpen);
           }}
         >
-          <Menu fontSize="large" />
+          <MdMenu fontSize="large" />
         </NavToggle>
       </SmallNav>
       {menuOpen ? (
