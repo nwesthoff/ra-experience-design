@@ -72,13 +72,19 @@ interface Props {
   occupation?: string;
   bio?: string;
   imageUrl?: string;
-  loveHate?: {
-    love: string[];
-    hate: string[];
+  painsGains?: {
+    gains: string[];
+    pains: string[];
   };
 }
 
-const PersonaCard = ({ imageUrl, name, bio, occupation, loveHate }: Props) => {
+const PersonaCard = ({
+  imageUrl,
+  name,
+  bio,
+  occupation,
+  painsGains,
+}: Props) => {
   return (
     <FlickitySlide>
       <StyledPersonaCard>
@@ -90,21 +96,21 @@ const PersonaCard = ({ imageUrl, name, bio, occupation, loveHate }: Props) => {
           <i>{occupation}</i>
           <h5>Bio</h5>
           <p>{bio}</p>
-          {loveHate ? (
+          {painsGains ? (
             <Fragment>
-              <h5>Loves</h5>
+              <h5>Gains</h5>
               <ul>
-                {loveHate?.love.map((love) => (
+                {painsGains?.gains.map((love) => (
                   <li key={love}>{love}</li>
                 ))}
               </ul>
             </Fragment>
           ) : null}
-          {loveHate ? (
+          {painsGains ? (
             <Fragment>
-              <h5>Hates</h5>
+              <h5>Pains</h5>
               <ul>
-                {loveHate?.hate.map((hate) => (
+                {painsGains?.pains.map((hate) => (
                   <li key={hate}>{hate}</li>
                 ))}
               </ul>

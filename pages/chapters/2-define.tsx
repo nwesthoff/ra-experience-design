@@ -25,8 +25,8 @@ const DefinePage = () => (
         <h3>Sense-making</h3>
         <p>
           Personas combine similar user needs, habits, and attitudes and
-          communicate the nuanced commonalities and differences between our
-          users <Citation id="spotify1" />.
+          communicate the nuanced commonalities and differences between
+          Spotify's users <Citation id="spotify1" />.
         </p>
 
         <p>Spotify says:</p>
