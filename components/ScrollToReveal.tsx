@@ -25,7 +25,7 @@ export default function ScrollToReveal({
     if (wrapper?.current !== null) {
       const scrollTop = wrapper.current.getBoundingClientRect().top;
       const windowHeight = window.innerHeight;
-      let progress = (scrollTop + 100) / windowHeight;
+      let progress = (scrollTop + 200) / windowHeight;
 
       if (progress > 1) {
         progress = 1;
