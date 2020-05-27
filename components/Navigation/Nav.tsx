@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import styled from "styled-components";
-import { useState } from "react";
 import { theme } from "../../config/theme";
 import { MdHome, MdMenu } from "react-icons/md";
 import { darken } from "polished";
@@ -93,7 +92,7 @@ export default function Nav() {
       <SmallNav>
         <Link href="/">
           <HomeButton>
-            <MdHome color="inherit" fontSize="large" />
+            <MdHome size={32} />
           </HomeButton>
         </Link>
         <NavToggle
@@ -101,7 +100,7 @@ export default function Nav() {
             setMenuOpen(!menuOpen);
           }}
         >
-          <MdMenu fontSize="large" />
+          <MdMenu size={32} />
         </NavToggle>
       </SmallNav>
       {menuOpen ? (
