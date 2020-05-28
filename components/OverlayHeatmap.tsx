@@ -6,9 +6,11 @@ const HeatmapCanvas = styled.div`
   height: 100%;
   opacity: 0.5;
   z-index: 10;
+  overflow-x: hidden;
 
   canvas {
     height: 100%;
+    width: 100%;
     z-index: 11;
     pointer-events: none;
   }
