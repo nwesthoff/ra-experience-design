@@ -44,7 +44,7 @@ export default function OverlayHeatmap({ showOverlay }: Props): ReactElement {
     window.addEventListener("mousemove", addData);
   }, []);
 
-  const addData = (e: MouseEvent) => {
+  const addData = (e: any) => {
     heatmapInstance?.addData({
       x: e.layerX,
       y: e.layerY,
