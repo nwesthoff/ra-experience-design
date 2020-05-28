@@ -1,4 +1,4 @@
-import React, { ReactElement, useRef, useEffect } from "react";
+import React, { ReactElement, useRef, useEffect, ReactNode } from "react";
 import h337, { Heatmap } from "heatmap.js";
 import styled from "styled-components";
 
@@ -6,29 +6,29 @@ const HeatmapCanvas = styled.div`
   height: 100%;
   opacity: 0.5;
   z-index: 10;
-  position: relative;
 
   canvas {
     height: 100%;
     z-index: 11;
+    pointer-events: none;
   }
 `;
 
 const HeatmapContainer = styled.div`
   width: 100%;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  position: absolute;
   pointer-events: none;
+  position: relative;
 `;
 
 interface Props {
   showOverlay?: boolean;
+  children: ReactNode;
 }
 
-export default function OverlayHeatmap({ showOverlay }: Props): ReactElement {
+export default function OverlayHeatmap({
+  showOverlay,
+  children,
+}: Props): ReactElement {
   const ref = useRef<HTMLDivElement>(null);
 
   let heatmapInstance: Heatmap<"x", "y", "value"> | undefined = undefined;
@@ -54,10 +54,15 @@ export default function OverlayHeatmap({ showOverlay }: Props): ReactElement {
 
   return (
     <HeatmapContainer>
-      <HeatmapCanvas
-        ref={ref}
-        style={{ visibility: !showOverlay ? "hidden" : "visible" }}
-      />
+      <div
+        style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0 }}
+      >
+        <HeatmapCanvas
+          ref={ref}
+          style={{ visibility: !showOverlay ? "hidden" : "visible" }}
+        />
+      </div>
+      <div style={{ pointerEvents: "auto" }}>{children}</div>
     </HeatmapContainer>
   );
 }
