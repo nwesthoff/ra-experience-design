@@ -27,17 +27,19 @@ const TestPage: NextPage = () => {
           </p>
         </PageIntroduction>
       </PageWrapper>
-      <ContentContainer>
-        <h2>Usability testing</h2>
-        toggle heatmap:{" "}
-        <button
-          onClick={() => {
-            setShowHeatmap(!showHeatmap);
-          }}
-        >
-          {showHeatmap ? "hide" : "show"}
-        </button>
-      </ContentContainer>
+      <PageWrapper>
+        <ContentContainer>
+          <h2>Usability testing</h2>
+          toggle heatmap:{" "}
+          <button
+            onClick={() => {
+              setShowHeatmap(!showHeatmap);
+            }}
+          >
+            {showHeatmap ? "hide" : "show"}
+          </button>
+        </ContentContainer>
+      </PageWrapper>
       <CaseStudyWrapper>
         <ContentContainer wide>
           <h2>Case Study</h2>
