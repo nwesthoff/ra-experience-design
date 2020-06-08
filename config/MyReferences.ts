@@ -66,9 +66,18 @@ const myReferences: AcademicRef[] = [
     citationKey: "planesOfExperience",
     entryType: "TRADEMAG",
     entryTags: {
-      inText: "(Jesse James Garrett, 2011, pp.19–22)",
+      inText: "(Garrett, 2011, pp.19–22)",
       inBib:
-        "Jesse James Garrett (2011). The elements of user experience : user-centered design for the Web and beyond. 2nd ed. Berkeley, Ca: New Riders, pp.19–22.",
+        "Garrett, J.J. (2011). The elements of user experience : user-centered design for the Web and beyond. 2nd ed. Berkeley, Ca: New Riders, pp.19–22.",
+    },
+  },
+  {
+    citationKey: "prototypeDesignStudies",
+    entryType: "ACADEMIC",
+    entryTags: {
+      inText: "(Yang, 2005)",
+      inBib:
+        "Yang, M.C. (2005). A study of prototypes, design activity, and design outcome. Design Studies, 26(6), pp.649–669.",
     },
   },
 ];

@@ -43,7 +43,9 @@ const PrototypePage = () => (
           products are never really done. The purpose of prototyping is to
           learn, to observe. To fail fast, in order to improve the product
           before it launches to the general public. In essence it's like a tiny
-          (often internal) beta test.
+          (sometimes internal) beta test. They are usually user-tested at later
+          stages of the design process too. David Perell wrote something that
+          really resonated with me in the context of prototyping.
         </p>
       </PageIntroduction>
     </PageWrapper>
@@ -58,6 +60,10 @@ const PrototypePage = () => (
     <PageWrapper>
       <ContentContainer>
         <h3>Prototypes as a boundary object</h3>
+        Yang <Citation id="prototypeDesignStudies">(2005)</Citation> describes
+        how prototypes are part of design language, because prototypes represent
+        and embody design thought. They allow us to explain a concept to a test
+        user, by creating an equal reality to learn about.
         <ul>
           <li>
             They act as a way to connect with your client, by demonstrating, you
