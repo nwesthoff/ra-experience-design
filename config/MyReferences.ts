@@ -53,6 +53,24 @@ const myReferences: AcademicRef[] = [
         "d.school (2017). Stanford d.school. [online] Stanford d.school. Available at: https://dschool.stanford.edu/resources/getting-started-with-design-thinking [Accessed 18 May 2020].",
     },
   },
+  {
+    citationKey: "prototypeAdobe",
+    entryType: "TRADEMAG",
+    entryTags: {
+      inText: "(Babich, 2017)",
+      inBib:
+        "Babich, N. (2017). Prototyping 101: The Difference between Low-Fidelity and High-Fidelity Prototypes and When to Use Each. [online] Adobe Blog. Available at: https://theblog.adobe.com/prototyping-difference-low-fidelity-high-fidelity-prototypes-use/ [Accessed 8 Jun. 2020].",
+    },
+  },
+  {
+    citationKey: "planesOfExperience",
+    entryType: "TRADEMAG",
+    entryTags: {
+      inText: "(Jesse James Garrett, 2011, pp.19–22)",
+      inBib:
+        "Jesse James Garrett (2011). The elements of user experience : user-centered design for the Web and beyond. 2nd ed. Berkeley, Ca: New Riders, pp.19–22.",
+    },
+  },
 ];
 
 export interface AcademicRef {
