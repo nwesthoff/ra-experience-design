@@ -19,7 +19,7 @@ const Col = styled.div`
   flex-basis: 30%;
   gap: 1.2rem;
   flex-grow: 1;
-  min-width: 200px;
+  min-width: 250px;
 
   figcaption {
     text-align: left;
@@ -162,13 +162,7 @@ const PrototypePage = () => (
                 Closest representation of the idea possible <i>without</i> the
                 time and cost required of final production
               </li>
-              <li>
-                Ex. Mock-ups, coded prototypes (
-                <a href="https://theblog.adobe.com/prototyping-difference-low-fidelity-high-fidelity-prototypes-use/">
-                  source
-                </a>
-                )
-              </li>
+              <li>Ex. Mock-ups, coded prototypes</li>
             </ul>
           </Col>
         </ThreeColumnDiv>

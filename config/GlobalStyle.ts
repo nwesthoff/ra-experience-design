@@ -45,6 +45,11 @@ const GlobalStyle = createGlobalStyle`
     margin: 0
   }
 
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+
   figcaption {
     margin-top: 1.2rem;
     text-align: center;
