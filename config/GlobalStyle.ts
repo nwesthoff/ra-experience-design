@@ -29,7 +29,12 @@ const GlobalStyle = createGlobalStyle`
       margin: 2rem 1.2rem;
     }
 
-    .quoteBy {
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
       text-align: end;
       display: block;
       color: white;

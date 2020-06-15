@@ -80,6 +80,15 @@ const myReferences: AcademicRef[] = [
         "Yang, M.C. (2005). A study of prototypes, design activity, and design outcome. Design Studies, 26(6), pp.649–669.",
     },
   },
+  {
+    citationKey: "samAltman",
+    entryType: "POPULAR",
+    entryTags: {
+      inText: "(Altman, 2020)",
+      inBib:
+        "Altman, S. (2020). Idea Generation. [online] Sam Altman. Available at: https://blog.samaltman.com/idea-generation [Accessed 15 Jun. 2020].",
+    },
+  },
 ];
 
 export interface AcademicRef {

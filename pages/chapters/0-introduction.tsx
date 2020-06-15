@@ -19,15 +19,20 @@ const IntroductionPage: NextPage = () => (
       <PageIntroduction>
         <h1>Introduction</h1>
         <p>
-          My background is in <i>Industrial Design Engineering</i>, which I was
-          taught at the Delft University of Technology, a university known for
-          its strong, process-backed design. A common way of breaking down the
-          design process is Roozenburg & Eekels' <i>Basic Design Cycle</i>{" "}
-          <Citation id="basic-design-cycle" />. At Hyper Island, I was finally
-          introduced to <i>Design Thinking</i> and the{" "}
-          <i>Double Diamond Model</i>. While I had often heard of these terms, I
-          had never applied them myself. In many ways these frameworks towards
-          innovation overlap, the differences however are telling.
+          My background is in <em>Industrial Design Engineering</em>, which I
+          was taught at the Delft University of Technology, a university known
+          for its strong, process-backed design. A common way of breaking down
+          the design process is Roozenburg & Eekels' <em>Basic Design Cycle</em>{" "}
+          <Citation id="basic-design-cycle">(1995, pp.84–93)</Citation>. At
+          Hyper Island, I was finally introduced to
+          <em>Design Thinking</em> and the <em>Double Diamond Model</em>. While
+          I had often heard of these terms, I had never applied them myself. In
+          many ways these frameworks towards innovation overlap, the differences
+          however are telling. . At Hyper Island, I was finally introduced to{" "}
+          <i>Design Thinking</i> and the <i>Double Diamond Model</i>. While I
+          had often heard of these terms, I had never applied them myself. In
+          many ways these frameworks towards innovation overlap, the differences
+          however are telling.
         </p>
       </PageIntroduction>
 
@@ -90,11 +95,13 @@ const IntroductionPage: NextPage = () => (
         </figure> */}
 
         <p>
-          Another build on the Double Diamond emerged as well. It offers a lot
-          more depth, and shows how within a diverging phase, there can be
-          converging activities and vice-versa. On top, it gives a bit more
-          depth to the purpose and the expected results of each step of the
-          process.
+          My favourite take on the Double Diamond,
+          <em>The Double Diamond Revamped</em> by Hyper Island Alumnus Dan
+          Nessler (2016) offers a lot more depth than the original by the
+          British Design Council (2019). It shows how within each diverging
+          phase, there can be converging sub-activities and vice-versa. On top,
+          it shows the purpose and the expected results of each phase too,
+          offering a lot of clarity to people new to design.
         </p>
       </ContentContainer>
 
@@ -113,7 +120,7 @@ const IntroductionPage: NextPage = () => (
             loading="lazy"
           />
           <figcaption>
-            Figure: Design Council's Double Diamond (
+            Figure: Dan Nessler's Double Diamond Revamped (
             <a
               download
               href="/img/double-diamond-large.png"
@@ -128,33 +135,28 @@ const IntroductionPage: NextPage = () => (
 
       <ContentContainer>
         <p>
-          The structure of this report will follow d.school's definition of
-          Design Thinking; <i>Empathise</i>, <i>Define</i>, <i>Ideate</i>,{" "}
-          <i>Prototype</i> & <i>Test</i> <Citation id="edipt" />.
+          Hekkert and van Dijk, explain in their book <em>Vision in Design</em>{" "}
+          how the(ir) design process is a balancing act between
+          forward-thinking, visionary, inspiration and making reasonable
+          decisions.
+        </p>
+        <blockquote>
+          “Give room to feelings and intuition as they do at art schools, but
+          simultaneously develop a sound argument in order to justify and
+          explain each and every decision they make.”
+          <ul>
+            <li>
+              <Citation id="ViP" />
+            </li>
+          </ul>
+        </blockquote>
+        <p>
+          To a large extent this is what happens during the discovery phase in
+          the double diamond, which we&#39;ll get into in the next chapter.
         </p>
       </ContentContainer>
-
-      <ContentContainer wide>
-        <figure>
-          <img
-            src="/img/edipt.png"
-            style={{ maxWidth: "100%" }}
-            loading="lazy"
-          />
-          <figcaption>
-            Figure: EDIPT illustrated (
-            <a
-              href="https://brasil.uxdesign.cc/design-thinking-o-que-n%C3%A3o-falta-s%C3%A3o-problemas-506f03ad960f"
-              target="blank"
-            >
-              source
-            </a>
-            )
-          </figcaption>
-        </figure>
-      </ContentContainer>
     </PageWrapper>
-    <NextChapter title="Empathise" index={1} />
+    <NextChapter title="Discover" index={1} />
   </Layout>
 );
 

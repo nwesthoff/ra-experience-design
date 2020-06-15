@@ -22,21 +22,19 @@ const DefinePage = () => (
       </PageIntroduction>
 
       <ContentContainer>
-        <h3>Sense-making</h3>
-        <p>
-          Personas combine similar user needs, habits, and attitudes and
-          communicate the nuanced commonalities and differences between
-          Spotify's users <Citation id="spotify1" />.
-        </p>
+        <h2>Sense-making</h2>
 
         <p>Spotify says:</p>
         <blockquote>
           “[F]or us the real magic is in the insight — the interpretation of
           that information”
-          <span className="quoteBy">
-            <Citation id="spotify2" />
-          </span>
+          <ul>
+            <li>
+              Adrian Buendia, (<Citation id="spotify2">2020</Citation>)
+            </li>
+          </ul>
         </blockquote>
+        <h2>Personas</h2>
         <p>
           Personas come in all kinds of ways, shapes and forms, but generally
           they look like a profile of a user within the user group they
@@ -50,6 +48,11 @@ const DefinePage = () => (
     <PageWrapper>
       <ContentContainer>
         <p>
+          Persona's combine similar user needs, habits, and attitudes and
+          communicate the nuanced commonalities and differences between
+          Spotify's users <Citation id="spotify1" />
+        </p>
+        <p>
           Insight depth is defined to measure an insight's influential extent{" "}
           <Citation id="insight1" />.
         </p>
@@ -58,7 +61,7 @@ const DefinePage = () => (
 
     <CaseStudyWrapper>
       <ContentContainer wide>
-        <h2>Case Study</h2>
+        <h2>In Practice</h2>
         <p>
           Practically applied knowledge...Lorem ipsum dolor sit amet,
           consectetur adipiscing elit. Pellentesque eleifend placerat justo,
@@ -68,7 +71,7 @@ const DefinePage = () => (
         </p>
       </ContentContainer>
     </CaseStudyWrapper>
-    <NextChapter title="Ideate" index={3} />
+    <NextChapter title="Develop" index={3} />
   </Layout>
 );
 

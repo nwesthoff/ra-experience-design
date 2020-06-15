@@ -31,7 +31,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Empathise" index={1} reverse>
+      <ChapterBlock title="Discover" index={1} reverse>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
@@ -47,7 +47,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Ideate" index={3} reverse>
+      <ChapterBlock title="Develop" index={3} reverse>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
@@ -55,7 +55,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Prototype" index={4}>
+      <ChapterBlock title="Deliver" index={4}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
@@ -63,15 +63,7 @@ const IndexPage = () => (
         lorem volutpat vel.
       </ChapterBlock>
 
-      <ChapterBlock title="Test" index={5} reverse>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
-        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
-        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
-        lorem volutpat vel.
-      </ChapterBlock>
-
-      <ChapterBlock title="Conclusion" index={6}>
+      <ChapterBlock title="Conclusion" index={5} reverse>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
         pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id

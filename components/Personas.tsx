@@ -36,15 +36,12 @@ const flickityOptions = {
 const PersonaCarousel = () => {
   return (
     <PersonaComponentWrapper>
-      <PersonaHeading>
-        <h2>Personas</h2>
-      </PersonaHeading>
       <div style={{ width: "100%", margin: "2rem 0" }}>
         <Flickity
           elementType="div"
           options={flickityOptions} // takes flickity options {}
           reloadOnUpdate // default false
-          static
+          // static
         >
           <PersonaCard
             key="1"
@@ -60,12 +57,12 @@ const PersonaCarousel = () => {
                 "Everything she does is questioned by her followers through the lense of sustainability",
               ],
             }}
-            imageUrl="https://source.unsplash.com/250x250/?portrait,girl"
+            imageUrl="/img/luisa.jpg"
           />
           <PersonaCard
             key="2"
             name="Mary Fashion"
-            bio="Mary is 42 years old and lives in New York. She's never thought about the impact of fashion on environmental issues. She has a master in Business Management and works for the government."
+            bio="Mary is 18 years old and lives in Singapore. She’s never thought about the impact of fashion on environmental issues. She’s studying Business Management and posts 5–10 Instagram stories a day."
             painsGains={{
               gains: [
                 "Wants to feel beautiful and trendy",
@@ -78,13 +75,13 @@ const PersonaCarousel = () => {
                 "Stressed from work and family",
               ],
             }}
-            imageUrl="https://source.unsplash.com/250x250/?portrait,woman"
+            imageUrl="/img/mary.jpg"
           />
           <PersonaCard
             key="3"
             name="James Dickson"
-            bio="James is a 35 year old Mechanical Engineer from Brooklyn. He likes happy hours after work, and usually takes the metro. He also likes to run in the city when he's doing physical activity."
-            imageUrl="https://source.unsplash.com/250x250/?portrait,man"
+            bio="James is a 31 year old Mechanical Engineer from Brooklyn. He likes happy hours after work, and usually takes the metro. He also likes to run in the city when he's doing physical activity."
+            imageUrl="/img/james.jpg"
             painsGains={{
               gains: ["Feels safe buying online", "Would like to travel more"],
               pains: [

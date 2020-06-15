@@ -4,12 +4,13 @@ import { PageWrapper } from "../../components/PageWrapper";
 import NextChapter from "../../components/Navigation/NextChapter";
 import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
 import ContentContainer from "../../components/ContentContainer";
+import Citation from "../../components/Bibliography/Citation";
 
-const IdeatePage = () => (
-  <Layout title="Ideate | RA Experience Design">
+const DevelopPage = () => (
+  <Layout title="Develop | RA Experience Design">
     <PageWrapper>
       <PageIntroduction>
-        <h1>Ideate</h1>
+        <h1>Develop</h1>
         <p>
           Experience Design Introduction... Lorem ipsum dolor sit amet,
           consectetur adipiscing elit. Pellentesque eleifend placerat justo,
@@ -19,9 +20,41 @@ const IdeatePage = () => (
         </p>
       </PageIntroduction>
     </PageWrapper>
+    <PageWrapper>
+      <ContentContainer>
+        <blockquote>
+          “You want to be able to project yourself 20 years into the future, and
+          then think backwards from there. Trust yourself—20 years is a long
+          time; it’s ok if your ideas about it seem pretty radical.”
+          <ul>
+            <li>
+              Sam Altman (<Citation id="samAltman">2020</Citation>)
+            </li>
+          </ul>
+        </blockquote>
+        <h2>Ideate</h2>
+        <ul>
+          <li>How Might We</li>
+          <li>Crazy 8&#39;s</li>
+          <li>Hyper Island Pop-up Agency Crazy 8</li>
+          <li>SCAMPER</li>
+          <li>Analogies</li>
+          <li>Bodystorm</li>
+          <li>Synectics</li>
+          <li>(million dollar party)</li>
+        </ul>
+        <h2>Evaluate</h2>
+        <h3>Levels of experiencing product</h3>
+        <ul>
+          <li>Aesthetic Experience</li>
+          <li>Experience of Meaning</li>
+          <li>Emotional Experience</li>
+        </ul>
+      </ContentContainer>
+    </PageWrapper>
     <CaseStudyWrapper>
       <ContentContainer wide>
-        <h2>Case Study</h2>
+        <h2>In Practice</h2>
         <p>
           Practically applied knowledge...Lorem ipsum dolor sit amet,
           consectetur adipiscing elit. Pellentesque eleifend placerat justo,
@@ -31,8 +64,8 @@ const IdeatePage = () => (
         </p>
       </ContentContainer>
     </CaseStudyWrapper>
-    <NextChapter title="Prototype" index={4} />
+    <NextChapter title="Deliver" index={4} />
   </Layout>
 );
 
-export default IdeatePage;
+export default DevelopPage;
