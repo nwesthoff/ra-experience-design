@@ -146,7 +146,8 @@ const IntroductionPage: NextPage = () => (
           explain each and every decision they make.”
           <ul>
             <li>
-              <Citation id="ViP" />
+              Paul Hekkert & Matthijs van Dijk (
+              <Citation id="ViP">2011, pp. 128-129</Citation>)
             </li>
           </ul>
         </blockquote>

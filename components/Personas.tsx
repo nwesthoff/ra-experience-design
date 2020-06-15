@@ -4,14 +4,6 @@ import { theme } from "../config/theme";
 import Flickity from "react-flickity-component";
 import PersonaCard from "./PersonaCard";
 
-const PersonaHeading = styled.div`
-  h2,
-  p {
-    color: white;
-    margin: 0;
-  }
-`;
-
 const PersonaComponentWrapper = styled.div`
   overflow: hidden;
   color: black;
