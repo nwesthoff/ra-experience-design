@@ -44,6 +44,7 @@ const GlobalStyle = createGlobalStyle`
       display: block;
       color: #ccc;
       font-size: 1.2rem;
+      font-style: normal;
 
       &:before {
         content: "— "
