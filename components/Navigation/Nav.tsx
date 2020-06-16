@@ -138,7 +138,7 @@ export default function Nav() {
                 </Link>
               </li>
               <li>
-                <Link href="/chapters/6-conclusion">
+                <Link href="/chapters/5-conclusion">
                   <a>Conclusion</a>
                 </Link>
               </li>

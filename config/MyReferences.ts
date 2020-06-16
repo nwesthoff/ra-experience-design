@@ -86,7 +86,7 @@ const myReferences: AcademicRef[] = [
     entryTags: {
       inText: "(Benz, 2015)",
       inBib:
-        "Benz, P. (2015). Experience design : concepts and case studies. London: Bloomsbury Academic.",
+        "Benz, P. (2015). Experience design: Concepts and Case Studies. London: Bloomsbury Academic.",
     },
   },
   {
@@ -96,6 +96,15 @@ const myReferences: AcademicRef[] = [
       inText: "(Anderson and DScout, 2019)",
       inBib:
         "Anderson, N. and DScout (2019). How to Conduct Generative Research: A Complete Guide for UX Researchers. [online] dscout. Available at: https://dscout.com/people-nerds/generative-research-complete-guide [Accessed 16 Jun. 2020].",
+    },
+  },
+  {
+    citationKey: "dscoutPersona",
+    entryType: "TRADEMAG",
+    entryTags: {
+      inText: "(Baltazar and DScout, 2019)",
+      inBib:
+        "Baltazar, N. and DScout (2019). 9 Reasons Your Personas Fail (and What to Do to Make Them Stick). [online] dscout. Available at: https://dscout.com/people-nerds/9-reasons-your-personas-fail-and-what-to-do-to-make-them-stick [Accessed 16 Jun. 2020].",
     },
   },
   {

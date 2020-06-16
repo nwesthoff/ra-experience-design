@@ -23,22 +23,20 @@ const DefinePage = () => (
 
       <ContentContainer>
         <h2>Sense-making</h2>
-
-        <p>Spotify says:</p>
-        <blockquote>
-          “[F]or us the real magic is in the insight — the interpretation of
-          that information”
-          <ul>
-            <li>
-              Adrian Buendia, (<Citation id="spotify2">2020</Citation>)
-            </li>
-          </ul>
-        </blockquote>
-        <h2>Personas</h2>
+        <ul>
+          <li>Interview downloads</li>
+          <li>Affinity map/clustering</li>
+          <li>Prioritize work</li>
+          <li>Customer journey maps</li>
+        </ul>
+        <h3>Personas</h3>
         <p>
           Personas come in all kinds of ways, shapes and forms, but generally
           they look like a profile of a user within the user group they
-          represent. Here are some examples, have a swipe!
+          represent. Persona's combine similar user needs, habits, and attitudes
+          and communicate the nuanced commonalities and differences between
+          Spotify's users <Citation id="spotify1" />. Here are some examples,
+          have a swipe!
         </p>
       </ContentContainer>
     </PageWrapper>
@@ -48,14 +46,34 @@ const DefinePage = () => (
     <PageWrapper>
       <ContentContainer>
         <p>
-          Persona's combine similar user needs, habits, and attitudes and
-          communicate the nuanced commonalities and differences between
-          Spotify's users <Citation id="spotify1" />
+          It's important to note that our meaningful, rich social relationships
+          are with real humans — not with one-dimensional, hypothetical
+          stereotypes <Citation id="dscoutPersona" />. They aren't supposed to
+          be a caricature. Personas exist to create empathy, to remind us of who
+          we spoke with, and who we're designing for. As our research advances,
+          personas move with the project. Personas should influence how we
+          recruit people for ongoing research too, by creating participant
+          communities for each of the personas.
         </p>
+        <h3>Insight</h3>
+        <p> Spotify says: </p>
+        <blockquote>
+          “[F]or us the real magic is in the insight — the interpretation of
+          that information”
+          <ul>
+            <li>
+              Adrian Buendia (<Citation id="spotify2">2020</Citation>)
+            </li>
+          </ul>
+        </blockquote>
         <p>
-          Insight depth is defined to measure an insight's influential extent{" "}
-          <Citation id="insight1" />.
+          Insight depth is defined to measure an insights influential extent{" "}
+          <a href="https://www.sciencedirect.com/science/article/abs/pii/S0142694X15000526">
+            Elsevier
+          </a>
+          .
         </p>
+        <h2>How Might We</h2>
       </ContentContainer>
     </PageWrapper>
 

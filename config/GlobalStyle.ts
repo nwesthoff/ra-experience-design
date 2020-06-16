@@ -53,7 +53,10 @@ const GlobalStyle = createGlobalStyle`
   }
 
   figure {
-    margin: 0
+    margin: 1.2rem 0 0;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
   }
 
   img, video {

@@ -217,14 +217,7 @@ const DeliverPage = () => {
             <i>strategy</i>. They provide a framework for talking about user
             experience problems. Building from the bottom, the issues we have to
             solve become less abstract and more concrete.
-            <figure
-              style={{
-                marginTop: "1.2rem",
-                display: "flex",
-                alignItems: "center",
-                flexFlow: "column",
-              }}
-            >
+            <figure>
               <img
                 src="/img/planes-of-experience.png"
                 style={{ maxWidth: "400px" }}

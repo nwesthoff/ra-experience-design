@@ -106,7 +106,12 @@ const IntroductionPage: NextPage = () => (
       </ContentContainer>
 
       <ContentContainer wide>
-        <figure style={{ position: "relative" }}>
+        <figure
+          style={{
+            position: "relative",
+            display: "block",
+          }}
+        >
           <ScrollToReveal opacity={[0, 1]}>
             <RevealImageOverlay
               src="/img/double-diamond.png"
