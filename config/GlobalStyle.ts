@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   p {
     font-size: 1.2rem;
     line-height: 1.6em;
-    color: white;
+    color: #ccc;
   }
 
   a {
@@ -21,23 +21,28 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'IBM Plex Serif', serif;
     font-style: italic;
     font-size: 2rem;
-    line-height: 1.3em;
-    color: ${theme.colors.primary};
+    line-height: 1.4em;
+    color: white;
+    background: rgba(36, 193, 224, 0.08);
+    border-left: 2px solid #24c1e0;
+    padding: 1.2rem 2rem;
+    margin: 0;
 
     @media (max-width: ${theme.breakpoints.phone}px) {
-      font-size: 1.6rem;
-      margin: 2rem 1.2rem;
+      font-size: 1.5rem;
+      margin: 2rem 0;
+      padding: .8rem 1.2rem;  
     }
 
     ul {
-      margin: 0;
+      margin: .8rem 0 0;
       padding: 0;
     }
 
     li {
       text-align: end;
       display: block;
-      color: white;
+      color: #ccc;
       font-size: 1.2rem;
 
       &:before {
