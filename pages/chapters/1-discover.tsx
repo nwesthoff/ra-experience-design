@@ -34,7 +34,11 @@ const DiscoverPage: NextPage = () => (
             <a href="https://twitter.com/StrangestMp4/status/1272218918325641216?s=20">
               source
             </a>
-            )
+            ) <br />
+            <small style={{ color: "#aaa" }}>
+              (Look, I'm not pretending this is useful information, I'm just
+              doing some mood setting here.)
+            </small>
           </figcaption>
         </figure>
         <h2>Experience</h2>
