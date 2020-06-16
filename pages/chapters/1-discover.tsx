@@ -19,16 +19,16 @@ const DiscoverPage: NextPage = () => (
           inspire us in preparation of idea generation, <em>and</em> provide
           constraints during evaluation. There's a whole plethora of{" "}
           <em>tools</em>,<em>methodologies</em> and <em>practices</em> to guide
-          us through this process. These concepts help us <em>explore</em> and
-          <em>make sense</em> of the context which we'll go over in this
-          chapter.
+          us through this process. These concepts help us navigate the way we
+          learn about the context we're designing for, which we'll go over in
+          this chapter.
         </p>
       </PageIntroduction>
 
       <ContentContainer>
-        <h3>Experiences</h3>
+        <h2>Experiences</h2>
         <p>
-          First of all, it&#39;s important to be aware that experiences are not
+          First of all, it's important to be aware that experiences are not
           self-contained, they happen inside a larger context and are greatly
           influenced by the way individuals perceive them. As Peter Benz puts
           it:
@@ -38,25 +38,74 @@ const DiscoverPage: NextPage = () => (
           interactions, spaces and information.”
           <ul>
             <li>
-              Peter Benz <Citation id="">(2015, pp. 32)</Citation>
+              Peter Benz (<Citation id="experienceBenz">2015, pp. 32</Citation>)
             </li>
           </ul>
         </blockquote>
         <p>
+          Benz describes how lived experiences are a result of a moving
+          intersection between <em>sense</em>, <em>consciousness</em>,{" "}
+          <em>body</em>, and the
+          <em>world</em>. An approach for experience designers, as such, could
+          focus on <em>thinking</em>, <em>sensing</em> and <em>feeling</em>.
+          Though, it's important to remember that these elements can't be seen
+          in isolation either, in actual experience they are deeply entangled as
+          well. When we do design research we have to understand that everyday
+          experience is continuous, seamless, and endless, we're only trying to
+          understand a small slice of that.
+        </p>
+        <p>
           Experiences are influenced by differences far-reaching like our
           marital status, to mundane differences like the operating system our
-          phone is using. Benz describes how lived experiences are a result of a
-          moving intersection between <em>sense</em>, <em>consciousness</em>,
-          <em>body</em>, and the <em>world</em>. An approach for experience
-          designers, as such, could focus on <em>thinking</em>, <em>sensing</em>{" "}
-          and
-          <em>feeling</em>. It's important to remember that these elements can't
-          be seen in isolation however, in actual experience they are deeply
-          entangled as well.
+          phone is using.
         </p>
-
-        <h3>Exploration</h3>
-
+        <h2>Generative or Exploratory Research</h2>
+        <p>
+          To make sense of these interweaved messes, research usually starts
+          with generative research. This is the type of research to figure out
+          what we should be doing and pay attention to. It leads to ideas, and
+          is used to define the problem. A generative research question sounds
+          something like
+          <em>“What’s up with...?”</em>
+          <Citation id="justEnough">(Hall, 2013, pp. 33)</Citation>.
+        </p>
+        <p>Generative research can include:</p>
+        <ul>
+          <li>Interviews</li>
+          <li>Field observation</li>
+          <li>Reviewing existing literature</li>
+        </ul>
+        <p>
+          Generative research and analysis develops an understanding of
+          <em>who</em> our users are as humans, and how they experience their
+          everyday lives <Citation id="dscout" />. It points out useful problems
+          to solve. The result of generative research might be a hypothesis,
+          like;
+          <em>
+            “Local parents of young children would value an app that offers
+            ideas for science events and activities based on their child’s
+            developmental milestones”
+          </em>
+          .
+        </p>
+        <p>
+          Comb through it and determine the most commonly voiced unmet needs
+        </p>
+        <p>
+          Then you can do further (descriptive) research on how parents
+          recognize and commemorate those milestones.
+        </p>
+        <h2>Descriptive or Explanatory Research</h2>
+        <h2>The Process</h2>
+        <blockquote>
+          “Ideally, everyone who is on the design team should also participate
+          in the research.”
+          <ul>
+            <li>
+              Erika Hall (<Citation id="justEnough">2013, pp. 10</Citation>)
+            </li>
+          </ul>
+        </blockquote>
         <h3>Primary research</h3>
         <ul>
           <li>User interviews</li>

@@ -45,15 +45,6 @@ const myReferences: AcademicRef[] = [
     },
   },
   {
-    citationKey: "edipt",
-    entryType: "TRADEMAG",
-    entryTags: {
-      inText: "(d.school, 2017)",
-      inBib:
-        "d.school (2017). Stanford d.school. [online] Stanford d.school. Available at: https://dschool.stanford.edu/resources/getting-started-with-design-thinking [Accessed 18 May 2020].",
-    },
-  },
-  {
     citationKey: "prototypeAdobe",
     entryType: "TRADEMAG",
     entryTags: {
@@ -87,6 +78,33 @@ const myReferences: AcademicRef[] = [
       inText: "(Altman, 2020)",
       inBib:
         "Altman, S. (2020). Idea Generation. [online] Sam Altman. Available at: https://blog.samaltman.com/idea-generation [Accessed 15 Jun. 2020].",
+    },
+  },
+  {
+    citationKey: "experienceBenz",
+    entryType: "TRADEMAG",
+    entryTags: {
+      inText: "(Benz, 2015)",
+      inBib:
+        "Benz, P. (2015). Experience design : concepts and case studies. London: Bloomsbury Academic.",
+    },
+  },
+  {
+    citationKey: "dscout",
+    entryType: "TRADEMAG",
+    entryTags: {
+      inText: "(Anderson and DScout, 2019)",
+      inBib:
+        "Anderson, N. and DScout (2019). How to Conduct Generative Research: A Complete Guide for UX Researchers. [online] dscout. Available at: https://dscout.com/people-nerds/generative-research-complete-guide [Accessed 16 Jun. 2020].",
+    },
+  },
+  {
+    citationKey: "justEnough",
+    entryType: "TRADEMAG",
+    entryTags: {
+      inText: "(Hall, 2019, pp.10–33)",
+      inBib:
+        "Hall, E. (2019). Just enough research. New York, New York: A Book Apart, pp.10–33.",
     },
   },
 ];
