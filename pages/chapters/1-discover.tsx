@@ -49,8 +49,10 @@ const DiscoverPage: NextPage = () => (
           it:
         </p>
         <blockquote>
-          “Experiences emerge in the intertwinement of a variety of objects,
-          interactions, spaces and information.”
+          <p>
+            “Experiences emerge in the intertwinement of a variety of objects,
+            interactions, spaces and information.”
+          </p>
           <ul>
             <li>
               Peter Benz (<Citation id="experienceBenz">2015, pp. 32</Citation>)
@@ -75,8 +77,10 @@ const DiscoverPage: NextPage = () => (
         </p>
         <h2>Research</h2>
         <blockquote>
-          “Ideally, everyone who is on the design team should also participate
-          in the research.”
+          <p>
+            “Ideally, everyone who is on the design team should also participate
+            in the research.”
+          </p>
           <ul>
             <li>
               Erika Hall (<Citation id="justEnough">2013, pp. 10</Citation>)

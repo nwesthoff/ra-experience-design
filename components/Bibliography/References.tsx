@@ -28,12 +28,15 @@ const ReferenceList = styled.ul`
 `;
 
 const ReferenceListItem = styled.li`
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
   font-size: 0.9rem;
   color: #ddd;
   margin-bottom: 0.8rem;
+  /* for Chrome and Edge */
+  break-inside: avoid-column;
+  -webkit-column-break-inside: avoid;
+  /* for Firefox */
+  display: inline-grid;
+  page-break-inside: avoid;
 `;
 
 const ReferenceLink = styled.a`

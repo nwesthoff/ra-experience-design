@@ -58,8 +58,10 @@ const DefinePage = () => (
         <h3>Insight</h3>
         <p> Spotify says: </p>
         <blockquote>
-          “[F]or us the real magic is in the insight — the interpretation of
-          that information”
+          <p>
+            “[F]or us the real magic is in the insight — the interpretation of
+            that information”
+          </p>
           <ul>
             <li>
               Adrian Buendia (<Citation id="spotify2">2020</Citation>)

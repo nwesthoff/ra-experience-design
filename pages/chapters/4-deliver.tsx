@@ -76,15 +76,11 @@ const DeliverPage = () => {
         <PageWrapper>
           <ContentContainer>
             <blockquote>
-              “The Internet rewards people who learn in public”
+              <p>“The Internet rewards people who learn in public”</p>
               <ul>
                 <li>Dave Perell</li>
               </ul>
             </blockquote>
-          </ContentContainer>
-        </PageWrapper>
-        <PageWrapper>
-          <ContentContainer>
             <h2>Prototypes as a boundary object</h2>
             <p>
               Yang <Citation id="prototypeDesignStudies">(2005)</Citation>{" "}

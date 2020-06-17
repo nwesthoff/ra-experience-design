@@ -23,9 +23,11 @@ const DevelopPage = () => (
     <PageWrapper>
       <ContentContainer>
         <blockquote>
-          “You want to be able to project yourself 20 years into the future, and
-          then think backwards from there. Trust yourself—20 years is a long
-          time; it’s ok if your ideas about it seem pretty radical.”
+          <p>
+            “You want to be able to project yourself 20 years into the future,
+            and then think backwards from there. Trust yourself—20 years is a
+            long time; it’s ok if your ideas about it seem pretty radical.”
+          </p>
           <ul>
             <li>
               Sam Altman (<Citation id="samAltman">2020</Citation>)
