@@ -29,6 +29,8 @@ const NextLinkWrapper = styled.div`
     margin-bottom: 0;
     font-weight: lighter;
     text-transform: uppercase;
+    color: white;
+    opacity: 0.75;
   }
 
   svg {

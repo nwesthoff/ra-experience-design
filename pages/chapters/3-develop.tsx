@@ -37,7 +37,7 @@ const DevelopPage = () => (
         <h2>Ideate</h2>
         <ul>
           <li>How Might We</li>
-          <li>Crazy 8&#39;s</li>
+          <li>Crazy 8's</li>
           <li>Hyper Island Pop-up Agency Crazy 8</li>
           <li>SCAMPER</li>
           <li>Analogies</li>

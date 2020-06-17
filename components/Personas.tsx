@@ -12,7 +12,7 @@ const PersonaComponentWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background: linear-gradient(#000, #121212, #000);
+  background: linear-gradient(#222, #121212, #222);
   padding: 4rem 0rem;
 
   @media (max-width: ${theme.breakpoints.phone}px) {

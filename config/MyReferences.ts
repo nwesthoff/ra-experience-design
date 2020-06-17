@@ -179,6 +179,56 @@ const myReferences: AcademicRef[] = [
         "Rams, D. (2019). Good design | About Vitsœ | Vitsœ. [online] Vitsoe.com. Available at: https://www.vitsoe.com/eu/about/good-design.",
     },
   },
+  {
+    citationKey: "mattInterview",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "Kendall",
+      year: "2020",
+      inBib:
+        "Kendall, M. (2020). Interview: What Is Experience Design? [Videocall].",
+    },
+  },
+  {
+    citationKey: "contentStrategyUX",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "UXBooth",
+      year: "2016",
+      inBib:
+        "UXBooth (2016). Complete Beginner’s Guide to Content Strategy | UX Booth. [online] UXBooth. Available at: https://www.uxbooth.com/articles/complete-beginners-guide-to-content-strategy/#what [Accessed 17 Jun. 2020].",
+    },
+  },
+  {
+    citationKey: "stappersPrototypes",
+    entryType: "ACADEMIC",
+    entryTags: {
+      author: "Sanders and Stappers",
+      year: "2014",
+      inBib:
+        "Sanders, E.B.-N. and Stappers, P.J. (2014). Probes, toolkits and prototypes: three approaches to making in codesigning. CoDesign, 10(1), pp.5–14.",
+    },
+  },
+  {
+    citationKey: "jeffVeen",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "Veen",
+      year: "2001",
+      inBib:
+        "Veen, J. (2001). The art & science of Web design. Indianapolis, Ind.: New Riders, p.104.",
+    },
+  },
+  {
+    citationKey: "stiglianiCodesign",
+    entryType: "ACADEMIC",
+    entryTags: {
+      author: "Stigliani and Ravasi",
+      year: "2011",
+      inBib:
+        "Stigliani, I. and Ravasi, D. (2012). Organizing Thoughts and Connecting Brains: Material Practices and the Transition from Individual to Group-Level Prospective Sensemaking. Academy of Management Journal, 55(5), pp.1232–1259.",
+    },
+  },
 ];
 
 export interface AcademicRef {

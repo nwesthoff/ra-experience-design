@@ -32,19 +32,16 @@ const IndexPage = () => (
       </ChapterBlock>
 
       <ChapterBlock title="Discover" index={1} reverse>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
-        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
-        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
-        lorem volutpat vel.
+        Every good design process begins with research, to learn about and
+        discover the context designed experiences are happening in. This phase
+        of analysis serves two main purposes, to inspire us in preparation of
+        idea generation, and provide constraints during evaluation.
       </ChapterBlock>
 
       <ChapterBlock title="Define" index={2}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
-        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
-        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
-        lorem volutpat vel.
+        Designers often describe their work as organizing complexity, to find
+        clarity in chaos. During synthesis, we often manipulate data, words and
+        pictures, to create cohesion and a sense of continuity in our work.
       </ChapterBlock>
 
       <ChapterBlock title="Develop" index={3} reverse>
@@ -56,11 +53,10 @@ const IndexPage = () => (
       </ChapterBlock>
 
       <ChapterBlock title="Deliver" index={4}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
-        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
-        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
-        lorem volutpat vel.
+        No product is ever designed right the first time around. Arguably,
+        products are never really done. The purpose of prototyping is to learn,
+        to observe. To fail fast, in order to improve the product before it
+        launches to the general public.
       </ChapterBlock>
 
       <ChapterBlock title="Conclusion" index={5} reverse>

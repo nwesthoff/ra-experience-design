@@ -63,7 +63,7 @@ const DeliverPage = () => {
           <PageIntroduction>
             <h1>Deliver</h1>
             <p>
-              No product is ever designed right the first time around, arguably,
+              No product is ever designed right the first time around. Arguably,
               products are never really done. The purpose of prototyping is to
               learn, to observe. To fail fast, in order to improve the product
               before it launches to the general public. In essence it's like a
@@ -83,20 +83,29 @@ const DeliverPage = () => {
             </blockquote>
             <h2>Prototypes as a boundary object</h2>
             <p>
-              Yang <Citation id="prototypeDesignStudies">(2005)</Citation>{" "}
-              describes how prototypes are part of design language, because
-              prototypes represent and embody design thought. They allow us to
-              explain a concept to a test user, by creating an equal reality to
-              learn about.
+              Yang <Citation id="prototypeDesignStudies" hideAuthor /> describes
+              how prototypes are part of design language, because prototypes
+              represent and embody design thought. In a similar groove, Sanders
+              & Stappers
+              <Citation id="stappersPrototypes" hideAuthor /> describe the roles
+              of prototypes in <em>research through design</em>.
             </p>
             <ul>
+              <li>Prototypes allow testing of a hypothesis.</li>
               <li>
-                They act as a way to connect with your client, by demonstrating,
-                you have a common understanding of the proposed solution
+                Prototypes bring practice and theory together and force those
+                involved to deal with confronting perspectives, theories and
+                lenses.
               </li>
               <li>
-                They act as a way to connect to your user, to have an equal
-                reality to learn about
+                Prototypes evoke focused discussion in a team, because the
+                phenomenon is ‘on the table’. By demonstrating, we create a
+                common understanding of the proposed solution.
+              </li>
+              <li>
+                Prototypes act as a way to connect to our users, they allow us
+                to explain a concept effectively, by creating an equal reality
+                to learn about.
               </li>
             </ul>
             <h2>Different levels of prototyping</h2>
@@ -320,8 +329,8 @@ const DeliverPage = () => {
             <p>
               It's important to ask both novices and experts. Experts show wider
               range of issues, but find them lesser problems. Novices experience
-              issues as more severe, but find fewer (Sauer, Seibel and
-              Rüttinger, 2010).
+              issues as more severe, but find fewer{" "}
+              <Citation id="sauerSeibel" />.
             </p>
             <blockquote>
               <p>
@@ -335,19 +344,46 @@ const DeliverPage = () => {
               </ul>
             </blockquote>
             <h3>Usability Testing</h3>
-            toggle heatmap: {/* FIXME: */}
-            <Button
-              onClick={() => {
-                setShowHeatmap(!showHeatmap);
-              }}
-            >
-              {showHeatmap ? "hide" : "show"}
-            </Button>
+            <p>
+              Toggle heatmap: {/*FIXME:*/}
+              <Button
+                onClick={() => {
+                  setShowHeatmap(!showHeatmap);
+                }}
+              >
+                {showHeatmap ? "hide" : "show"}
+              </Button>
+            </p>
             <h3>Usability severity</h3>
             <p>
               <a href="https://medium.com/@CallaghanDesign/higher-or-lower-32be0a299d32">
                 Chris Callaghan
               </a>
+            </p>
+            <h2>Content strategy</h2>
+            <p>
+              Experience goes far beyond the actual product we're designing.
+              Matt <Citation id="mattInterview" /> spoke describes how content
+              strategy should be considered part of the experience equally.
+              Consider the importance of something like the box a product comes
+              in. When buying a product, all-else being equal, customers{" "}
+              <em>will</em> pick the business that sends products in a recycled
+              box with a golden bow over the boring cardboard alternative. Matt
+              told us how he's particularly intrigued by the way physical stores
+              from digital challengers like Warby Parker and Ace &amp; Tate tie
+              also offer a better experience than their 'legacy' counterparts.
+              They neatly tie their digital systems into the buying experience,
+              offering services like order-from-home emails after an eye
+              measurement. Content strategy focuses on content that creates an
+              experience, rather than how to market that experience, however
+              there is a lot that we can learn from the marketing industry{" "}
+              <Citation id="contentStrategyUX" />. Content strategy is aiding
+              the <em>digital sophistication</em> of businesses, to improve the
+              customer experience.
+            </p>
+            <p>
+              Content strategy also provides an opportunity for the{" "}
+              <em>'always on'</em> data collection previously talked about.
             </p>
           </ContentContainer>
         </PageWrapper>
