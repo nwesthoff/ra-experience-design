@@ -7,10 +7,30 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
   }
 
+  body {
+    color: white;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+
+    @media (max-width: ${theme.breakpoints.phone}px){
+      font-size: 1rem;
+      line-height: 1.3em;
+    }
+  }
+
   p {
+    text-align: justify;
     font-size: 1.2rem;
     line-height: 1.6em;
     color: #ccc;
+
+    @media (max-width: ${theme.breakpoints.phone}px){
+      font-size: 1rem;
+      line-height: 1.3em;
+    }
   }
 
   a {
@@ -52,6 +72,14 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  li {
+    color: #ccc;
+  }
+
+  b, em {
+    color: white;
+  }
+
   figure {
     margin: 1.2rem 0 0;
     display: flex;
@@ -77,13 +105,6 @@ const GlobalStyle = createGlobalStyle`
   h3 {
     color: ${theme.colors.primary};
     font-size: 1.5rem;
-  }
-
-  body {
-    color: white;
-    background-color: #000;
-    margin: 0;
-    padding: 0;
   }
 
   @keyframes fadeIn {

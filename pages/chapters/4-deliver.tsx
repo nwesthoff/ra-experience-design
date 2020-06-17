@@ -86,11 +86,13 @@ const DeliverPage = () => {
         <PageWrapper>
           <ContentContainer>
             <h2>Prototypes as a boundary object</h2>
-            Yang <Citation id="prototypeDesignStudies">(2005)</Citation>{" "}
-            describes how prototypes are part of design language, because
-            prototypes represent and embody design thought. They allow us to
-            explain a concept to a test user, by creating an equal reality to
-            learn about.
+            <p>
+              Yang <Citation id="prototypeDesignStudies">(2005)</Citation>{" "}
+              describes how prototypes are part of design language, because
+              prototypes represent and embody design thought. They allow us to
+              explain a concept to a test user, by creating an equal reality to
+              learn about.
+            </p>
             <ul>
               <li>
                 They act as a way to connect with your client, by demonstrating,
@@ -210,13 +212,15 @@ const DeliverPage = () => {
               </Col>
             </ThreeColumnDiv>
             <h2>Five planes of experience design</h2>
-            Jesse James Garret{" "}
-            <Citation id="planesOfExperience">(2011, pp. 19-22)</Citation>{" "}
-            describes the elements of experience design as the five planes;{" "}
-            <i>surface</i>, <i>skeleton</i>, <i>structure</i>, <i>scope</i> and{" "}
-            <i>strategy</i>. They provide a framework for talking about user
-            experience problems. Building from the bottom, the issues we have to
-            solve become less abstract and more concrete.
+            <p>
+              Jesse James Garret{" "}
+              <Citation id="planesOfExperience">(2011, pp. 19-22)</Citation>{" "}
+              describes the elements of experience design as the five planes;{" "}
+              <i>surface</i>, <i>skeleton</i>, <i>structure</i>, <i>scope</i>{" "}
+              and <i>strategy</i>. They provide a framework for talking about
+              user experience problems. Building from the bottom, the issues we
+              have to solve become less abstract and more concrete.
+            </p>
             <figure>
               <img
                 src="/img/planes-of-experience.png"
