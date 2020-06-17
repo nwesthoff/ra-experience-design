@@ -31,14 +31,21 @@ const PersonaContentContainer = styled.div`
   max-width: 500px;
 
   h3 {
-    margin: 0;
+    font-size: 2.6rem;
+    color: black;
+    margin: 1.2rem 0 0;
   }
 
   h5 {
     margin-bottom: 0;
   }
 
-  p {
+  ul {
+    margin-top: 0.4rem;
+  }
+
+  p,
+  li {
     margin-top: 0;
     font-size: 0.9em;
     line-height: 1.2em;

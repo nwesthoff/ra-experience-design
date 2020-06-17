@@ -116,6 +116,15 @@ const GlobalStyle = createGlobalStyle`
   h3 {
     color: ${theme.colors.primary};
     font-size: 1.5rem;
+    margin-top: 1.2rem;
+  }
+  
+  h4, h5, h6 {
+    color: ${theme.colors.primary};
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 
   @keyframes fadeIn {

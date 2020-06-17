@@ -60,13 +60,15 @@ const IntroductionPage: NextPage = () => (
           design process is ambiguous, and neither is correct or wrong.
         </p>
         <p>
-          My favourite take on the Double Diamond,
-          <em>The Double Diamond Revamped</em> by Hyper Island Alumnus Dan
-          Nessler (2016) offers a lot more depth than the original by the
-          British Design Council (2019). It shows how within each diverging
-          phase, there can be converging sub-activities and vice-versa. On top,
-          it shows the purpose and the expected results of each phase too,
-          offering a lot of clarity to people new to design.
+          My favourite take on the Double Diamond,{" "}
+          <em>The Double Diamond Revamped</em>
+          by Hyper Island Alumnus Dan Nessler{" "}
+          <Citation id="diamondRevamped" hideAuthor /> offers a lot more depth
+          than the original by the British Design Council{" "}
+          <Citation id="designCouncil" hideAuthor />. It shows how within each
+          diverging phase, there can be converging sub-activities and
+          vice-versa. On top, it shows the purpose and the expected results of
+          each phase too, offering a lot of clarity to people new to design.
         </p>
       </ContentContainer>
 
@@ -118,8 +120,8 @@ const IntroductionPage: NextPage = () => (
           </p>
           <ul>
             <li>
-              Paul Hekkert & Matthijs van Dijk (
-              <Citation id="ViP">2011, pp. 128-129</Citation>)
+              Paul Hekkert & Matthijs van Dijk
+              <Citation id="ViP" page="128-129" hideAuthor />
             </li>
           </ul>
         </blockquote>

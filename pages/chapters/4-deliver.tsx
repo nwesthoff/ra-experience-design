@@ -110,7 +110,7 @@ const DeliverPage = () => {
             </p>
             <ThreeColumnDiv>
               <Col>
-                <h3>Low fidelity</h3>
+                <h4>Low fidelity</h4>
                 <figure>
                   <a download href="/img/low-fi-prototype.jpg">
                     <img src="/img/low-fi-prototype.jpg" />
@@ -138,7 +138,7 @@ const DeliverPage = () => {
                 </ul>
               </Col>
               <Col>
-                <h3>Medium fidelity</h3>
+                <h4>Medium fidelity</h4>
                 <figure>
                   <a download href="/img/mid-fi-prototype.jpg">
                     <img src="/img/mid-fi-prototype.jpg" />
@@ -167,7 +167,7 @@ const DeliverPage = () => {
                 </ul>
               </Col>
               <Col>
-                <h3>High fidelity</h3>
+                <h4>High fidelity</h4>
                 <figure>
                   <a download href="/img/high-fi-prototype.mp4">
                     <video
@@ -316,14 +316,12 @@ const DeliverPage = () => {
               </li>
               <li>Python or Arduino for non-web coded prototypes</li>
             </ul>
-          </ContentContainer>
-          <ContentContainer>
             <h2>Evaluate</h2>
             <p>
-              It&#39;s important to ask both novices and experts. Experts show
-              wider range of issues, but find them lesser problems. Novices
-              experience issues as more severe, but find fewer (Sauer, Seibel
-              and Rüttinger, 2010).
+              It's important to ask both novices and experts. Experts show wider
+              range of issues, but find them lesser problems. Novices experience
+              issues as more severe, but find fewer (Sauer, Seibel and
+              Rüttinger, 2010).
             </p>
             <blockquote>
               <p>
@@ -336,10 +334,8 @@ const DeliverPage = () => {
                 <li>Rory Sutherland, Alchemy pp. 100</li>
               </ul>
             </blockquote>
-          </ContentContainer>
-          <ContentContainer>
             <h3>Usability Testing</h3>
-            toggle heatmap:{" "}
+            toggle heatmap: {/* FIXME: */}
             <Button
               onClick={() => {
                 setShowHeatmap(!showHeatmap);
@@ -347,10 +343,8 @@ const DeliverPage = () => {
             >
               {showHeatmap ? "hide" : "show"}
             </Button>
-          </ContentContainer>
-          <ContentContainer>
+            <h3>Usability severity</h3>
             <p>
-              Usability severity:
               <a href="https://medium.com/@CallaghanDesign/higher-or-lower-32be0a299d32">
                 Chris Callaghan
               </a>

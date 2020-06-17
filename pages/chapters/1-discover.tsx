@@ -55,7 +55,7 @@ const DiscoverPage: NextPage = () => (
           </p>
           <ul>
             <li>
-              Peter Benz (<Citation id="experienceBenz">2015, pp. 32</Citation>)
+              Peter Benz <Citation id="experienceBenz" hideAuthor page="32" />
             </li>
           </ul>
         </blockquote>

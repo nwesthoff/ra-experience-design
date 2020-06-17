@@ -64,7 +64,7 @@ const DefinePage = () => (
           </p>
           <ul>
             <li>
-              Adrian Buendia (<Citation id="spotify2">2020</Citation>)
+              Adrian Buendia <Citation id="spotify2" hideAuthor />
             </li>
           </ul>
         </blockquote>
