@@ -1,4 +1,11 @@
 import React, { ReactElement } from "react";
+import styled from "styled-components";
+
+const GiphyStyled = styled.figure`
+  width: 100%;
+  pointer-events: none;
+  margin-bottom: 3.2rem;
+`;
 
 interface Props {
   src: string;
@@ -7,7 +14,7 @@ interface Props {
 
 export default function Giphy({ src, caption }: Props): ReactElement {
   return (
-    <figure>
+    <GiphyStyled>
       <div
         style={{
           width: "100%",
@@ -28,6 +35,6 @@ export default function Giphy({ src, caption }: Props): ReactElement {
       </div>
 
       <figcaption>Figure: {caption}</figcaption>
-    </figure>
+    </GiphyStyled>
   );
 }

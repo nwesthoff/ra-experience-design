@@ -37,12 +37,12 @@ const IntroductionPage: NextPage = () => (
         </p>
       </PageIntroduction>
 
-      <Giphy
-        src="https://giphy.com/embed/dyL2kjw1msOpHjxKh8"
-        caption="Faculty of Industrial Design Engineering"
-      />
-
       <ContentContainer>
+        <Giphy
+          src="https://giphy.com/embed/dyL2kjw1msOpHjxKh8"
+          caption="Faculty of Industrial Design Engineering"
+        />
+
         <p>
           Digital design has the benefit that it's highly flexible. After a
           product is launched, it's easy to rework or even repurpose (pivot) the
@@ -111,9 +111,11 @@ const IntroductionPage: NextPage = () => (
           decisions.
         </p>
         <blockquote>
-          “Give room to feelings and intuition as they do at art schools, but
-          simultaneously develop a sound argument in order to justify and
-          explain each and every decision they make.”
+          <p>
+            “Give room to feelings and intuition as they do at art schools, but
+            simultaneously develop a sound argument in order to justify and
+            explain each and every decision they make.”
+          </p>
           <ul>
             <li>
               Paul Hekkert & Matthijs van Dijk (

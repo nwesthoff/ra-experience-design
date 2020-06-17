@@ -18,21 +18,19 @@ const GlobalStyle = createGlobalStyle`
   }
 
   blockquote {
-    font-family: 'IBM Plex Serif', serif;
-    font-style: italic;
-    font-size: 2rem;
-    line-height: 1.4em;
-    color: white;
     background: rgba(36, 193, 224, 0.08);
     border-left: 2px solid #24c1e0;
     padding: 1.2rem 2rem;
     margin: 0;
 
-    @media (max-width: ${theme.breakpoints.phone}px) {
-      font-size: 1.5rem;
-      margin: 2rem 0;
-      padding: .8rem 1.2rem;  
+    p {
+      font-family: 'IBM Plex Serif', serif;
+      font-style: italic;
+      font-size: 2rem;
+      line-height: 1.4em;
+      color: white;
     }
+
 
     ul {
       margin: .8rem 0 0;
@@ -48,6 +46,19 @@ const GlobalStyle = createGlobalStyle`
 
       &:before {
         content: "— "
+      }
+    }
+
+    @media (max-width: ${theme.breakpoints.phone}px) {
+      margin: 2rem 0;
+      padding: .8rem 1.2rem;  
+
+      p {
+        font-size: 1.5rem;
+      }
+
+      li {
+        font-size: 1rem;
       }
     }
   }
