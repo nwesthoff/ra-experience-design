@@ -81,7 +81,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "samAltman",
-    entryType: "POPULAR",
+    entryType: "TRADEMAG",
     entryTags: {
       author: "Altman",
       year: "2020",
@@ -157,6 +157,26 @@ const myReferences: AcademicRef[] = [
       year: "2019",
       inBib:
         "Design Council (2019). What is the framework for innovation? Design Council’s evolved Double Diamond. [online] Design Council. Available at: https://www.designcouncil.org.uk/news-opinion/what-framework-innovation-design-councils-evolved-double-diamond [Accessed 19 Feb. 2020].",
+    },
+  },
+  {
+    citationKey: "abductiveThinkingKolko",
+    entryType: "ACADEMIC",
+    entryTags: {
+      author: "Kolko",
+      year: "2010",
+      inBib:
+        "Kolko, J. (2010). Abductive Thinking and Sensemaking: The Drivers of Design Synthesis. Design Issues, 26(1), pp.15–28.",
+    },
+  },
+  {
+    citationKey: "ramsPrinciples",
+    entryType: "POPULAR",
+    entryTags: {
+      author: "Rams",
+      year: "2019",
+      inBib:
+        "Rams, D. (2019). Good design | About Vitsœ | Vitsœ. [online] Vitsoe.com. Available at: https://www.vitsoe.com/eu/about/good-design.",
     },
   },
 ];

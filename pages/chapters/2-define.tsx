@@ -13,15 +13,25 @@ const DefinePage = () => (
       <PageIntroduction>
         <h1>Define</h1>
         <p>
-          Experience Design Introduction... Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Pellentesque eleifend placerat justo,
-          vitae auctor purus eleifend id. Phasellus pulvinar, erat quis
-          consequat vestibulum, diam odio pretium felis, id sodales odio eros
-          non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel.
+          Designers often describe their work as organizing complexity, to find
+          clarity in chaos <Citation id="abductiveThinkingKolko" />. During
+          synthesis, we often manipulate data, words and pictures, to create
+          cohesion and a sense of continuity in our work. The define phase is
+          everything that pushes towards organization, reduction and clarity.
+          Synthesis is often described as the most elusive, and hardest part of
+          design.
         </p>
       </PageIntroduction>
 
       <ContentContainer>
+        <blockquote>
+          <p>“Good design is as little design as possible”</p>
+          <ul>
+            <li>
+              Dieter Rams <Citation id="ramsPrinciples" hideAuthor />
+            </li>
+          </ul>
+        </blockquote>
         <h2>Sense-making</h2>
         <ul>
           <li>Interview downloads</li>

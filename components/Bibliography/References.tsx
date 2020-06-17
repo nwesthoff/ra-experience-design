@@ -35,7 +35,6 @@ const ReferenceListItem = styled.li`
   break-inside: avoid-column;
   -webkit-column-break-inside: avoid;
   /* for Firefox */
-  display: inline-grid;
   page-break-inside: avoid;
 `;
 
