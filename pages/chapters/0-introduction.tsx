@@ -7,6 +7,7 @@ import Citation from "../../components/Bibliography/Citation";
 import NextChapter from "../../components/Navigation/NextChapter";
 import ScrollToReveal from "../../components/ScrollToReveal";
 import styled from "styled-components";
+import Giphy from "../../components/Giphy";
 
 const RevealImageOverlay = styled.img`
   position: absolute;
@@ -36,32 +37,10 @@ const IntroductionPage: NextPage = () => (
         </p>
       </PageIntroduction>
 
-      <ContentContainer>
-        <figure>
-          <div
-            style={{
-              width: "100%",
-              height: 0,
-              paddingBottom: "56%",
-              position: "relative",
-            }}
-          >
-            <iframe
-              src="https://giphy.com/embed/dyL2kjw1msOpHjxKh8"
-              width="100%"
-              height="100%"
-              style={{ position: "absolute" }}
-              frameBorder="0"
-              className="giphy-embed"
-              allowFullScreen
-            />
-          </div>
-
-          <figcaption>
-            Figure: Faculty of Industrial Design Engineering
-          </figcaption>
-        </figure>
-      </ContentContainer>
+      <Giphy
+        src="https://giphy.com/embed/dyL2kjw1msOpHjxKh8"
+        caption="Faculty of Industrial Design Engineering"
+      />
 
       <ContentContainer>
         <p>
@@ -80,20 +59,6 @@ const IntroductionPage: NextPage = () => (
           problem statement within the analysis phase. It's clear that the
           design process is ambiguous, and neither is correct or wrong.
         </p>
-
-        {/* <figure>
-          <a download href="/img/basic-design-cycle.jpg">
-            <img
-              src="/img/basic-design-cycle.jpg"
-              style={{ maxWidth: "100%" }}
-              loading="lazy"
-            />
-          </a>
-          <figcaption>
-            Figure: Roozenburg & Eekels' Basic Design Cycle
-          </figcaption>
-        </figure> */}
-
         <p>
           My favourite take on the Double Diamond,
           <em>The Double Diamond Revamped</em> by Hyper Island Alumnus Dan
@@ -158,7 +123,7 @@ const IntroductionPage: NextPage = () => (
         </blockquote>
         <p>
           To a large extent this is what happens during the discovery phase in
-          the double diamond, which we&#39;ll get into in the next chapter.
+          the double diamond, which we'll get into in the next chapter.
         </p>
       </ContentContainer>
     </PageWrapper>
