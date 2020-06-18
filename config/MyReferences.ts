@@ -229,6 +229,56 @@ const myReferences: AcademicRef[] = [
         "Stigliani, I. and Ravasi, D. (2012). Organizing Thoughts and Connecting Brains: Material Practices and the Transition from Individual to Group-Level Prospective Sensemaking. Academy of Management Journal, 55(5), pp.1232–1259.",
     },
   },
+  {
+    citationKey: "nngroupIdeation",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "Harley",
+      year: "2017",
+      inBib:
+        "Harley, A. (2017). Ideation for Everyday Design Challenges. [online] Nielsen Norman Group. Available at: https://www.nngroup.com/articles/ux-ideation/ [Accessed 18 Jun. 2020].",
+    },
+  },
+  {
+    citationKey: "nngroupParallel",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "Nielsen",
+      year: "2017",
+      inBib:
+        "Nielsen, J. (2011). Parallel & Iterative Design + Competitive Testing = High Usability. [online] Nielsen Norman Group. Available at: https://www.nngroup.com/articles/parallel-and-iterative-design/.",
+    },
+  },
+  {
+    citationKey: "experienceDesmet",
+    entryType: "ACADEMIC",
+    entryTags: {
+      author: "Desmet and Hekkert",
+      year: "2007",
+      inBib:
+        "Desmet, P. and Hekkert, P. (2007). Framework of Product Experience. International Journal of Design, 1(1), pp.57–66.",
+    },
+  },
+  {
+    citationKey: "cognitiveStimulation",
+    entryType: "ACADEMIC",
+    entryTags: {
+      author: "Dugosh et al.",
+      year: "2000",
+      inBib:
+        "Dugosh, K.L., Paulus, P.B., Roland, E.J. and Yang, H.-C. (2000). Cognitive stimulation in brainstorming. Journal of Personality and Social Psychology, 79(5), pp.722–735.",
+    },
+  },
+  {
+    citationKey: "ideationMetrics",
+    entryType: "ACADEMIC",
+    entryTags: {
+      author: "Nelson et al.",
+      year: "2009",
+      inBib:
+        "Nelson, B.A., Wilson, J.O., Rosen, D. and Yen, J. (2009). Refined metrics for measuring ideation effectiveness. Design Studies, 30(6), pp.737–743.",
+    },
+  },
 ];
 
 export interface AcademicRef {

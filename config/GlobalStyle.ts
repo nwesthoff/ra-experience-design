@@ -111,12 +111,14 @@ const GlobalStyle = createGlobalStyle`
 
   h2 {
     font-size: 2.5rem;
+    line-height: 1.2;
   }
 
   h3 {
     color: ${theme.colors.primary};
     font-size: 1.5rem;
     margin-top: 1.2rem;
+    line-height: 1.2;
   }
   
   h4, h5, h6 {

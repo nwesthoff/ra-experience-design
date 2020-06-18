@@ -45,11 +45,10 @@ const IndexPage = () => (
       </ChapterBlock>
 
       <ChapterBlock title="Develop" index={3} reverse>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
-        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
-        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
-        lorem volutpat vel.
+        After successfully defining what the right problem is to solve, it is
+        time to embark on an ideation journey. Ideation is the process of{" "}
+        generating a broad set of ideas to solve a previously defined problem,
+        with no attempt to judge or evaluate them mid-session.
       </ChapterBlock>
 
       <ChapterBlock title="Deliver" index={4}>
