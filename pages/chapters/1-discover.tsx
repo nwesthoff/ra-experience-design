@@ -27,69 +27,20 @@ const DiscoverPage: NextPage = () => (
       </PageIntroduction>
 
       <ContentContainer>
-        <figure>
-          <video src="/video/what-is-experience.mp4" controls />
-          <figcaption>
-            Figure: What is experience? (
-            <a href="https://twitter.com/StrangestMp4/status/1272218918325641216?s=20">
-              source
-            </a>
-            ) <br />
-            <small style={{ color: "#aaa" }}>
-              (Look, I'm not pretending this is useful information, I'm just
-              doing some mood setting here.)
-            </small>
-          </figcaption>
-        </figure>
-        <h2>Experience</h2>
-        <p>
-          First of all, it's important to be aware that experiences are not
-          self-contained, they happen inside a larger context and are greatly
-          influenced by the way individuals perceive them. As Peter Benz puts
-          it:
-        </p>
-        <blockquote>
-          <p>
-            “Experiences emerge in the intertwinement of a variety of objects,
-            interactions, spaces and information.”
-          </p>
-          <ul>
-            <li>
-              Peter Benz <Citation id="experienceBenz" page="32" hideAuthor />
-            </li>
-          </ul>
-        </blockquote>
-        <p>
-          Benz describes how lived experiences are a result of a moving
-          intersection between <em>sense</em>, <em>consciousness</em>,{" "}
-          <em>body</em>, and the <em>world</em>. An approach for experience
-          designers, as such, could focus on <em>thinking</em>, <em>sensing</em>{" "}
-          and <em>feeling</em>. Though, it's important to remember that these
-          elements can't be seen in isolation either, in actual experience they
-          are deeply entangled as well. When we do design research we have to
-          understand that everyday experience is continuous, seamless, and
-          endless, we're only trying to understand a small slice of that.
-        </p>
-        <p>
-          Experiences are influenced by differences far-reaching like our
-          marital status, to mundane differences like the operating system our
-          phone is using. How we design for these differences is driven by
-          design research.
-        </p>
         <h2>Research</h2>
         <p>
           Businesses often think they know what their customers want, but they
           don't actively seek it out. They might hear bits and pieces, but in
-          Matt Kendall's (experience designer at{" "}
+          Matt's (experience designer at{" "}
           <a href="https://www.retrofuzz.com/">RetroFuzz</a> and our Industry
           Leader at Hyper Island) experience there's often no structure to it{" "}
-          <Citation id="mattInterview" hideAuthor />. He's often had clients
-          that ask for award winning experiences. While that certainly doesn't
-          sound like a bad result, it does nothing more than to impress our
-          contemporaries. Some clients have <em>no idea</em> of what their
-          customers think, because they think they're subject matter experts.
-          Design research is about increasing proximity to our users, to better
-          understand what their needs are.
+          <Citation id="mattInterview" />. He's often had clients that ask for
+          award winning experiences. While that certainly doesn't sound like a
+          bad result, it does nothing more than to impress our contemporaries.
+          Some clients have <em>no idea</em> of what their customers think,
+          because they think they're subject matter experts. Design research is
+          about increasing proximity to our users, to better understand what
+          their needs are.
         </p>
         <blockquote>
           <p>
@@ -120,7 +71,7 @@ const DiscoverPage: NextPage = () => (
           figure out what we should be doing and pay attention to. It leads to
           ideas, and is used to define the problem. A generative research
           question sounds something like <em>“What’s up with...?”</em>{" "}
-          <Citation id="justEnough" page="33" hideAuthor />.
+          <Citation id="justEnough" page="33" />.
         </p>
         <p>Generative research can include:</p>
         <ul>
@@ -180,7 +131,7 @@ const DiscoverPage: NextPage = () => (
           we're able to put our ideas out in the world to test. This research
           should be done continuously and iteratively, fortunately any time we
           put our design solution in front of our users, we are doing some
-          evaluative research.{" "}
+          evaluative research.
         </p>
       </ContentContainer>
     </PageWrapper>

@@ -30,21 +30,11 @@ const DevelopPage = () => (
           </p>
           <ul>
             <li>
-              Sam Altman (<Citation id="samAltman">2020</Citation>)
+              Sam Altman <Citation id="samAltman" hideAuthor />
             </li>
           </ul>
         </blockquote>
-        <h2>Ideate</h2>
-        <ul>
-          <li>How Might We</li>
-          <li>Crazy 8's</li>
-          <li>Hyper Island Pop-up Agency Crazy 8</li>
-          <li>SCAMPER</li>
-          <li>Analogies</li>
-          <li>Bodystorm</li>
-          <li>Synectics</li>
-          <li>(million dollar party)</li>
-        </ul>
+        <h2>Volume</h2>
         <h2>Evaluate</h2>
         <h3>Levels of experiencing product</h3>
         <ul>
@@ -52,18 +42,33 @@ const DevelopPage = () => (
           <li>Experience of Meaning</li>
           <li>Emotional Experience</li>
         </ul>
+        <p>
+          <a href="https://www.researchgate.net/profile/Pieter_Desmet2/publication/235700959_Framework_of_Product_Experience/links/0f317535b687d5ce2f000000.pdf">
+            source
+          </a>
+          : (Desmet & Hekkert)
+        </p>
       </ContentContainer>
     </PageWrapper>
     <CaseStudyWrapper>
       <ContentContainer wide>
         <h2>In Practice</h2>
-        <p>
-          Practically applied knowledge...Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Pellentesque eleifend placerat justo,
-          vitae auctor purus eleifend id. Phasellus pulvinar, erat quis
-          consequat vestibulum, diam odio pretium felis, id sodales odio eros
-          non leo. Duis tempor mollis mauris, at ullamcorper lorem volutpat vel.
-        </p>
+        <h3>Ideation techniques</h3>
+        <ul>
+          <li>How Might We</li>
+          <li>Crazy 8&#39;s</li>
+          <li>Hyper Island Pop-up Agency Crazy 8</li>
+          <li>SCAMPER</li>
+          <li>Analogies</li>
+          <li>Bodystorm</li>
+          <li>Synectics</li>
+          <li>(million dollar party)</li>
+        </ul>
+        <h3>Evaluating Ideas</h3>
+        <ul>
+          <li>What if...?</li>
+          <li>Harris Profile/Objective Weights</li>
+        </ul>
       </ContentContainer>
     </CaseStudyWrapper>
     <NextChapter title="Deliver" index={4} />

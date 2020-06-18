@@ -78,7 +78,13 @@ const DeliverPage = () => {
             <blockquote>
               <p>“The Internet rewards people who learn in public”</p>
               <ul>
-                <li>Dave Perell</li>
+                <li>
+                  David Perell (
+                  <a href="https://twitter.com/david_perell/status/1259361298082459648">
+                    source
+                  </a>
+                  )
+                </li>
               </ul>
             </blockquote>
             <h2>Prototypes as a boundary object</h2>
@@ -86,9 +92,9 @@ const DeliverPage = () => {
               Yang <Citation id="prototypeDesignStudies" hideAuthor /> describes
               how prototypes are part of design language, because prototypes
               represent and embody design thought. In a similar groove, Sanders
-              & Stappers
-              <Citation id="stappersPrototypes" hideAuthor /> describe the roles
-              of prototypes in <em>research through design</em>.
+              &amp; Stappers <Citation id="stappersPrototypes" hideAuthor />{" "}
+              describe the roles of prototypes in{" "}
+              <em>research through design</em>.
             </p>
             <ul>
               <li>Prototypes allow testing of a hypothesis.</li>
@@ -108,14 +114,15 @@ const DeliverPage = () => {
                 to learn about.
               </li>
             </ul>
-            <h2>Different levels of prototyping</h2>
+            <h2>Different levels of prototyping:</h2>
             <p>
+              {" "}
               When creating prototypes it's important to understand what you're
               trying to learn about. Low fidelity prototypes are easier and
               cheaper, and allow for quicker iteration. High Fidelity prototypes
               are much closer to the final product. The drawback is that they
               are more time-consuming. These are often used when finalising the
-              design <Citation id="prototypeAdobe" />.
+              design.
             </p>
             <ThreeColumnDiv>
               <Col>
@@ -216,15 +223,16 @@ const DeliverPage = () => {
                 </ul>
               </Col>
             </ThreeColumnDiv>
-            <h2>Five planes of experience design</h2>
+            <h2>The five planes of experience design</h2>
             <p>
               Jesse James Garret{" "}
-              <Citation id="planesOfExperience">(2011, pp. 19-22)</Citation>{" "}
+              <Citation id="planesOfExperience" hideAuthor page="19–22" />{" "}
               describes the elements of experience design as the five planes;{" "}
-              <i>surface</i>, <i>skeleton</i>, <i>structure</i>, <i>scope</i>{" "}
-              and <i>strategy</i>. They provide a framework for talking about
-              user experience problems. Building from the bottom, the issues we
-              have to solve become less abstract and more concrete.
+              <strong>surface</strong>, <strong>skeleton</strong>,{" "}
+              <strong>structure</strong>, <strong>scope</strong> and{" "}
+              <strong>strategy</strong>. They provide a framework for talking
+              about user experience problems. Building from the bottom, the
+              issues we have to solve become less abstract and more concrete.
             </p>
             <figure>
               <img
@@ -251,9 +259,10 @@ const DeliverPage = () => {
               </li>
             </ul>
             <p>
-              Chris Callaghan (2020) taught me how this is also an incredibly
-              useful way to think about prototypes. It's important to know what
-              you're prototyping, to get the results you need.
+              Chris Callaghan <Citation id="callaghanPretotyping" hideAuthor />{" "}
+              applied this as a framework to well-thought prototyping. It's
+              important to know what you're prototyping, to get the results you
+              need.{" "}
             </p>
             <figure>
               <table>
@@ -301,30 +310,6 @@ const DeliverPage = () => {
                 </tbody>
               </table>
             </figure>
-            <h2>Tools</h2>
-            <ul>
-              <li>
-                <a href="https://figma.com" target="blank">
-                  Figma
-                </a>
-              </li>
-              <li>
-                <a href="https://www.bravostudio.app/" target="blank">
-                  Bravo
-                </a>
-              </li>
-              <li>
-                <a href="https://reactjs.org/" target="blank">
-                  React
-                </a>{" "}
-                with
-                <a href="https://nextjs.org/" target="blank">
-                  Next.js
-                </a>{" "}
-                for coded prototypes
-              </li>
-              <li>Python or Arduino for non-web coded prototypes</li>
-            </ul>
             <h2>Evaluate</h2>
             <p>
               It's important to ask both novices and experts. Experts show wider
@@ -343,6 +328,75 @@ const DeliverPage = () => {
                 <li>Rory Sutherland, Alchemy pp. 100</li>
               </ul>
             </blockquote>
+            <h2>Content strategy</h2>
+            <p>
+              Experience goes far beyond the actual product we're designing.
+              Matt <Citation id="mattInterview" /> spoke describes how content
+              strategy should be considered part of the experience equally.
+              Consider the importance of something like the box a product comes
+              in. When buying a product, all-else being equal, customers{" "}
+              <em>will</em> opt for the business that sends products in a
+              recycled box with a golden bow. Matt tells us how he's
+              particularly intrigued by physical touchpoints of{" "}
+              <em>digital challengers</em> like Warby Parker and Ace &amp; Tate.
+              The way even their stores offer a better experience than their
+              'legacy' counterparts by neatly integrating their digital systems
+              into the buying experience. These brands offer services like
+              order-from-home emails after an eye measurement, which provides an
+              overall better experience for the customer.{" "}
+            </p>
+            <h3>Beyond Experience</h3>
+            <p>
+              Content strategy focuses on content that creates an experience,
+              rather than how to market that experience. However there is a lot
+              that we can learn from the marketing industry{" "}
+              <Citation id="contentStrategyUX" />. Content strategy is aiding
+              the <em>digital sophistication</em> of businesses, to improve the
+              customer experience. Beyond that, it is also an opportunity for{" "}
+              <em>'always on'</em> data collection. In summary, content strategy
+              is about:
+            </p>
+            <ul>
+              <li>Automated content to offer a better experience</li>
+              <li>
+                Ongoing optimizations and upgrades, through always on data
+                collection
+              </li>
+              <li>
+                Aiding <em>digital sophistication</em> of brands
+              </li>
+            </ul>
+          </ContentContainer>
+        </PageWrapper>
+        <CaseStudyWrapper>
+          <ContentContainer wide>
+            <h2>In Practice</h2>
+            <h3>Prototyping</h3>
+            <figure>
+              <video
+                src="/img/digital-fashion-prototype.mp4"
+                autoPlay
+                muted
+                loop
+              />
+              <figcaption>
+                Figure: Our prototype to test Digital Fashion
+              </figcaption>
+            </figure>
+            <h3>Tools</h3>
+            <ul>
+              <li>
+                <a href="https://figma.com">Figma</a>
+              </li>
+              <li>
+                <a href="https://www.bravostudio.app/">Bravo</a>
+              </li>
+              <li>
+                <a href="https://reactjs.org/">React</a> with{" "}
+                <a href="https://nextjs.org/">Next.js</a> for coded prototypes
+              </li>
+              <li>Python or Arduino for non-web coded prototypes</li>
+            </ul>
             <h3>Usability Testing</h3>
             <p>
               Toggle heatmap: {/*FIXME:*/}
@@ -360,47 +414,6 @@ const DeliverPage = () => {
                 Chris Callaghan
               </a>
             </p>
-            <h2>Content strategy</h2>
-            <p>
-              Experience goes far beyond the actual product we're designing.
-              Matt <Citation id="mattInterview" /> spoke describes how content
-              strategy should be considered part of the experience equally.
-              Consider the importance of something like the box a product comes
-              in. When buying a product, all-else being equal, customers{" "}
-              <em>will</em> pick the business that sends products in a recycled
-              box with a golden bow over the boring cardboard alternative. Matt
-              told us how he's particularly intrigued by the way physical stores
-              from digital challengers like Warby Parker and Ace &amp; Tate tie
-              also offer a better experience than their 'legacy' counterparts.
-              They neatly tie their digital systems into the buying experience,
-              offering services like order-from-home emails after an eye
-              measurement. Content strategy focuses on content that creates an
-              experience, rather than how to market that experience, however
-              there is a lot that we can learn from the marketing industry{" "}
-              <Citation id="contentStrategyUX" />. Content strategy is aiding
-              the <em>digital sophistication</em> of businesses, to improve the
-              customer experience.
-            </p>
-            <p>
-              Content strategy also provides an opportunity for the{" "}
-              <em>'always on'</em> data collection previously talked about.
-            </p>
-          </ContentContainer>
-        </PageWrapper>
-        <CaseStudyWrapper>
-          <ContentContainer wide>
-            <h2>In Practice</h2>
-            <figure>
-              <video
-                src="/img/digital-fashion-prototype.mp4"
-                autoPlay
-                muted
-                loop
-              />
-              <figcaption>
-                Figure: Our prototype to test Digital Fashion
-              </figcaption>
-            </figure>
             <p>
               Practically applied knowledge...Lorem ipsum dolor sit amet,
               consectetur adipiscing elit. Pellentesque eleifend placerat justo,

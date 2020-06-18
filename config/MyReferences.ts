@@ -20,7 +20,7 @@ const myReferences: AcademicRef[] = [
     },
   },
   {
-    citationKey: "insight1",
+    citationKey: "insightDepth",
     entryType: "ACADEMIC",
     entryTags: {
       author: "Yuan and Hsieh",

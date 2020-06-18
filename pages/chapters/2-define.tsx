@@ -33,19 +33,30 @@ const DefinePage = () => (
             </li>
           </ul>
         </blockquote>
-        <h2>Magic of design</h2>
+        <h2>Magic of Design</h2>
         <p>
           Many aspects of design are visible activities, and easy to grasp even
           for non-designers. They are easily understood by watching our idols.
           Synthesis is often a lot more solitary, completely hidden and as a
           result, less obviously understood. Good designers come with a magical
           status because synthesis is frequently performed privately in
-          professional practice. Only after having started{" "}
+          professional practice <Citation id="abductiveThinkingKolko" />.{" "}
+        </p>
+        <blockquote>
+          <p>“A good designer can create normalcy out of chaos.”</p>
+          <ul>
+            <li>
+              Jeffrey Veen <Citation id="jeffVeen" page="104" hideAuthor />
+            </li>
+          </ul>
+        </blockquote>
+        <p>
+          That opaqueness only disappears after{" "}
           <Link href="./3-develop">
             <a>ideation</a>
           </Link>{" "}
-          does the design process become visible again{" "}
-          <Citation id="abductiveThinkingKolko" />.
+          has started. The result is designers often have trouble communicating
+          the value of their insights due to a lack of transparency.
         </p>
         <blockquote>
           <p>
@@ -69,22 +80,26 @@ const DefinePage = () => (
         </ul>
         <h2>Co-design</h2>
         <p>
-          While design synthesis has not drastically changed, there has been a
-          sizeable body of research drawing attention to transition from
-          individual to group-level sense-making. These support verbal exchanges
-          and cognitive processes in collective sense-making{" "}
-          <Citation id="stiglianiCodesign" />.
+          Design synthesis has not drastically changed since Kolko's analysis.
+          Nonetheless, there has been a sizeable body of research drawing
+          attention to transition from individual to group-level sense-making.
+          Supporting verbal exchanges and cognitive processes in collective
+          sense-making <Citation id="stiglianiCodesign" /> .{" "}
         </p>
-        <blockquote>
-          <p>“A good designer can create normalcy out of chaos.”</p>
-          <ul>
-            <li>
-              Jeffrey Veen <Citation id="jeffVeen" page="104" hideAuthor />
-            </li>
-          </ul>
-        </blockquote>
         <h2>Insight</h2>
-        <p> Spotify says: </p>
+        <p>
+          Data becomes useful to the design process once we start to see themes,
+          trends and developments. In order to find themes in a vast amount of
+          data, designers should analyse word repetitions, scrutinize terms,and
+          analyse linguistic features like metaphors or transitions{" "}
+          <Citation id="insightDepth" />. This is what we call <em>insight</em>.
+          Arunima, design researcher at IDEO, says design research is about more
+          than describing the <em>now</em>, it's about inspiring the{" "}
+          <em>next</em> <Citation id="arunimaIDEO" />. She describes insight as:
+          “a gut-felt response that makes you sit up and think”. It changes our
+          opinions and as a result how we solve a problem. Spotify's Adrian
+          Buendia is a bit more pragmatic, he said:{" "}
+        </p>
         <blockquote>
           <p>
             “[F]or us the real magic is in the insight — the interpretation of
@@ -96,24 +111,25 @@ const DefinePage = () => (
             </li>
           </ul>
         </blockquote>
+        <h3>Perspective</h3>
         <p>
-          Design research tasks are not sequential, rather, they are iterative
+          Even the insight generation is a function of experience. Yuan &amp;
+          Hsieh <Citation id="insightDepth" hideAuthor /> describe how insight
+          is the result of an observation, influenced by current knowledge
+          (epistemology).
         </p>
+        <figure>
+          <a download href="/img/insight-kolko.jpg">
+            <img src="/img/insight-kolko.jpg" />
+          </a>
+          <figcaption>
+            Figure: Generation of insight <Citation id="insightDepth" />
+          </figcaption>
+        </figure>
         <p>
-          In order to find themes from the qualitative data obtained through
-          interviews and observation, designers should analyse word repetitions,
-          scrutinize terms,and analyse linguistic features like metaphors or
-          transitions; however, this process is very time-consuming
-        </p>
-        <p>
-          Generation of insight = I saw this + I know this (epistemology). Data
-          gathered through ethnography, contextual inquiry, questionnaires and
-          interviews. Guided by ethic and morals, intellectual prowess, and the
-          accumulation of world view and breadth of experience.
-        </p>
-        <p>
-          Insight depth is defined to measure an insights influential extent{" "}
-          <Citation id="insightDepth" />.
+          Data gathered through during discovery are guided by the researcher's
+          ethic standards and morals. Their intellectual prowess, and the
+          accumulation of world view as well as breadth of experience.
         </p>
         <h2>How Might We</h2>
       </ContentContainer>
@@ -122,9 +138,17 @@ const DefinePage = () => (
     <CaseStudyWrapper>
       <ContentContainer wide>
         <h2>In Practice</h2>
+        <p>
+          Design research tasks are not sequential, rather, they are iterative
+        </p>
         <h3>Interview Downloads</h3>
         <h3>Affinity Mapping</h3>
         <h3>Customer Journey Map</h3>
+        <h3>Design Sprint</h3>
+        <p>
+          adds sketch + decide / lightning jams / incorporates people from many
+          disciplines in the process
+        </p>
         <h3>Personas</h3>
         <p>
           Personas come in all kinds of ways, shapes and forms, but generally
