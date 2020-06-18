@@ -33,7 +33,7 @@ const DefinePage = () => (
             </li>
           </ul>
         </blockquote>
-        <h2>Value of sense-making</h2>
+        <h2>Sense-making</h2>
         <p>
           The intention of this phase is to make sense of our research data.
           Before we're able to develop new ideas we have to <em>prioritize</em>{" "}
