@@ -33,7 +33,15 @@ const DefinePage = () => (
             </li>
           </ul>
         </blockquote>
-        <h2>Magic of Design</h2>
+        <h2>Value of sense-making</h2>
+        <p>
+          The intention of this phase is to make sense of our research data.
+          Before we're able to develop new ideas we have to <em>prioritize</em>{" "}
+          which problems our users have most (or most often) trouble with{" "}
+          <Citation id="dscout" />. Structured data also enables us to
+          communicate better with each other, as well as outside stakeholders.
+        </p>
+        <h3>Magic of Design</h3>
         <p>
           Many aspects of design are visible activities, and easy to grasp even
           for non-designers. They are easily understood by watching our idols.
@@ -71,14 +79,7 @@ const DefinePage = () => (
             </li>
           </ul>
         </blockquote>
-        <h2>Value of sense-making</h2>
-        <ul>
-          <li>Prioritize work</li>
-          <li>
-            Communicate with each other, as well as outside stakeholders.{" "}
-          </li>
-        </ul>
-        <h2>Co-design</h2>
+        <h3>Co-design</h3>
         <p>
           Design synthesis has not drastically changed since Kolko's analysis.
           Nonetheless, there has been a sizeable body of research drawing

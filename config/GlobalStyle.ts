@@ -22,14 +22,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
-    text-align: justify;
     font-size: 1.2rem;
     line-height: 1.6em;
     color: #ccc;
 
     @media (max-width: ${theme.breakpoints.phone}px){
       font-size: 1rem;
-      line-height: 1.3em;
+      line-height: 1.4em;
     }
   }
 
@@ -40,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
   blockquote {
     background: rgba(36, 193, 224, 0.08);
     border-left: 2px solid #24c1e0;
-    padding: 1.2rem 2rem;
+    padding: .4rem 2rem 1.2rem;
     margin: 0;
 
     p {
@@ -71,10 +70,11 @@ const GlobalStyle = createGlobalStyle`
 
     @media (max-width: ${theme.breakpoints.phone}px) {
       margin: 2rem 0;
-      padding: .8rem 1.2rem;  
+      padding: 0.4rem 1.2rem .8rem;  
 
       p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        line-height: 1.2em;
       }
 
       li {
