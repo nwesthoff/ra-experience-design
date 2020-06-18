@@ -7,15 +7,6 @@ const CaseStudyWrapper = styled.div`
   width: 100%;
   background-color: ${theme.colors.backgroundDark};
   margin: 4rem 0 0;
-
-  p {
-    column-count: 2;
-    column-gap: 4rem;
-
-    @media (max-width: ${theme.breakpoints.tablet}px) {
-      column-count: 1;
-    }
-  }
 `;
 
 export default CaseStudyWrapper;

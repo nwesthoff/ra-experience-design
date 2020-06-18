@@ -137,42 +137,56 @@ const DiscoverPage: NextPage = () => (
     </PageWrapper>
 
     <CaseStudyWrapper>
-      <ContentContainer wide>
+      <ContentContainer>
         <h2>In Practice</h2>
-        <h3>Research through data</h3>
-        <ul>
-          <li>
-            Backing up qualitative with quantitative research and vice-versa
-            <ul>
-              <li>Companies often getting too attached to large datasets</li>
-              <li>
-                Business people more comfortable speaking in data instead of
-                sound-bites
-              </li>
-            </ul>
-          </li>
-          <li>
-            Having <em>'always on'</em> data gives us a way to quickly grab it
-            when we need it
-          </li>
-          <li>
-            The cliché is: "Data is telling you what's happening, but not why"
-          </li>
-        </ul>
         <p>
-          <Citation id="mattInterview" />
+          For our module experience design, we were handed an assignment by
+          PVH's global innovation team; Area52. Their brief? To help everybody
+          become more sustainable: PVH, their consumers and other industry
+          partners. After a quick session of <em>ripping the brief</em>{" "}
+          <Citation id="diamondRevamped" /> with our industry leaders, we
+          started our research process.{" "}
         </p>
         <h3>Primary research</h3>
-        <ul>
-          <li>User interviews</li>
-          <li>Expert interviews</li>
-        </ul>
+        <p>
+          Our primary research was a mix of in-depth <em>user interviews</em>{" "}
+          <Citation id="ideoUserInterview" /> and <em>expert interviews</em>{" "}
+          <Citation id="ideoExpertInterview" />. During the entire project we
+          spoke with 12 (potential) users from various countries and with
+          varying interest in sustainable business. We also spoke with industry
+          11 experts on sustainability, digital fashion and fashion marketing.
+          We backed this up with insight from the industry through secondary
+          research.
+        </p>
         <h3>Secondary Research</h3>
+        <p>
+          Our secondary research was a blend of industry analysis and business
+          analysis. Our analysis of the fashion industry, with a focus on
+          sustainability, revolved around a DESTEP (similar to PESTEL) analysis.
+          It provides a holistic view of the industry and shows large movements
+          in the industry as a whole. We learnt about PVH and its subsidiaries
+          through a SWOT analysis. To top it all of we also analysed what
+          fashion experts had to say about sustainability specifically.{" "}
+        </p>
+        <h2>Key findings</h2>
         <ul>
-          <li>Expert analysis</li>
-          <li>Trend analysis</li>
-          <li>DESTEP/PESTEL</li>
-          <li>SWOT analysis</li>
+          <li>Digital & physical fashion are converging</li>
+          <li>
+            Fashion industry faces an <em>‘existential crisis’</em>
+          </li>
+          <li>
+            The fashion industry is now responsible for 10% of all humanity's
+            carbon emissions
+          </li>
+          <li>
+            Mainstream brands (like Tommy Hilfiger) are starting to design 100%
+            digitally
+          </li>
+          <li>
+            Consumers are starting to shift towards supporting small, local and
+            independent brands
+          </li>
+          <li>Consumers seek out brands that they align with morally</li>
         </ul>
       </ContentContainer>
     </CaseStudyWrapper>

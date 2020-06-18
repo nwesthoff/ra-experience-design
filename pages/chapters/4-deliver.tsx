@@ -260,26 +260,29 @@ const DeliverPage = () => {
             </ul>
             <p>
               Chris Callaghan <Citation id="callaghanPretotyping" hideAuthor />{" "}
-              applied this as a framework to well-thought prototyping. It's
-              important to know what you're prototyping, to get the results you
-              need.{" "}
+              applied this to create a framework for effective prototyping. It's
+              relevant to know what we're trying to learn about with our
+              prototype, to get the results we need. His framework describes how
+              the fidelity of prototyping can be tuned on each of the five
+              planes. The result is a matrix that describes how big the impact
+              of these types of fidelity have on each of the functional layers.
             </p>
             <figure>
               <table>
                 <thead>
                   <tr>
-                    <th>Fidelity/functional layer</th>
-                    <th>Surface</th>
-                    <th>Skeleton</th>
-                    <th>Structure</th>
-                    <th>Scope</th>
+                    <th>Type of fidelity/functional layer</th>
                     <th>Strategy</th>
+                    <th>Scope</th>
+                    <th>Structure</th>
+                    <th>Skeleton</th>
+                    <th>Surface</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>
-                      <em>low-fidelity</em>
+                      <em>Visual fidelity</em>
                     </td>
                     <td>low</td>
                     <td>low</td>
@@ -289,7 +292,7 @@ const DeliverPage = () => {
                   </tr>
                   <tr>
                     <td>
-                      <em>medium-fidelity</em>
+                      <em>Functional fidelity</em>
                     </td>
                     <td>low</td>
                     <td>low</td>
@@ -299,7 +302,7 @@ const DeliverPage = () => {
                   </tr>
                   <tr>
                     <td>
-                      <em>high-fidelity</em>
+                      <em>Content fidelity</em>
                     </td>
                     <td>low</td>
                     <td>low</td>
@@ -325,7 +328,10 @@ const DeliverPage = () => {
                 outlier than on ten average users.”
               </p>
               <ul>
-                <li>Rory Sutherland, Alchemy pp. 100</li>
+                <li>
+                  Rory Sutherland{" "}
+                  <Citation id="roryAlchemy" page="100" hideAuthor />
+                </li>
               </ul>
             </blockquote>
             <h2>Content strategy</h2>

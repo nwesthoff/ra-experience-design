@@ -112,23 +112,34 @@ const DevelopPage = () => (
       </ContentContainer>
     </PageWrapper>
     <CaseStudyWrapper>
-      <ContentContainer wide>
+      <ContentContainer>
         <h2>In Practice</h2>
-        <h3>Ideation techniques</h3>
+        <p>
+          Our ideation sessions were mostly done synchronously as a group. We
+          started the process by clearing our head, writing down our initial
+          thoughts (they're generally not the best ideas).{" "}
+        </p>
+        <h3>Ideation</h3>
+        <p>
+          There are <em>many</em> ideation tools we could've used, but our
+          journey was inspired by The Pop-up Agency's variation of Crazy 8's.
+          Their method provides several prompts to encourage diverse ideas,
+          like; <em>“Idea your granny can understand”</em>,{" "}
+          <em>“Zero budget idea”</em> and <em>“Unlimited budget idea”</em>.
+        </p>
+        <h3>Evaluation</h3>
+        <p>
+          Our evaluation came quite naturally, we personally filtered the ideas
+          we personally weren't fond of. That cut our idea pool from around 30
+          to roughly 12. We quickly saw some overlapping ideas, which we
+          combined into two larger ideas:
+        </p>
         <ul>
-          <li>How Might We</li>
-          <li>Crazy 8's</li>
-          <li>Hyper Island Pop-up Agency Crazy 8</li>
-          <li>SCAMPER</li>
-          <li>Analogies</li>
-          <li>Bodystorm</li>
-          <li>Synectics</li>
-          <li>(million dollar party)</li>
-        </ul>
-        <h3>Evaluating Ideas</h3>
-        <ul>
-          <li>What if...?</li>
-          <li>Harris Profile/Objective Weights</li>
+          <li>
+            Shoes sold at a premium that become cheaper as they're being worn
+            often
+          </li>
+          <li>A digital wardrobe with old (no longer for sale) collections </li>
         </ul>
       </ContentContainer>
     </CaseStudyWrapper>

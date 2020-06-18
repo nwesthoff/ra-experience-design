@@ -279,6 +279,54 @@ const myReferences: AcademicRef[] = [
         "Nelson, B.A., Wilson, J.O., Rosen, D. and Yen, J. (2009). Refined metrics for measuring ideation effectiveness. Design Studies, 30(6), pp.737–743.",
     },
   },
+  {
+    citationKey: "arunimaIDEO",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "Duque",
+      year: "2020",
+      inBib: "Duque, A.K. (2020). Intro to Design Research.",
+    },
+  },
+  {
+    citationKey: "callaghanPretotyping",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "Callaghan",
+      year: "2020",
+      inBib: "Callaghan, C. (2020). Fight the Law of Market failure...",
+    },
+  },
+  {
+    citationKey: "roryAlchemy",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "Sutherland",
+      year: "2019",
+      inBib:
+        "Sutherland, R. (2019). Alchemy : the dark art and curious science of creating magic in brands, business, and life. New York, Ny: William Morrow, An Imprint Of Harpercollins Publishers.",
+    },
+  },
+  {
+    citationKey: "ideoExpertInterview",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "IDEO",
+      year: "n.d. a",
+      inBib:
+        "IDEO (n.d.). Design Kit: Expert Interview. [online] www.designkit.org. Available at: https://www.designkit.org/methods/expert-interview [Accessed 18 Jun. 2020a].",
+    },
+  },
+  {
+    citationKey: "ideoUserInterview",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "IDEO",
+      year: "n.d. b",
+      inBib:
+        "IDEO (n.d.). Design Kit: Interview. [online] www.designkit.org. Available at: https://www.designkit.org/methods/interview [Accessed 18 Jun. 2020b].",
+    },
+  },
 ];
 
 export interface AcademicRef {

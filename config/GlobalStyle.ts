@@ -117,7 +117,7 @@ const GlobalStyle = createGlobalStyle`
   h3 {
     color: ${theme.colors.primary};
     font-size: 1.5rem;
-    margin-top: 1.2rem;
+    margin: 2rem 0 0;
     line-height: 1.2;
   }
   
@@ -127,6 +127,30 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
+  }
+
+  /* TABLE STYLES */
+
+  table {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  th {
+    color: rgb(255, 63, 86);
+    font-weight: 600;
+    text-align: left;
+    background: #222;
+  }
+
+  table th,
+  table td {
+    padding: 8px;
+    line-height: 1.5rem;
+  }
+
+  table tr:nth-child(even) {
+    background: #121212;
   }
 
   @keyframes fadeIn {

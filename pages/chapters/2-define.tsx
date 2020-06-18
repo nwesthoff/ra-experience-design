@@ -114,9 +114,9 @@ const DefinePage = () => (
         </blockquote>
         <h3>Perspective</h3>
         <p>
-          Even the insight generation is a function of experience. Yuan &amp;
-          Hsieh <Citation id="insightDepth" hideAuthor /> describe how insight
-          is the result of an observation, influenced by current knowledge
+          Even the insight generation is a function of experience. Yuan & Hsieh{" "}
+          <Citation id="insightDepth" hideAuthor /> describe how insight is the
+          result of an observation, influenced by current knowledge
           (epistemology).
         </p>
         <figure>
@@ -137,27 +137,35 @@ const DefinePage = () => (
     </PageWrapper>
 
     <CaseStudyWrapper>
-      <ContentContainer wide>
+      <ContentContainer>
         <h2>In Practice</h2>
         <p>
-          Design research tasks are not sequential, rather, they are iterative
+          Throughout the project we used several techniques to (collaboratively)
+          make sense of the context we were working in. With the vast amounts of
+          data we produced it was easy to get lost, but several tools helped us
+          see the red thread in our work.
         </p>
         <h3>Interview Downloads</h3>
-        <h3>Affinity Mapping</h3>
-        <h3>Customer Journey Map</h3>
-        <h3>Design Sprint</h3>
         <p>
-          adds sketch + decide / lightning jams / incorporates people from many
-          disciplines in the process
+          Digesting our 20+ thirty to sixty minute provided quite a challenge.
+          Interview downloads <Citation id="arunimaIDEO" /> are a great way to
+          collaboratively summarise our results. Afterwards they were easy to
+          share with the team, which proved necessary because some of our
+          interviews were in Portugese and Russian.
+        </p>
+        <h3>Affinity Mapping</h3>
+        <p>
+          Our business, industry and interviews all came together in an affinity
+          map. We clustered our digital Post-It's™, and described what themes
+          they signify.
         </p>
         <h3>Personas</h3>
         <p>
-          Personas come in all kinds of ways, shapes and forms, but generally
-          they look like a profile of a user within the user group they
-          represent. Persona's combine similar user needs, habits, and attitudes
-          and communicate the nuanced commonalities and differences between
-          Spotify's users <Citation id="spotify1" />. Here are some examples,
-          have a swipe!
+          Personas are a great tool combine similar user needs, habits, and
+          attitudes to make our user research more digestible. Personas
+          communicate the nuanced commonalities and differences between
+          Spotify's users <Citation id="spotify1" />. These are the personas we
+          created for our project for PVH, have a swipe!{" "}
         </p>
       </ContentContainer>
     </CaseStudyWrapper>
@@ -165,14 +173,35 @@ const DefinePage = () => (
     <CaseStudyWrapper style={{ margin: "0" }}>
       <ContentContainer>
         <p>
-          It's important to note that our meaningful, rich social relationships
-          are with real humans — not with one-dimensional, hypothetical
-          stereotypes <Citation id="dscoutPersona" />. They aren't supposed to
-          be a caricature. Personas exist to create empathy, to remind us of who
-          we spoke with, and who we're designing for. As our research advances,
-          personas move with the project. Personas should influence how we
-          recruit people for ongoing research too, by creating participant
-          communities for each of the personas.
+          A common pitfall to personas that they become one-dimensional,
+          hypothetical stereotypes <Citation id="dscoutPersona" />. Personas
+          aren't supposed to be a caricature, they exist to create empathy, to
+          remind us of who we spoke with, and who we're designing for. As our
+          research advanced, our personas also developed.
+        </p>
+        <h2>Key findings</h2>
+        <p>Despite the rise of the sustainability movement:</p>
+        <ul>
+          <li>
+            The majority of fast fashion lovers still want cute, cheap outfits
+            that look great on Instagram
+          </li>
+          <li>
+            Those who are concerned by environmental issues, still desire a
+            different look every day, they don’t really want clothes that last
+            long
+          </li>
+        </ul>
+        <p>
+          Although we tried not to be driven too much by technology, we saw a
+          clear opportunity; fashion designers are exploring digital clothing.
+          We went into ideation guided by the following statement:
+        </p>
+        <p>
+          <strong>
+            How might we make people feel they have an endless wardrobe without
+            owning stuff?
+          </strong>
         </p>
       </ContentContainer>
     </CaseStudyWrapper>

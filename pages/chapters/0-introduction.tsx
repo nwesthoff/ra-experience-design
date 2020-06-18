@@ -48,9 +48,8 @@ const IntroductionPage: NextPage = () => (
         <blockquote>
           <p>
             “You can only iterate on something after it’s been released. Prior
-            to release, you’re just making the thing. Even if you change it,
-            you’re just making it. Iterating is when you change/improve after
-            it’s out. So if you want to iterate, SHIP.”
+            to release, you’re just making the thing. [...] So if you want to
+            iterate, SHIP.”
           </p>
           <ul>
             <li>
@@ -166,7 +165,7 @@ const IntroductionPage: NextPage = () => (
             ) <br />
             <small style={{ color: "#aaa" }}>
               (Look, I'm not pretending this is useful information, I'm just
-              doing some mood setting here.)
+              doing some mood-setting here.)
             </small>
           </figcaption>
         </figure>
