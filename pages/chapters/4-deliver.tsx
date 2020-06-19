@@ -66,10 +66,10 @@ const DeliverPage = () => {
               No product is ever designed right the first time around. Arguably,
               products are never really done. The purpose of prototyping is to
               learn, to observe. To fail fast, in order to improve the product
-              before it launches to the general public. In essence it's like a
+              before it launches to the general public. In essence, it's like a
               tiny (sometimes internal) beta test. They are a user-tested
-              proof-of concept. David Perell wrote something that really
-              resonated with me in the context of prototyping.
+              proof-of-concept. David Perell wrote something that resonated with
+              me in the context of prototyping.
             </p>
           </PageIntroduction>
         </PageWrapper>
@@ -87,6 +87,12 @@ const DeliverPage = () => {
                 </li>
               </ul>
             </blockquote>
+            <p>
+              By showing our work early, by sharing a prototype or running a
+              (public) beta, we learn in public. We're able to obtain feedback{" "}
+              <em>sooner</em>, which means we're making a product that users
+              love <em>sooner</em>.
+            </p>
             <h2>Prototypes as a boundary object</h2>
             <p>
               Yang <Citation id="prototypeDesignStudies" hideAuthor /> describes
@@ -99,14 +105,14 @@ const DeliverPage = () => {
             <ul>
               <li>Prototypes allow testing of a hypothesis.</li>
               <li>
-                Prototypes bring practice and theory together and force those
+                Prototypes bring practise and theory together and force those
                 involved to deal with confronting perspectives, theories and
                 lenses.
               </li>
               <li>
-                Prototypes evoke focused discussion in a team, because the
-                phenomenon is ‘on the table’. By demonstrating, we create a
-                common understanding of the proposed solution.
+                Prototypes evoke focused discussion in a team because the
+                phenomenon is <em>‘on the table’</em>. By demonstrating, we
+                create a common understanding of the proposed solution.
               </li>
               <li>
                 Prototypes act as a way to connect to our users, they allow us
@@ -116,10 +122,9 @@ const DeliverPage = () => {
             </ul>
             <h2>Different levels of prototyping:</h2>
             <p>
-              {" "}
-              When creating prototypes it's important to understand what you're
+              When creating prototypes it's critical to understand what you're
               trying to learn about. Low fidelity prototypes are easier and
-              cheaper, and allow for quicker iteration. High Fidelity prototypes
+              cheaper and allow for quick iteration. High Fidelity prototypes
               are much closer to the final product. The drawback is that they
               are more time-consuming. These are often used when finalising the
               design.
@@ -265,7 +270,7 @@ const DeliverPage = () => {
               prototype, to get the results we need. His framework describes how
               the fidelity of prototyping can be tuned on each of the five
               planes. The result is a matrix that describes how big the impact
-              of these types of fidelity have on each of the functional layers.
+              of these types of fidelity have on each of the functional layers.{" "}
             </p>
             <figure>
               <table>
@@ -281,9 +286,7 @@ const DeliverPage = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>
-                      <em>Visual fidelity</em>
-                    </td>
+                    <td>Visual fidelity</td>
                     <td>low</td>
                     <td>low</td>
                     <td>low</td>
@@ -291,9 +294,7 @@ const DeliverPage = () => {
                     <td>high</td>
                   </tr>
                   <tr>
-                    <td>
-                      <em>Functional fidelity</em>
-                    </td>
+                    <td>Functional fidelity</td>
                     <td>low</td>
                     <td>low</td>
                     <td>low</td>
@@ -301,9 +302,7 @@ const DeliverPage = () => {
                     <td>high</td>
                   </tr>
                   <tr>
-                    <td>
-                      <em>Content fidelity</em>
-                    </td>
+                    <td>Content fidelity</td>
                     <td>low</td>
                     <td>low</td>
                     <td>high</td>
@@ -319,18 +318,16 @@ const DeliverPage = () => {
               experts. While experts show a wider range of issues, the problems
               are generally perceived as less severe. they generally know how to
               work around issues. Novices experience issues as more severe, but
-              find fewer in total
-              <Citation id="sauerSeibel" />.
+              find fewer in total <Citation id="sauerSeibel" />.
             </p>
             <h3>Usability severity</h3>
             <p>
               Knowing which problems to focus on can be a big problem. There's
               been some research to categorise the severity of the issues users
               describe. Jakob Nielsen provides a set of metrics to define
-              usability severity
-              <Citation id="nielsenUsability" hideAuthor />.
+              usability severity <Citation id="nielsenUsability" hideAuthor />.
             </p>
-            <ol start={0}>
+            <ol start="0">
               <li>No usability problem</li>
               <li>Cosmetic problem</li>
               <li>Minor usability problem</li>
@@ -338,8 +335,8 @@ const DeliverPage = () => {
               <li>Usability catastrophe</li>
             </ol>
             <p>
-              To gain quantitative data on release products, Matt
-              <Citation id="mattInterview" /> likes using tools like
+              To gain quantitative data on release products, Matt{" "}
+              <Citation id="mattInterview" /> likes using tools like{" "}
               <a href="https://hotjar.com">Hotjar</a>. They create heatmaps and
               record users' actions that help identify usability issues.
             </p>
@@ -360,11 +357,10 @@ const DeliverPage = () => {
                 (I won't be able to see it)
               </small>
             </p>
-
             <h2>Content strategy</h2>
             <p>
               Experience goes far beyond the actual product we're designing.
-              Matt <Citation id="mattInterview" /> spoke describes how content
+              Matt <Citation id="mattInterview" /> describes how content
               strategy should be considered part of the experience equally.
               Consider the importance of something like the box a product comes
               in. When buying a product, all-else being equal, customers{" "}
@@ -381,7 +377,7 @@ const DeliverPage = () => {
             <h3>Beyond Experience</h3>
             <p>
               Content strategy focuses on content that creates an experience,
-              rather than how to market that experience. However there is a lot
+              rather than how to market that experience. However, there is a lot
               that we can learn from the marketing industry{" "}
               <Citation id="contentStrategyUX" />. Content strategy is aiding
               the <em>digital sophistication</em> of businesses, to improve the
@@ -392,7 +388,7 @@ const DeliverPage = () => {
             <ul>
               <li>Automated content to offer a better experience</li>
               <li>
-                Ongoing optimizations and upgrades, through always on data
+                Ongoing optimizations and upgrades, through always-on data
                 collection
               </li>
               <li>
@@ -410,19 +406,19 @@ const DeliverPage = () => {
               prototypes iteratively improved on the idea of digital fashion.
               Contradictory to what we had learned about effective prototyping
               from Chris <Citation id="callaghanPretotyping" />, I wanted to try
-              creating high (visual) fidelity prototypes. Each of them were made
-              with <a href="https://figma.com">Figma</a> and{" "}
-              <a href="https://framer.com">Framer Web</a>.{" "}
+              creating high (visual) fidelity prototypes. Mainly because I
+              wanted to try <a href="https://framer.com">Framer</a>, which
+              proved to be a useful addition to my prototyping toolkit.{" "}
             </p>
             <p>
               <small>
-                Note: This report and our{" "}
+                Note: This report and our digital and online 
                 <a href="https://pvh-digital-package.nilswesthoff.com">
-                  digital and online handover package
-                </a>{" "}
-                was built in <a href="https://reactjs.org/">React</a> with{" "}
-                <a href="https://nextjs.org/">Next.js</a>, which I've used for
-                coded prototypes before as well.
+                  handover package
+                </a>
+                 to PVH was built in <a href="https://reactjs.org/">React</a>{" "}
+                with <a href="https://nextjs.org/">Next.js</a>, which I've used
+                for coded prototypes before as well.
               </small>
             </p>
             <h3>1. Wearby — Digital Subscription Wardrobe</h3>

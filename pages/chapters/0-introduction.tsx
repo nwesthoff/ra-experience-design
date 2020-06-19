@@ -28,8 +28,8 @@ const IntroductionPage: NextPage = () => (
           <Citation id="basic-design-cycle" page="84–93" hideAuthor />. At Hyper
           Island, I was finally introduced to <em>Design Thinking</em> and the{" "}
           <em>Double Diamond Model</em>. While I had often heard of these terms,
-          I had never applied them myself. In many ways these frameworks towards
-          innovation overlap, the differences however are telling.
+          I had never applied them myself. In many ways, these frameworks
+          towards innovation overlap, the differences, however, are telling.
         </p>
       </PageIntroduction>
 
@@ -64,8 +64,8 @@ const IntroductionPage: NextPage = () => (
         <p>
           Industrial design, originating from Mechanical Engineering, is centred
           on products with a physical component. Experimentation is
-          comparatively expensive (consider the price of injection molds,
-          manufacturing plants and distribution), and as a result physical
+          comparatively expensive (consider the price of injection moulds,
+          manufacturing plants and distribution), and as a result, physical
           products don't enjoy nearly the same agility as digital ones. The
           flexibility of digital products is a luxury I've come to appreciate a
           lot in my experience with digital products. Knowing this, it's easy to
@@ -130,7 +130,7 @@ const IntroductionPage: NextPage = () => (
         <h2>Vision within Reason</h2>
         <p>
           Hekkert and van Dijk, explain in their book <em>Vision in Design</em>{" "}
-          how the design process is a balancing act between forward-thinking,
+          how a design process is a balancing act between forward-thinking,
           visionary, inspiration and making reasonable decisions.
         </p>
         <blockquote>
@@ -141,7 +141,7 @@ const IntroductionPage: NextPage = () => (
           </p>
           <ul>
             <li>
-              Paul Hekkert & Matthijs van Dijk
+              Paul Hekkert & Matthijs van Dijk{" "}
               <Citation id="ViP" page="128-129" hideAuthor />
             </li>
           </ul>

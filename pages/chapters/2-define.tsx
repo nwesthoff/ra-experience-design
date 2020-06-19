@@ -18,9 +18,9 @@ const DefinePage = () => (
           clarity in chaos <Citation id="abductiveThinkingKolko" />. During
           synthesis, we often manipulate data, words and pictures, to create
           cohesion and a sense of continuity in our work. The define phase is
-          everything that pushes towards organization, reduction and clarity.
-          Synthesis is often described as the most elusive, and hardest part of
-          design.
+          everything that pushes towards the organization, reduction and
+          clarity. Synthesis is often described as the most elusive, and hardest
+          part of design.
         </p>
       </PageIntroduction>
 
@@ -35,11 +35,11 @@ const DefinePage = () => (
         </blockquote>
         <h2>Sense-making</h2>
         <p>
-          The intention of this phase is to make sense of our research data.
-          Before we're able to develop new ideas we have to <em>prioritize</em>{" "}
-          which problems our users have most (or most often) trouble with{" "}
+          This phase intends to make sense of our research data. Before we're
+          able to develop new ideas we have to <em>prioritize</em> which
+          problems our users have most (or most often) trouble with{" "}
           <Citation id="dscout" />. Structured data also enables us to
-          communicate better with each other, as well as outside stakeholders.
+          communicate better with each other, as well as outside stakeholders.{" "}
         </p>
         <h3>Magic of Design</h3>
         <p>
@@ -83,15 +83,15 @@ const DefinePage = () => (
         <p>
           Design synthesis has not drastically changed since Kolko's analysis.
           Nonetheless, there has been a sizeable body of research drawing
-          attention to transition from individual to group-level sense-making.
-          Supporting verbal exchanges and cognitive processes in collective
-          sense-making <Citation id="stiglianiCodesign" /> .{" "}
+          attention to the transition from individual to group-level
+          sense-making. Supporting verbal exchanges and cognitive processes in
+          collective sense-making <Citation id="stiglianiCodesign" /> .{" "}
         </p>
         <h2>Insight</h2>
         <p>
           Data becomes useful to the design process once we start to see themes,
-          trends and developments. In order to find themes in a vast amount of
-          data, designers should analyse word repetitions, scrutinize terms,and
+          trends and developments. To find themes in a vast amount of data,
+          designers should analyse word repetitions, scrutinize terms, and
           analyse linguistic features like metaphors or transitions{" "}
           <Citation id="insightDepth" />. This is what we call <em>insight</em>.
           Arunima, design researcher at IDEO, says design research is about more
@@ -114,9 +114,9 @@ const DefinePage = () => (
         </blockquote>
         <h3>Perspective</h3>
         <p>
-          Even the insight generation is a function of experience. Yuan & Hsieh{" "}
-          <Citation id="insightDepth" hideAuthor /> describe how insight is the
-          result of an observation, influenced by current knowledge
+          Even insight generation is a function of personal experience. Yuan &
+          Hsieh <Citation id="insightDepth" hideAuthor /> describe how insight
+          is the result of an observation, influenced by current knowledge
           (epistemology).
         </p>
         <figure>
@@ -129,10 +129,9 @@ const DefinePage = () => (
         </figure>
         <p>
           Data gathered through during discovery are guided by the researcher's
-          ethic standards and morals. Their intellectual prowess, and the
-          accumulation of world view as well as breadth of experience.
+          ethical standards and morals. Their intellectual prowess, and the
+          accumulation of world view as well as the breadth of their experience.
         </p>
-        <h2>How Might We</h2>
       </ContentContainer>
     </PageWrapper>
 
@@ -151,7 +150,7 @@ const DefinePage = () => (
           Interview downloads <Citation id="arunimaIDEO" /> are a great way to
           collaboratively summarise our results. Afterwards they were easy to
           share with the team, which proved necessary because some of our
-          interviews were in Portugese and Russian.
+          interviews were in Portuguese and Russian.
         </p>
         <h3>Affinity Mapping</h3>
         <p>

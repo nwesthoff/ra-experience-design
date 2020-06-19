@@ -33,14 +33,14 @@ const DevelopPage = () => (
         </p>
         <h3>Early ideas are Fragile</h3>
         <p>
-          Young ideas are usually unfinished, and as a result it's easy to it's
-          flaws instead of its beauty. This is why it's so important to remember
-          not to judge ideas in the middle of ideation. Dugosh et al.{" "}
-          <Citation id="cognitiveStimulation" hideAuthor /> determined that a
-          subsequent incubation session would be useful. Designers can use this
-          time to reflect on the ideas that have been shared, to generate
-          additional ideas. This also leads us in another important factor, the
-          power of collaboration.
+          Young ideas are usually unfinished, and as a result, it's easy to
+          concentrate on its flaws rather than its beauty. This is why it's so
+          important to remember not to judge ideas in the middle of ideation.
+          Dugosh et al. <Citation id="cognitiveStimulation" hideAuthor />{" "}
+          determined that a subsequent incubation session would be useful.
+          Designers can use this time to reflect on the ideas that have been
+          shared, to generate additional ideas. This also leads us to another
+          important factor, the power of collaboration.
         </p>
         <h3>Collaboration</h3>
         <p>
@@ -77,24 +77,26 @@ const DevelopPage = () => (
           </ul>
         </blockquote>
         <p>
-          It's easier to scale back a crazy idea that addresses a true user
-          need, than to try to make a mundane idea desirable{" "}
+          It's easier to scale back a crazy idea that addresses a true user need
+          than to try to make a mundane idea desirable{" "}
           <Citation id="nngroupIdeation" />.
         </p>
         <h2>Evaluate</h2>
         <p>
           While it's now clear we don't want to put down ideas too early, at
           some point we'll have to decide which ones to toss, and which ones to
-          move forward with. That's where evaluation comes into play. The
-          criteria we use to evaluate the pool of ideas come from the research
-          that has previously been done, and might be categorized in three
-          levels.
+          move forward with. That's where evaluation comes into play. Design
+          thinking generally looks at evaluating <em>feasibility</em>,{" "}
+          <em>desirability</em> and <em>viability</em>{" "}
+          <Citation id="designThinkingIDEO" />, integrating human needs with
+          business needs. When we zoom in on the people's needs we find research
+          that that categorizes product experience into three levels.
         </p>
         <h3>Levels of experiencing product</h3>
         <p>
           Pieter Desmet & Paul Hekkert <Citation id="experienceDesmet" />{" "}
           introduce a framework to assess product experience. The three levels
-          of product experience they define are, aesthetic pleasure, attribution
+          of product experience they define are aesthetic pleasure, attribution
           of meaning and emotional response.
         </p>
         <p>
@@ -103,17 +105,16 @@ const DevelopPage = () => (
           to touch, these micro-experiences all add up to the total experience
           users have with the product. At the level of meaning, cognition comes
           into play. This defines how users attach personal or symbolic
-          significance to the products they use. At the emotional level they
-          refer to emotional response we have when interacting with products
-          (emotion as everyday language like love and disgust). These lenses can
-          be considered to ensure all bases are covered by our evaluation
+          significance to the products they use. At the emotional level, they
+          refer to the emotional response we have when interacting with products
+          (emotion as in everyday language like love and disgust). These lenses
+          can be considered to ensure all bases are covered by our evaluation
           process.{" "}
         </p>
       </ContentContainer>
     </PageWrapper>
     <CaseStudyWrapper>
       <ContentContainer>
-        <h2>In Practice</h2>
         <p>
           Our ideation sessions were mostly done synchronously as a group. We
           started the process by clearing our head, writing down our initial

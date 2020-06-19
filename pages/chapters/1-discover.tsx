@@ -31,16 +31,17 @@ const DiscoverPage: NextPage = () => (
         <p>
           Businesses often think they know what their customers want, but they
           don't actively seek it out. They might hear bits and pieces, but in
-          Matt's (experience designer at{" "}
+          Matt (experience designer at{" "}
           <a href="https://www.retrofuzz.com/">RetroFuzz</a> and our Industry
           Leader at Hyper Island) experience there's often no structure to it{" "}
           <Citation id="mattInterview" />. He's often had clients that ask for
-          award winning experiences. While that certainly doesn't sound like a
+          award-winning experiences. While that certainly doesn't sound like a
           bad result, it does nothing more than to impress our contemporaries.
-          Some clients have <em>no idea</em> of what their customers think,
+          Some clients have <em>no idea</em> of what their customers think
           because they think they're subject matter experts. Design research is
           about increasing proximity to our users, to better understand what
-          their needs are.
+          their needs are. If you don’t understand your users, the ideas you
+          generate will be worthless <Citation id="nngroupIdeation" />.
         </p>
         <blockquote>
           <p>
@@ -58,18 +59,43 @@ const DiscoverPage: NextPage = () => (
           As designers working for a company or brand, there's an interesting
           duality to consider. Working commercially we ultimately want to do
           what's right for the business. Sometimes that's in line with what the
-          customer wants, but at other times they oppose each other. In the end
-          it's a balancing act. As designers we have to try to get a mutual win
+          customer wants, but at other times they oppose each other. In the end,
+          it's a balancing act. As designers, we have to try to get a mutual win
           for the business and customers. Unfortunately, we can't win them all
           and when that happens that's where the hard decisions will have to be
           made <Citation id="mattInterview" />.
+        </p>
+        <p>
+          Another note when doing research is that we have to be selective about
+          who we talk to. This is beautifully described in the book Alchemy, by
+          Rory Sutherland:{" "}
+        </p>
+        <blockquote>
+          <p>
+            “Metrics, and especially averages, encourage you to focus on the
+            middle of a market, but innovation happens at the extremes. You are
+            more likely to come up with a good idea focusing on one outlier than
+            on ten average users.”
+          </p>
+          <ul>
+            <li>
+              Rory Sutherland{" "}
+              <Citation id="roryAlchemy" page="100" hideAuthor />
+            </li>
+          </ul>
+        </blockquote>
+        <p>
+          We don't get inspired by people that care a little about something, we
+          find value in the extremes. That doesn't mean we only talk to people
+          who care about something a lot. Generally, we should also talk to
+          people who don't care about something at all!
         </p>
         <h3>Generative or Exploratory Research</h3>
         <p>
           To make sense of these interweaved messes, design research usually
           starts with generative research. This is the type of research to
           figure out what we should be doing and pay attention to. It leads to
-          ideas, and is used to define the problem. A generative research
+          ideas and is used to define the problem. A generative research
           question sounds something like <em>“What’s up with...?”</em>{" "}
           <Citation id="justEnough" page="33" />.
         </p>
@@ -80,15 +106,15 @@ const DiscoverPage: NextPage = () => (
           <li>Reviewing existing literature</li>
         </ul>
         <p>
-          Generative research and analysis develops an understanding of who our
+          Generative research and analysis develop an understanding of who our
           users are <em>as humans</em>, and how they experience their everyday
           lives <Citation id="dscout" />. It points out useful problems to
           solve. The point of generative research is that it takes us out of the
-          product and puts us close to the the lives of the people we are trying
-          to help. It's easy to focus on the product which can lead us to become
+          product and puts us close to the lives of the people we are trying to
+          help. It's easy to focus on the product which can lead us to become
           quite short-sighted. When we break outside the box, we're able to come
           up with truly helpful solutions. It flips our thinking to become
-          problem-space focused instead of solution focused.
+          problem-space oriented instead of solution-oriented.
         </p>
         <h3>Descriptive or Explanatory Research</h3>
         <p>
@@ -129,9 +155,22 @@ const DiscoverPage: NextPage = () => (
           , we move back into research again. This is when we start asking
           ourselves, <em>“Are we getting close?”</em>. Once we're at this stage,
           we're able to put our ideas out in the world to test. This research
-          should be done continuously and iteratively, fortunately any time we
+          should be done continuously and iteratively. Fortunately, any time we
           put our design solution in front of our users, we are doing some
-          evaluative research.
+          evaluative research.{" "}
+        </p>
+        <h3>Data in Research</h3>
+        <p>
+          Matt <Citation id="mattInterview" hideAuthor /> said{" "}
+          <em>'always on'</em> data allows him to quickly grab quantitative data
+          when he needs it. As part of our interview, we also spoke about the
+          differences between qualitative and quantitative data. His experience
+          has been that corporates often get too attached to large amounts of
+          data. Business people are much more comfortable speaking in data
+          instead of sound-bites. When Matt communicates his research, he backs
+          up qualitative data with quantitative data and vice-versa.{" "}
+          <em>“Data is telling you what's happening, but not why”</em>, he tells
+          us.
         </p>
       </ContentContainer>
     </PageWrapper>
