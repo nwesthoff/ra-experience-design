@@ -7,6 +7,11 @@ const CaseStudyWrapper = styled.div`
   width: 100%;
   background-color: ${theme.colors.backgroundDark};
   margin: 4rem 0 0;
+  padding-bottom: 2rem;
+
+  h2 {
+    margin-top: 2rem;
+  }
 `;
 
 export default CaseStudyWrapper;

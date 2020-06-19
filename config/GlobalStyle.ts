@@ -112,6 +112,7 @@ const GlobalStyle = createGlobalStyle`
   h2 {
     font-size: 2.5rem;
     line-height: 1.2;
+    margin: 5rem 0 1.2rem;
   }
 
   h3 {

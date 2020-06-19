@@ -13,7 +13,6 @@ const PersonaComponentWrapper = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   background: linear-gradient(#222, #000, #222);
-  padding: 2.4rem 0rem;
 
   @media (max-width: ${theme.breakpoints.phone}px) {
     padding: 0;
