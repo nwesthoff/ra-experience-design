@@ -7,6 +7,7 @@ import ContentContainer from "../../components/ContentContainer";
 import CaseStudyWrapper from "../../components/CaseStudy/CaseStudyWrapper";
 import NextChapter from "../../components/Navigation/NextChapter";
 import Link from "next/link";
+import ImageCarousel from "../../components/ImageCarousel";
 
 const DiscoverPage: NextPage = () => (
   <Layout title="Discover | RA Experience Design">
@@ -198,6 +199,19 @@ const DiscoverPage: NextPage = () => (
           through a SWOT analysis. To top it all of we also analysed what
           fashion experts had to say about sustainability specifically.{" "}
         </p>
+      </ContentContainer>
+    </CaseStudyWrapper>
+    <ImageCarousel
+      imageArr={[
+        { src: "/img/iridiscence.jpg" },
+        { src: "/img/image2.jpg" },
+        { src: "/img/outfit-06.jpg" },
+        { src: "/img/image3.jpg" },
+        { src: "/img/coronavirus-store.png" },
+      ]}
+    />
+    <CaseStudyWrapper style={{ margin: "0" }}>
+      <ContentContainer>
         <h2>Key findings</h2>
         <ul>
           <li>Digital & physical fashion are converging</li>
