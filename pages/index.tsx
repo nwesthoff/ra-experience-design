@@ -23,13 +23,7 @@ const IndexPage = () => (
         </p>
       </PageIntroduction>
 
-      <ChapterBlock title="Introduction" index={0}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
-        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
-        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
-        lorem volutpat vel.
-      </ChapterBlock>
+      <ChapterBlock title="Introduction" index={0} />
 
       <ChapterBlock title="Discover" index={1} reverse>
         Every good design process begins with research, to learn about and

@@ -330,7 +330,7 @@ const DeliverPage = () => {
               usability severity
               <Citation id="nielsenUsability" hideAuthor />.
             </p>
-            <ol start="0">
+            <ol start={0}>
               <li>No usability problem</li>
               <li>Cosmetic problem</li>
               <li>Minor usability problem</li>
