@@ -136,7 +136,7 @@ const DefinePage = () => (
       </ContentContainer>
     </PageWrapper>
 
-    <CaseStudyWrapper>
+    <CaseStudyWrapper style={{ paddingBottom: "0" }}>
       <ContentContainer>
         <h2>In Practice</h2>
         <p>

@@ -6,9 +6,14 @@ import { theme } from "../../config/theme";
 import { darken } from "polished";
 import { MdArrowForward } from "react-icons/md";
 
-const NextLinkTitle = styled.h3`
+const NextLinkTitle = styled.div`
   display: flex;
   align-items: center;
+
+  color: white;
+  margin: 0 0 1.2rem;
+  font-size: 3rem;
+  font-weight: 600;
 `;
 
 const NextLinkArrow = styled(MdArrowForward)`
@@ -18,12 +23,6 @@ const NextLinkArrow = styled(MdArrowForward)`
 
 const NextLinkWrapper = styled.div`
   background-color: ${theme.colors.primary};
-
-  h3 {
-    color: white;
-    margin: 0 0 1.2rem;
-    font-size: 3rem;
-  }
 
   h4 {
     margin-bottom: 0;

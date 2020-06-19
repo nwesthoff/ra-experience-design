@@ -117,17 +117,17 @@ const GlobalStyle = createGlobalStyle`
 
   h3 {
     color: ${theme.colors.primary};
-    font-size: 1.5rem;
-    margin: 2rem 0 0;
+    font-size: 1rem;
+    margin: 2rem 0 -.8rem;
     line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
   
   h4, h5, h6 {
-    color: ${theme.colors.primary};
+    color: white;
     font-size: 1rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-weight: 400;
   }
 
   /* TABLE STYLES */
