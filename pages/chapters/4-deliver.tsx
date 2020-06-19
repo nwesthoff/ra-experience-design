@@ -185,9 +185,9 @@ const DeliverPage = () => {
               <Col>
                 <h4>High fidelity</h4>
                 <figure>
-                  <a download href="/img/high-fi-prototype.mp4">
+                  <a download href="/video/high-fi-prototype.mp4">
                     <video
-                      src="/img/high-fi-prototype.mp4"
+                      src="/video/high-fi-prototype.mp4"
                       autoPlay
                       muted
                       loop
@@ -375,34 +375,140 @@ const DeliverPage = () => {
           </ContentContainer>
         </PageWrapper>
         <CaseStudyWrapper>
-          <ContentContainer wide>
+          <ContentContainer>
             <h2>In Practice</h2>
-            <h3>Prototyping</h3>
+            <p>
+              As a result of our insight, a little feedback by PVH and going
+              through ideation, we developed our first idea and prototype. These
+              prototypes iteratively improved on the idea of digital fashion.
+              Contradictory to what we had learned about effective prototyping
+              from Chris <Citation id="callaghanPretotyping" />, I wanted to try
+              creating high (visual) fidelity prototypes. Each of them were made
+              with <a href="https://figma.com">Figma</a> and{" "}
+              <a href="https://framer.com">Framer Web</a>.{" "}
+            </p>
+            <p>
+              <small>
+                Note: This report and our{" "}
+                <a href="https://pvh-digital-package.nilswesthoff.com">
+                  digital and online handover package
+                </a>{" "}
+                was built in <a href="https://reactjs.org/">React</a> with{" "}
+                <a href="https://nextjs.org/">Next.js</a>, which I've used for
+                coded prototypes before as well.
+              </small>
+            </p>
+            <h3>1. Wearby — Digital Subscription Wardrobe</h3>
+            <p>
+              A digital wardrobe with digital trendy clothes and a subscription
+              to use exclusive pieces.
+            </p>
             <figure>
               <video
-                src="/img/digital-fashion-prototype.mp4"
+                src="/video/proto1-mockup.mp4"
                 autoPlay
                 muted
                 loop
+                controls
               />
               <figcaption>
-                Figure: Our prototype to test Digital Fashion
+                Video: Our prototype to test Digital Fashion
               </figcaption>
             </figure>
-            <h3>Tools</h3>
+            <p>
+              The endless possibilities of digital fashion were recognized by by
+              our research participants on{" "}
+              <a href="https://hellopingpong.com">Ping Pong</a>. Though they
+              wouldn't immediately see themselves spend a monthly subscription
+              to use the service.
+            </p>
+            <h3>2. Digital Fashion Hunt</h3>
+            <p>
+              Our next prototype was about creating <em>an experience</em>{" "}
+              around digital fashion. An AR treasure hunt to find digital
+              clothes around the world. They can be found at specific places
+              around the world and can be traded globally. Connecting people,
+              brands and places together.
+            </p>
+            <figure>
+              <video
+                src="/video/proto2-mockup.mp4"
+                autoPlay
+                muted
+                loop
+                controls
+              />
+              <figcaption>
+                Video: Our figcaptionrototype to test a digital fashion hunt
+              </figcaption>
+            </figure>
+            <p>
+              Upon testing this prototype, we realised people see fashion as
+              content. Many want to share a story when they share photos of
+              their clothes.
+            </p>
+            <h3>3. Manifest — Digital Fashion for Social Good</h3>
+            <p>
+              Our third and final prototype and the solution we presented to PVH
+              is our concept Manifest. Manifest is a digital fashion platform
+              for real-life social impact. Connecting causes and an endless
+              wardrobe, so what you wear becomes a statement.
+            </p>
+            <figure>
+              <video
+                src="/video/proto3-mockup.mp4"
+                autoPlay
+                muted
+                loop
+                controls
+              />
+              <figcaption>
+                Video: Our final prototype, a platform that drives social impact
+                through digital fashion
+              </figcaption>
+            </figure>
+            <p>
+              We would like to see a variety of products on Manifest, with a
+              variety of use cases, created by different entities:
+            </p>
             <ul>
               <li>
-                <a href="https://figma.com">Figma</a>
+                We imagine big brands could sample their ideas digitally, to
+                test user adoption before they start fabrication.
               </li>
               <li>
-                <a href="https://www.bravostudio.app/">Bravo</a>
+                We envision independent digital fashion artists like{" "}
+                <a href="https://replicant.fashion/passgoaltriple/">
+                  PassGoalTriple
+                </a>{" "}
+                reaching a larger audience with their experimental creations.
               </li>
               <li>
-                <a href="https://reactjs.org/">React</a> with{" "}
-                <a href="https://nextjs.org/">Next.js</a> for coded prototypes
+                We imagine that established brands would like to put out certain
+                products for free, connected to an AR experience that drive
+                social impact through their name. We could (for example) ask
+                Patagonia to create a special item, which they will share with
+                Manifest users for free after they complete their hike
+                challenge.
               </li>
-              <li>Python or Arduino for non-web coded prototypes</li>
+              <li>
+                We want people not only to donate to causes they care about, but
+                be proud to show their support, by giving them a digital
+                artefact to represent that. A suggested donation of $5,- could
+                be a minimum, but we could allow users to donate more. Upon
+                finishing their donation, it will now show up in their wardrobe,
+                from which they'll be able to share a photo with their new
+                digital piece of clothes.
+              </li>
             </ul>
+            <p>
+              These items show up in the inventory, where users will see items
+              that stay permanently, as well as items that expire (like the
+              super puffer in our prototype). Items that have already expired,
+              are swappable for new item with people on the platform for free.
+              By this we’re promoting the idea of swapping clothes with the
+              community in digital as well as real life.
+            </p>
             <h3>Usability Testing</h3>
             <p>
               Toggle heatmap: {/*FIXME:*/}

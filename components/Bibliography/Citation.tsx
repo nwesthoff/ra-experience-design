@@ -1,4 +1,10 @@
-import React, { ReactElement, useContext, ReactNode } from "react";
+import React, {
+  ReactElement,
+  useContext,
+  ReactNode,
+  useEffect,
+  useState,
+} from "react";
 import { ReferenceContext } from "./ReferenceProvider";
 import styled from "styled-components";
 import { theme } from "../../config/theme";
@@ -43,6 +49,9 @@ export default function Citation({
   hideAuthor,
 }: Props): ReactElement {
   const references = useContext(ReferenceContext);
+  const [isComponentMounted, setIsComponentMounted] = useState(false);
+
+  useEffect(() => setIsComponentMounted(true), []);
 
   const currentRef = references?.find((ref) => {
     return ref.citationKey === id;
@@ -50,11 +59,17 @@ export default function Citation({
 
   return currentRef ? (
     <CitationStyled>
-      <StyledReactTooltip data-multiline="true" backgroundColor="#161616" />
       <TooltipWrapper
         data-tip={currentRef.entryTags.inBib}
         href={`/chapters/5-conclusion#ref-${currentRef.citationKey}`}
       >
+        {isComponentMounted ? (
+          <StyledReactTooltip
+            wrapper="span"
+            data-multiline="true"
+            backgroundColor="#161616"
+          />
+        ) : null}
         {children ||
           `(${hideAuthor !== true ? currentRef.entryTags.author + ", " : ""}${
             currentRef.entryTags.year
