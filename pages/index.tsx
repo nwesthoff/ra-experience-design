@@ -23,7 +23,13 @@ const IndexPage = () => (
         </p>
       </PageIntroduction>
 
-      <ChapterBlock title="Introduction" index={0} />
+      <ChapterBlock title="Introduction" index={0}>
+        Experiences are not self-contained, they happen inside a larger context
+        and are greatly influenced by the way individuals perceive them. They
+        are influenced by personal differences as far-reaching as our marital
+        status, to mundane differences like the operating system our phone runs.
+        How we design for these differences is driven by people.
+      </ChapterBlock>
 
       <ChapterBlock title="Discover" index={1} reverse>
         Every good design process begins with research, to learn about and
@@ -53,11 +59,12 @@ const IndexPage = () => (
       </ChapterBlock>
 
       <ChapterBlock title="Conclusion" index={5} reverse>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
-        pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
-        sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
-        lorem volutpat vel.
+        Design and experience are everywhere, interwoven in our lives. As
+        designers we have an opportunity to make experiences better, or make
+        them worse. Experience designers influence the way people think about
+        products and to some extent how they experience the world. That is the
+        power we have as designers, and it's the power we have to wield
+        responsibly.
       </ChapterBlock>
     </PageWrapper>
   </Layout>

@@ -11,27 +11,24 @@ const EmpathisePage: NextPage = () => (
       <PageIntroduction>
         <h1>Conclusion</h1>
         <p>
-          To conclude <i>Experience Design</i>... Adipiscing elit. Pellentesque
-          eleifend placerat justo, vitae auctor purus eleifend id. Phasellus
-          pulvinar, erat quis consequat vestibulum, diam odio pretium felis, id
-          sodales odio eros non leo. Duis tempor mollis mauris, at ullamcorper
-          lorem volutpat vel.
+          As designers we have to consciously consider who will be using our
+          products. Talking to extreme users has a higher likelihood of success
+          than talking to the average. Similarly our idea generation should roam
+          free beyond the possible, and scale back when we run into problems
+          executing. We have to put our ideas in front of people to obtain
+          feedback before we set it free in the world. If we do this well, the
+          result is a product experience that people love.
         </p>
       </PageIntroduction>
 
       <ContentContainer>
         <p>
-          Nullam id mauris maximus mi euismod consectetur et molestie odio.
-          Proin ullamcorper, orci a imperdiet sagittis, nibh nisi fringilla
-          augue, nec aliquet eros est vel ante. Quisque neque urna, eleifend sed
-          lacinia sed, consectetur sit amet libero. Quisque et accumsan dui. Nam
-          accumsan, urna sit amet maximus lacinia, nibh neque efficitur urna, ut
-          aliquet tellus ligula vitae nulla. Vestibulum tempus laoreet est quis
-          maximus. Integer iaculis mollis nisl ac ullamcorper. Sed est dui,
-          congue at nisi quis, fringilla varius felis. Donec viverra quam varius
-          quam interdum, vel viverra ante egestas. Fusce finibus tortor et metus
-          sodales tempor. Sed eget massa aliquet, blandit est vitae, elementum
-          neque.
+          Design and experience are everywhere, interwoven in our lives. As
+          designers we have an opportunity to make experiences better, or make
+          them worse. Experience designers influence the way people think about
+          products and to some extent how they experience the world. That is the
+          power we have as designers, and it's the power we have to wield
+          responsibly.
         </p>
       </ContentContainer>
     </PageWrapper>

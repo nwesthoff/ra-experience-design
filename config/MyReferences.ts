@@ -337,6 +337,16 @@ const myReferences: AcademicRef[] = [
         "Nielsen, J. (1994). Severity Ratings for Usability Problems: Article by Jakob Nielsen. [online] Nielsen Norman Group. Available at: https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/.",
     },
   },
+  {
+    citationKey: "designThinkingIDEO",
+    entryType: "TRUSTED",
+    entryTags: {
+      author: "Brown & IDEO",
+      year: "2018",
+      inBib:
+        "Brown, T. and IDEO (2018). IDEO Design Thinking. [online] IDEO | Design Thinking. Available at: https://designthinking.ideo.com/.",
+    },
+  },
 ];
 
 export interface AcademicRef {
