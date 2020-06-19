@@ -92,7 +92,7 @@ const DeliverPage = () => {
               Yang <Citation id="prototypeDesignStudies" hideAuthor /> describes
               how prototypes are part of design language, because prototypes
               represent and embody design thought. In a similar groove, Sanders
-              &amp; Stappers <Citation id="stappersPrototypes" hideAuthor />{" "}
+              & Stappers <Citation id="stappersPrototypes" hideAuthor />{" "}
               describe the roles of prototypes in{" "}
               <em>research through design</em>.
             </p>
@@ -315,25 +315,52 @@ const DeliverPage = () => {
             </figure>
             <h2>Evaluate</h2>
             <p>
-              It's important to ask both novices and experts. Experts show wider
-              range of issues, but find them lesser problems. Novices experience
-              issues as more severe, but find fewer{" "}
+              When evaluating prototypes, it's important to ask both novices and
+              experts. While experts show a wider range of issues, the problems
+              are generally perceived as less severe. they generally know how to
+              work around issues. Novices experience issues as more severe, but
+              find fewer in total
               <Citation id="sauerSeibel" />.
             </p>
-            <blockquote>
-              <p>
-                “Metrics, and especially averages, encourage you to focus on the
-                middle of a market, but innovation happens at the extremes. You
-                are more likely to come up with a good idea focusing on one
-                outlier than on ten average users.”
-              </p>
-              <ul>
-                <li>
-                  Rory Sutherland{" "}
-                  <Citation id="roryAlchemy" page="100" hideAuthor />
-                </li>
-              </ul>
-            </blockquote>
+            <h3>Usability severity</h3>
+            <p>
+              Knowing which problems to focus on can be a big problem. There's
+              been some research to categorise the severity of the issues users
+              describe. Jakob Nielsen provides a set of metrics to define
+              usability severity
+              <Citation id="nielsenUsability" hideAuthor />.
+            </p>
+            <ol start="0">
+              <li>No usability problem</li>
+              <li>Cosmetic problem</li>
+              <li>Minor usability problem</li>
+              <li>Major usability problem</li>
+              <li>Usability catastrophe</li>
+            </ol>
+            <p>
+              To gain quantitative data on release products, Matt
+              <Citation id="mattInterview" /> likes using tools like
+              <a href="https://hotjar.com">Hotjar</a>. They create heatmaps and
+              record users' actions that help identify usability issues.
+            </p>
+            <p>
+              Click the button to toggle on a heatmap of your activity on this
+              page:
+              <Button
+                onClick={() => {
+                  setShowHeatmap(!showHeatmap);
+                }}
+              >
+                {showHeatmap ? "hide" : "show"}
+              </Button>
+            </p>
+            <p>
+              <small>
+                Note: This data is entirely local and never leaves your computer
+                (I won't be able to see it)
+              </small>
+            </p>
+
             <h2>Content strategy</h2>
             <p>
               Experience goes far beyond the actual product we're designing.
@@ -344,8 +371,8 @@ const DeliverPage = () => {
               <em>will</em> opt for the business that sends products in a
               recycled box with a golden bow. Matt tells us how he's
               particularly intrigued by physical touchpoints of{" "}
-              <em>digital challengers</em> like Warby Parker and Ace &amp; Tate.
-              The way even their stores offer a better experience than their
+              <em>digital challengers</em> like Warby Parker and Ace & Tate. The
+              way even their stores offer a better experience than their
               'legacy' counterparts by neatly integrating their digital systems
               into the buying experience. These brands offer services like
               order-from-home emails after an eye measurement, which provides an
@@ -486,53 +513,51 @@ const DeliverPage = () => {
               <li>
                 We imagine that established brands would like to put out certain
                 products for free, connected to an AR experience that drive
-                social impact through their name. We could (for example) ask
-                Patagonia to create a special item, which they will share with
-                Manifest users for free after they complete their hike
-                challenge.
+                social impact through their name.
               </li>
               <li>
                 We want people not only to donate to causes they care about, but
                 be proud to show their support, by giving them a digital
-                artefact to represent that. A suggested donation of $5,- could
-                be a minimum, but we could allow users to donate more. Upon
-                finishing their donation, it will now show up in their wardrobe,
-                from which they'll be able to share a photo with their new
-                digital piece of clothes.
+                artefact to represent that.{" "}
               </li>
             </ul>
             <p>
-              These items show up in the inventory, where users will see items
-              that stay permanently, as well as items that expire (like the
-              super puffer in our prototype). Items that have already expired,
-              are swappable for new item with people on the platform for free.
-              By this we’re promoting the idea of swapping clothes with the
-              community in digital as well as real life.
+              We’re also promoting the idea of swapping digital clothes with the
+              community, which we hope will entice people to do so in real life
+              too.
             </p>
-            <h3>Usability Testing</h3>
+            <h2>Critical Review</h2>
             <p>
-              Toggle heatmap: {/*FIXME:*/}
-              <Button
-                onClick={() => {
-                  setShowHeatmap(!showHeatmap);
-                }}
-              >
-                {showHeatmap ? "hide" : "show"}
-              </Button>
-            </p>
-            <h3>Usability severity</h3>
-            <p>
-              <a href="https://medium.com/@CallaghanDesign/higher-or-lower-32be0a299d32">
-                Chris Callaghan
-              </a>
+              I described a few prerequisites for Manifest to technically
+              succeed in the{" "}
+              <a href="https://pvh-digital-package.nilswesthoff.com">
+                handover package
+              </a>{" "}
+              we sent to PVH. First off, it's good to know that commercial 3D
+              rendering engines (Unreal & Unity) support AR and even dedicated
+              AR tools like Instagram's{" "}
+              <a href="https://sparkar.facebook.com/ar-studio/">SparkAR</a>{" "}
+              exist. These tools lower the barrier to market, and make
+              developing basic filters trivial.
             </p>
             <p>
-              Practically applied knowledge...Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Pellentesque eleifend placerat justo,
-              vitae auctor purus eleifend id. Phasellus pulvinar, erat quis
-              consequat vestibulum, diam odio pretium felis, id sodales odio
-              eros non leo. Duis tempor mollis mauris, at ullamcorper lorem
-              volutpat vel.
+              Digital clothes however brings a few new issues, currently
+              requiring manual labour. These issues are caused by three factors:
+            </p>
+            <ol>
+              <li>Variety of body types and sizes</li>
+              <li>
+                Correctly blending filters with the subject and background
+              </li>
+              <li>Flexible textures responding to body movement</li>
+            </ol>
+            <p>
+              In short, these issues can be solved by developing{" "}
+              <em>parametric fashion design</em>, applying{" "}
+              <em>subject separation AI</em> and developing{" "}
+              <em>real-time cloth simulation tools</em>. These issues aren't
+              easy to solve, but our recommendations provide PVH with a basic
+              roadmap towards our digital fashion future.
             </p>
           </ContentContainer>
         </CaseStudyWrapper>

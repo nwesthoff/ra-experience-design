@@ -1,7 +1,7 @@
 const myReferences: AcademicRef[] = [
   {
     citationKey: "spotify1",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Karol, Hörding and Torres de Souza",
       year: "2019",
@@ -11,7 +11,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "spotify2",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Buendia",
       year: "2020",
@@ -41,7 +41,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "ViP",
-    entryType: "ACADEMIC",
+    entryType: "TRADEMAG",
     entryTags: {
       author: "Hekkert & van Dijk",
       year: "2011",
@@ -51,7 +51,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "prototypeAdobe",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Babich",
       year: "2017",
@@ -81,7 +81,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "samAltman",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Altman",
       year: "2020",
@@ -91,7 +91,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "experienceBenz",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Benz",
       year: "2015",
@@ -101,7 +101,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "dscout",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Anderson and DScout",
       year: "2019",
@@ -111,7 +111,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "dscoutPersona",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Baltazar and DScout",
       year: "2019",
@@ -141,7 +141,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "diamondRevamped",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Nessler",
       year: "2016",
@@ -151,7 +151,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "designCouncil",
-    entryType: "ACADEMIC",
+    entryType: "TRADEMAG",
     entryTags: {
       author: "Design Council",
       year: "2019",
@@ -171,7 +171,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "ramsPrinciples",
-    entryType: "POPULAR",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Rams",
       year: "2019",
@@ -181,7 +181,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "mattInterview",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Kendall",
       year: "2020",
@@ -211,7 +211,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "jeffVeen",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Veen",
       year: "2001",
@@ -281,7 +281,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "arunimaIDEO",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Duque",
       year: "2020",
@@ -290,7 +290,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "callaghanPretotyping",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "Callaghan",
       year: "2020",
@@ -309,7 +309,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "ideoExpertInterview",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "IDEO",
       year: "n.d. a",
@@ -319,7 +319,7 @@ const myReferences: AcademicRef[] = [
   },
   {
     citationKey: "ideoUserInterview",
-    entryType: "TRADEMAG",
+    entryType: "TRUSTED",
     entryTags: {
       author: "IDEO",
       year: "n.d. b",
@@ -327,11 +327,21 @@ const myReferences: AcademicRef[] = [
         "IDEO (n.d.). Design Kit: Interview. [online] www.designkit.org. Available at: https://www.designkit.org/methods/interview [Accessed 18 Jun. 2020b].",
     },
   },
+  {
+    citationKey: "nielsenUsability",
+    entryType: "TRADEMAG",
+    entryTags: {
+      author: "Nielsen",
+      year: "1994",
+      inBib:
+        "Nielsen, J. (1994). Severity Ratings for Usability Problems: Article by Jakob Nielsen. [online] Nielsen Norman Group. Available at: https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/.",
+    },
+  },
 ];
 
 export interface AcademicRef {
   citationKey: string;
-  entryType: "POPULAR" | "TRADEMAG" | "ACADEMIC";
+  entryType: "TRUSTED" | "TRADEMAG" | "ACADEMIC";
   entryTags: {
     author: string;
     year: string;

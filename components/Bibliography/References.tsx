@@ -70,8 +70,8 @@ export default function References() {
   const tradeReferences = sortedReferences?.filter(
     (ref) => ref.entryType === "TRADEMAG"
   );
-  const popularReferences = sortedReferences?.filter(
-    (ref) => ref.entryType === "POPULAR"
+  const trustedReferences = sortedReferences?.filter(
+    (ref) => ref.entryType === "TRUSTED"
   );
 
   return (
@@ -134,11 +134,11 @@ export default function References() {
           </div>
         ) : null}
 
-        {popularReferences && popularReferences?.length > 0 ? (
+        {trustedReferences && trustedReferences?.length > 0 ? (
           <div>
-            <h4>Popular</h4>
+            <h4>Trusted Source</h4>
             <ReferenceList>
-              {popularReferences.map((ref) => (
+              {trustedReferences.map((ref) => (
                 <ReferenceListItem
                   id={`ref-${ref.citationKey}`}
                   key={ref.citationKey}
