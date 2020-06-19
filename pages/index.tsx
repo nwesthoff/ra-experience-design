@@ -2,6 +2,16 @@ import Layout from "../components/Layout";
 import ChapterBlock from "../components/ChapterBlock";
 import PageIntroduction from "../components/PageIntroduction";
 import { PageWrapper } from "../components/PageWrapper";
+import { theme } from "../config/theme";
+import styled from "styled-components";
+const NameLink = styled.a`
+  text-decoration: none;
+  color: ${theme.colors.primary};
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
 
 const IndexPage = () => (
   <Layout title="Introduction | RA Experience Design">
@@ -11,15 +21,19 @@ const IndexPage = () => (
           Experience <br /> Design
         </h1>
         <p>
-          This is an interactive and experiential research activity about
-          <i>Experience Design</i>. It gives an overview of a design process and
-          the tools that could be used during each step of a design process.
+          This is an interactive and experiential research activity about{" "}
+          <em>Experience Design</em>. It gives an overview of a design process
+          and the tools that could be used during each step of a design process.
           Each step of the process will be backed by a practical approach, which
-          demonstrates the key findings these tools might bring. <br />
+          demonstrates the key findings these tools might bring.
         </p>
-        <p style={{ fontSize: ".8em", border: "none", opacity: 0.8 }}>
-          WRITTEN & PRODUCED BY: NILS WESTHOFF <br />
-          JUNE 2020 | WORD COUNT: 4947
+        <p style={{ fontSize: ".8em", border: "none" }}>
+          BY{" "}
+          <NameLink href="https://nilswesthoff/com" target="blank">
+            NILS WESTHOFF
+          </NameLink>{" "}
+          <br />
+          <span style={{ opacity: 0.5 }}>JUNE 2020 | WORD COUNT: 4947</span>
         </p>
       </PageIntroduction>
 

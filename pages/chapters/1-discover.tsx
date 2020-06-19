@@ -17,12 +17,11 @@ const DiscoverPage: NextPage = () => (
           Every good design process begins with research, to <em>learn</em>{" "}
           about and <em>discover</em> the context designed experiences are
           happening in. This phase of analysis serves two main purposes, to
-          inspire us in preparation of idea generation, <em>and</em> provide
-          constraints during evaluation. There's a whole plethora of{" "}
-          <em>tools</em>, <em>methodologies</em> and <em>practices</em> to guide
-          us through this process. These concepts help us navigate the way we
-          learn about the context we're designing for, which we'll go over in
-          this chapter.
+          inspire us in preparation of idea generation <em>and</em> provide
+          constraints during evaluation. There's a plethora of <em>tools</em>,{" "}
+          <em>methodologies</em> and <em>practices</em> to guide us through this
+          process. These concepts help us navigate the way we learn about the
+          context we're designing for, which we'll go over in this chapter.
         </p>
       </PageIntroduction>
 
@@ -34,14 +33,12 @@ const DiscoverPage: NextPage = () => (
           Matt (experience designer at{" "}
           <a href="https://www.retrofuzz.com/">RetroFuzz</a> and our Industry
           Leader at Hyper Island) experience there's often no structure to it{" "}
-          <Citation id="mattInterview" />. He's often had clients that ask for
-          award-winning experiences. While that certainly doesn't sound like a
-          bad result, it does nothing more than to impress our contemporaries.
-          Some clients have <em>no idea</em> of what their customers think
-          because they think they're subject matter experts. Design research is
-          about increasing proximity to our users, to better understand what
-          their needs are. If you don’t understand your users, the ideas you
-          generate will be worthless <Citation id="nngroupIdeation" />.
+          <Citation id="mattInterview" />. Some clients have <em>no idea</em> of
+          what their customers think because they think they're subject matter
+          experts. Design research is about increasing proximity to our users,
+          to better understand what their needs are. If you don’t understand
+          your users, the ideas you generate will be worthless{" "}
+          <Citation id="nngroupIdeation" />.
         </p>
         <blockquote>
           <p>
@@ -60,14 +57,16 @@ const DiscoverPage: NextPage = () => (
           duality to consider. Working commercially we ultimately want to do
           what's right for the business. Sometimes that's in line with what the
           customer wants, but at other times they oppose each other. In the end,
-          it's a balancing act. As designers, we have to try to get a mutual win
-          for the business and customers. Unfortunately, we can't win them all
-          and when that happens that's where the hard decisions will have to be
-          made <Citation id="mattInterview" />.
+          it's a balancing act. Personally I feel that, as designers, we have an
+          ethical responsibility to craft products that benefit people. We have
+          to try to get a mutual win for the business and customers because,
+          unfortunately, we can't always win. When that happens is where the
+          hard decisions will have to be made (and usually they're in favour of
+          the business) <Citation id="mattInterview" />.
         </p>
         <p>
-          Another note when doing research is that we have to be selective about
-          who we talk to. This is beautifully described in the book Alchemy, by
+          When doing research we have to be selective about who we talk to. The
+          importance of this is beautifully illustrated in the book Alchemy, by
           Rory Sutherland:{" "}
         </p>
         <blockquote>
@@ -99,32 +98,22 @@ const DiscoverPage: NextPage = () => (
           question sounds something like <em>“What’s up with...?”</em>{" "}
           <Citation id="justEnough" page="33" />.
         </p>
-        <p>Generative research can include:</p>
-        <ul>
-          <li>Interviews</li>
-          <li>Field observation</li>
-          <li>Reviewing existing literature</li>
-        </ul>
         <p>
           Generative research and analysis develop an understanding of who our
           users are <em>as humans</em>, and how they experience their everyday
           lives <Citation id="dscout" />. It points out useful problems to
-          solve. The point of generative research is that it takes us out of the
-          product and puts us close to the lives of the people we are trying to
-          help. It's easy to focus on the product which can lead us to become
-          quite short-sighted. When we break outside the box, we're able to come
-          up with truly helpful solutions. It flips our thinking to become
-          problem-space oriented instead of solution-oriented.
+          solve. Generative research pulls our thought away from the product and
+          puts us close to the lives of the people we are trying to help. It's
+          easy to focus on the product which can lead us to become quite
+          short-sighted. When we focus on people, we're able to come up with
+          truly helpful solutions. It flips our thinking to become problem-space
+          oriented instead of solution-oriented.
         </p>
         <h3>Descriptive or Explanatory Research</h3>
         <p>
-          Upon combing through our exploratory research (processes we'll learn
-          more about in the{" "}
-          <Link href="./2-define">
-            <a target="blank">next chapter</a>
-          </Link>
-          ), we're able to determine the unmet needs that are most commonly
-          voiced. The result of generative research might be a hypothesis, like;{" "}
+          Following our exploratory research, we should determine the unmet
+          needs that are most commonly voiced. The result of generative research
+          might be a hypothesis, like;{" "}
           <em>
             “People wear clothes as a statement, to not only show what they
             think is beautiful, but also to show what they care about”
@@ -132,43 +121,41 @@ const DiscoverPage: NextPage = () => (
           .
         </p>
         <p>
-          The next step could be further research on how people currently show
-          what they care about with fashion, as well as analogous experiences.
-          When performing descriptive research, we no longer focus on what
-          problem we're solving, but rather how we might solve the problem.
-          While the activities can be very similar to generative research, the
-          high-level question is different. We move away from{" "}
-          <em>“What's a good problem to solve?”</em> and to{" "}
+          Next steps could include further research how people currently show
+          their values through fashion. When performing descriptive research, we
+          no longer focus on what problem we're solving, but rather how we might
+          solve the problem. While the activities can be very similar to
+          generative research, the high-level question is different. We go from{" "}
+          <em>“What's a good problem to solve?”</em> to{" "}
           <em>“What is the best way to solve the problem we've identified?”</em>{" "}
           <Citation id="justEnough" page="14" />.{" "}
         </p>
         <h3>Evaluative Research</h3>
         <p>
-          Even further on in the process, after generating lots of{" "}
+          Continuing this process, after generating lots of{" "}
           <Link href="./3-develop">
             <a target="blank">ideas</a>
-          </Link>
-          , and building{" "}
+          </Link>{" "}
+          and building{" "}
           <Link href="./3-deliver">
             <a target="blank">prototypes</a>
           </Link>
-          , we move back into research again. This is when we start asking
-          ourselves, <em>“Are we getting close?”</em>. Once we're at this stage,
-          we're able to put our ideas out in the world to test. This research
-          should be done continuously and iteratively. Fortunately, any time we
-          put our design solution in front of our users, we are doing some
-          evaluative research.{" "}
+          , we move back into research again. We start asking ourselves,{" "}
+          <em>“Are we getting close?”</em>. Once we're at this stage, we're able
+          to put our ideas out in the world to test. Evaluative research should
+          be done continuously and iteratively.
         </p>
         <h3>Data in Research</h3>
         <p>
           Matt <Citation id="mattInterview" hideAuthor /> said{" "}
           <em>'always on'</em> data allows him to quickly grab quantitative data
-          when he needs it. As part of our interview, we also spoke about the
-          differences between qualitative and quantitative data. His experience
-          has been that corporates often get too attached to large amounts of
-          data. Business people are much more comfortable speaking in data
-          instead of sound-bites. When Matt communicates his research, he backs
-          up qualitative data with quantitative data and vice-versa.{" "}
+          when he needs it. My friend <a href="http://zeno.zone">Zeno</a>, Matt
+          and I spoke about the differences between qualitative and quantitative
+          data. His experience has been that corporates often get too attached
+          to large amounts of data. Business people are much more comfortable
+          speaking in data instead of soundbites. Matt tries to get stakeholder
+          buy-in by backing up qualitative data with quantitative data and
+          vice-versa.{" "}
           <em>“Data is telling you what's happening, but not why”</em>, he tells
           us.
         </p>
@@ -187,14 +174,18 @@ const DiscoverPage: NextPage = () => (
           started our research process.{" "}
         </p>
         <h3>Primary research</h3>
+        <figure>
+          <img src="/img/interviews.png" />
+          <figcaption>Figure: A grasp of our interview subjects</figcaption>
+        </figure>
         <p>
           Our primary research was a mix of in-depth <em>user interviews</em>{" "}
           <Citation id="ideoUserInterview" /> and <em>expert interviews</em>{" "}
           <Citation id="ideoExpertInterview" />. During the entire project we
           spoke with 12 (potential) users from various countries and with
-          varying interest in sustainable business. We also spoke with industry
-          11 experts on sustainability, digital fashion and fashion marketing.
-          We backed this up with insight from the industry through secondary
+          varying interest in sustainable business. In addition, we spoke with
+          11 industry experts on sustainability, digital fashion and fashion
+          marketing. This was assisted by industry insight through secondary
           research.
         </p>
         <h3>Secondary Research</h3>

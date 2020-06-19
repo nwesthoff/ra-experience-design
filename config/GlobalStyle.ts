@@ -39,8 +39,8 @@ const GlobalStyle = createGlobalStyle`
   blockquote {
     background: rgba(36, 193, 224, 0.08);
     border-left: 2px solid #24c1e0;
-    padding: .4rem 2rem 1.2rem;
-    margin: 0;
+    padding: 0.4rem 2rem 1.2rem;
+    margin: 3.2rem 0;
 
     p {
       font-family: 'IBM Plex Serif', serif;

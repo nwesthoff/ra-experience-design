@@ -79,9 +79,9 @@ const DeliverPage = () => {
               <p>“The Internet rewards people who learn in public”</p>
               <ul>
                 <li>
-                  David Perell (
+                  David Perell (on{" "}
                   <a href="https://twitter.com/david_perell/status/1259361298082459648">
-                    source
+                    Twitter
                   </a>
                   )
                 </li>
@@ -122,12 +122,11 @@ const DeliverPage = () => {
             </ul>
             <h2>Different levels of prototyping:</h2>
             <p>
-              When creating prototypes it's critical to understand what you're
-              trying to learn about. Low fidelity prototypes are easier and
-              cheaper and allow for quick iteration. High Fidelity prototypes
-              are much closer to the final product. The drawback is that they
-              are more time-consuming. These are often used when finalising the
-              design.
+              When creating prototypes it's crucial to understand what we want
+              to learn. Low fidelity prototypes are easier and cheaper and allow
+              for quick iteration, whereas high Fidelity prototypes are much
+              closer to the final product. The drawback is that they are more
+              time-consuming and costly.
             </p>
             <ThreeColumnDiv>
               <Col>
@@ -241,36 +240,25 @@ const DeliverPage = () => {
             </p>
             <figure>
               <img
-                src="/img/planes-of-experience.png"
+                src="/img/planes-of-experience.jpg"
                 style={{ maxWidth: "400px" }}
               />
               <figcaption>Figure: Five planes of experience design</figcaption>
             </figure>
             <ul>
-              <li>
-                <b>Surface</b>: Visual design
-              </li>
-              <li>
-                <b>Skeleton</b>: Interface, navigation and information design
-              </li>
-              <li>
-                <b>Structure</b>: information architecture & UX Design
-              </li>
-              <li>
-                <b>Scope</b>: Content & feature requirements
-              </li>
-              <li>
-                <b>Strategy</b>: Business Objectives and user needs
-              </li>
+              <li>Surface: Visual design</li>
+              <li>Skeleton: Interface, navigation and information design</li>
+              <li>Structure: information architecture & UX Design </li>
+              <li>Scope: Content & feature requirements </li>
+              <li>Strategy: Business Objectives and user needs </li>
             </ul>
             <p>
               Chris Callaghan <Citation id="callaghanPretotyping" hideAuthor />{" "}
-              applied this to create a framework for effective prototyping. It's
-              relevant to know what we're trying to learn about with our
-              prototype, to get the results we need. His framework describes how
-              the fidelity of prototyping can be tuned on each of the five
-              planes. The result is a matrix that describes how big the impact
-              of these types of fidelity have on each of the functional layers.{" "}
+              combined this to create a framework for effective prototyping. His
+              framework describes how the fidelity of prototyping can be tuned
+              on each of the five planes. The result is a matrix that describes
+              how big the impact of these types of fidelity have on each of the
+              functional layers.{" "}
             </p>
             <figure>
               <table>
@@ -320,25 +308,17 @@ const DeliverPage = () => {
               work around issues. Novices experience issues as more severe, but
               find fewer in total <Citation id="sauerSeibel" />.
             </p>
-            <h3>Usability severity</h3>
+            <h3>Usability</h3>
             <p>
               Knowing which problems to focus on can be a big problem. There's
               been some research to categorise the severity of the issues users
-              describe. Jakob Nielsen provides a set of metrics to define
-              usability severity <Citation id="nielsenUsability" hideAuthor />.
-            </p>
-            <ol start={0}>
-              <li>No usability problem</li>
-              <li>Cosmetic problem</li>
-              <li>Minor usability problem</li>
-              <li>Major usability problem</li>
-              <li>Usability catastrophe</li>
-            </ol>
-            <p>
-              To gain quantitative data on release products, Matt{" "}
-              <Citation id="mattInterview" /> likes using tools like{" "}
-              <a href="https://hotjar.com">Hotjar</a>. They create heatmaps and
-              record users' actions that help identify usability issues.
+              describe. Jakob Nielsen defines a set of metrics to define
+              usability severity <Citation id="nielsenUsability" hideAuthor />{" "}
+              which focuses our attention to the worst offenders. To gain
+              quantitative data to act on, Matt <Citation id="mattInterview" />{" "}
+              likes to use heatmap tools (like{" "}
+              <a href="https://hotjar.com">Hotjar</a>). They record users'
+              actions which help identify usability issues.
             </p>
             <p>
               Click the button to toggle on a heatmap of your activity on this
@@ -363,16 +343,16 @@ const DeliverPage = () => {
               Matt <Citation id="mattInterview" /> describes how content
               strategy should be considered part of the experience equally.
               Consider the importance of something like the box a product comes
-              in. When buying a product, all-else being equal, customers{" "}
+              in. When buying a product, all else being equal, customers{" "}
               <em>will</em> opt for the business that sends products in a
               recycled box with a golden bow. Matt tells us how he's
               particularly intrigued by physical touchpoints of{" "}
-              <em>digital challengers</em> like Warby Parker and Ace & Tate. The
-              way even their stores offer a better experience than their
-              'legacy' counterparts by neatly integrating their digital systems
-              into the buying experience. These brands offer services like
-              order-from-home emails after an eye measurement, which provides an
-              overall better experience for the customer.{" "}
+              <em>digital challengers</em> like Warby Parker and Ace & Tate.
+              Even their stores offer a better experience than 'legacy'
+              counterparts by integrating their digital systems into the buying
+              experience. They offer services like order-from-home emails after
+              an eye measurement, which provides an overall better experience
+              for the customer.{" "}
             </p>
             <h3>Beyond Experience</h3>
             <p>
@@ -405,10 +385,10 @@ const DeliverPage = () => {
               through ideation, we developed our first idea and prototype. These
               prototypes iteratively improved on the idea of digital fashion.
               Contradictory to what we had learned about effective prototyping
-              from Chris <Citation id="callaghanPretotyping" />, I wanted to try
-              creating high (visual) fidelity prototypes. Mainly because I
-              wanted to try <a href="https://framer.com">Framer</a>, which
-              proved to be a useful addition to my prototyping toolkit.{" "}
+              from Chris <Citation id="callaghanPretotyping" />, I created high
+              (visual) fidelity prototypes. Mainly because I wanted to try{" "}
+              <a href="https://framer.com">Framer</a>, which proved to be a
+              useful addition to my prototyping toolkit.{" "}
             </p>
             <p>
               <small>
@@ -462,13 +442,15 @@ const DeliverPage = () => {
                 controls
               />
               <figcaption>
-                Video: Our figcaptionrototype to test a digital fashion hunt
+                Video: Our prototype to test a digital fashion hunt
               </figcaption>
             </figure>
             <p>
               Upon testing this prototype, we realised people see fashion as
               content. Many want to share a story when they share photos of
-              their clothes.
+              their clothes. This is clearly an effect of a strong emotional
+              experience, one we decided to take a step further for our last
+              iteration.
             </p>
             <h3>3. Manifest — Digital Fashion for Social Good</h3>
             <p>
@@ -533,8 +515,8 @@ const DeliverPage = () => {
               rendering engines (Unreal & Unity) support AR and even dedicated
               AR tools like Instagram's{" "}
               <a href="https://sparkar.facebook.com/ar-studio/">SparkAR</a>{" "}
-              exist. These tools lower the barrier to market, and make
-              developing basic filters trivial.
+              exist. These tools lower the barrier to market and make developing
+              basic filters trivial.
             </p>
             <p>
               Digital clothes however brings a few new issues, currently

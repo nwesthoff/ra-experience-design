@@ -65,20 +65,18 @@ const IntroductionPage: NextPage = () => (
           Industrial design, originating from Mechanical Engineering, is centred
           on products with a physical component. Experimentation is
           comparatively expensive (consider the price of injection moulds,
-          manufacturing plants and distribution), and as a result, physical
+          manufacturing plants and distribution) and as a result, physical
           products don't enjoy nearly the same agility as digital ones. The
           flexibility of digital products is a luxury I've come to appreciate a
           lot in my experience with digital products. Knowing this, it's easy to
           see why the Basic Design Cycle{" "}
           <Citation id="basic-design-cycle" page="84–93" /> is much more focused
-          on setting and evaluating criteria than the Double Diamond. There's an
+          on setting and evaluating criteria than design thinking. There's an
           explicit feedback loop that improves the product until the design is
-          approved. This was only added later in the Design Council's Double
-          Diamond <Citation id="designCouncil" hideAuthor />. The Basic Design
-          Cycle fails to represent the diverging and converging nature of the
-          design process. Furthermore, it combines the problem statement within
-          the analysis phase. It's clear that the design process is ambiguous,
-          and neither is correct or wrong.
+          approved. This was only added later to Design Council's Double Diamond{" "}
+          <Citation id="designCouncil" hideAuthor />. It's clear that design
+          processes are ambiguous and neither model is correct or wrong, but
+          both provide a good methodical starting point in their industry.
         </p>
         <h2>Double Diamond Revamped</h2>
         <p>
@@ -100,17 +98,15 @@ const IntroductionPage: NextPage = () => (
             display: "block",
           }}
         >
-          <ScrollToReveal opacity={[0, 1]}>
+          <ScrollToReveal opacity={[0.3, 0.5]}>
             <RevealImageOverlay
               src="/img/double-diamond.png"
               style={{ maxWidth: "100%" }}
-              loading="lazy"
             />
           </ScrollToReveal>
           <img
             src="/img/double-diamond-cleaned.png"
-            style={{ maxWidth: "100%" }}
-            loading="lazy"
+            style={{ maxWidth: "100%", opacity: 0.5 }}
           />
           <figcaption>
             Figure: Dan Nessler's Double Diamond Revamped (
@@ -155,20 +151,6 @@ const IntroductionPage: NextPage = () => (
           these problems influence people's lives comes with an understanding of
           the way people live experiences in general.{" "}
         </p>
-        <figure>
-          <video src="/video/what-is-experience.mp4" controls />
-          <figcaption>
-            Figure: What is experience? (
-            <a href="https://twitter.com/StrangestMp4/status/1272218918325641216?s=20">
-              source
-            </a>
-            ) <br />
-            <small style={{ color: "#aaa" }}>
-              (Look, I'm not pretending this is useful information, I'm just
-              doing some mood-setting here.)
-            </small>
-          </figcaption>
-        </figure>
         <h2>Experience</h2>
         <p>
           First of all, it's important to be aware that experiences are not
@@ -195,7 +177,7 @@ const IntroductionPage: NextPage = () => (
           and <em>feeling</em>. Though, it's important to remember that these
           elements can't be seen in isolation either, in actual experience they
           are deeply entangled as well. When we do design research we have to
-          understand that everyday experience is continuous, seamless, and
+          understand that everyday experience is continuous, seamless and
           endless, we're only trying to understand a small slice of that.
         </p>
         <p>
@@ -204,6 +186,24 @@ const IntroductionPage: NextPage = () => (
           phone is using. How we design for these differences is driven by
           design research.
         </p>
+        <figure style={{ marginTop: "3.2rem" }}>
+          <video
+            style={{ width: "100%" }}
+            src="/video/what-is-experience.mp4"
+            controls
+          />
+          <figcaption>
+            Figure: What is experience? (
+            <a href="https://twitter.com/StrangestMp4/status/1272218918325641216?s=20">
+              source
+            </a>
+            ) <br />
+            <small style={{ color: "#aaa" }}>
+              (Look, I'm not pretending this is useful information, I'm just
+              doing some mood-setting here.)
+            </small>
+          </figcaption>
+        </figure>
       </ContentContainer>
     </PageWrapper>
     <NextChapter title="Discover" index={1} />

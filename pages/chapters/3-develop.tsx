@@ -22,18 +22,24 @@ const DevelopPage = () => (
     </PageWrapper>
     <PageWrapper>
       <ContentContainer>
+        <p>
+          After successfully defining what the right problem is to solve, it is
+          time to embark on an ideation journey. Ideation is the process of{" "}
+          <em>generating a broad set of ideas</em> to solve a previously defined
+          problem, with no attempt to judge or evaluate them mid-session{" "}
+          <Citation id="nngroupIdeation" />.
+        </p>
         <h2>Ideation</h2>
         <p>
-          The focus during an ideation session is on improving the user
-          experience. By investigating multiple solutions in parallel, we have a
-          better chance of discovering the optimal solution, rather than merely
-          the first that pops to mind. A critical mechanic of an ideation
-          session is that all judgment is postponed until after{" "}
-          <Citation id="nngroupIdeation" />.
+          The objective of ideation is to improve user experience. By
+          investigating multiple solutions in parallel, we have a better chance
+          of discovering the optimal solution, rather than merely the first that
+          pops to mind. A critical mechanic of an ideation session is that all
+          judgment is postponed until after <Citation id="nngroupIdeation" />.
         </p>
         <h3>Early ideas are Fragile</h3>
         <p>
-          Young ideas are usually unfinished, and as a result, it's easy to
+          Young ideas are usually unfinished and as a result, it's easy to
           concentrate on its flaws rather than its beauty. This is why it's so
           important to remember not to judge ideas in the middle of ideation.
           Dugosh et al. <Citation id="cognitiveStimulation" hideAuthor />{" "}
@@ -55,7 +61,7 @@ const DevelopPage = () => (
           The metrics of for measuring ideation effectiveness is defined by the
           volume and differentiation of the pool of ideas{" "}
           <Citation id="ideationMetrics" />. The quality of design space
-          exploration is a key component to good user experience{" "}
+          exploration is a key component to good user experience Nielsen writes{" "}
           <Citation id="nngroupParallel" />.
         </p>
         <h3>Scale Back</h3>
@@ -83,10 +89,10 @@ const DevelopPage = () => (
         </p>
         <h2>Evaluate</h2>
         <p>
-          While it's now clear we don't want to put down ideas too early, at
-          some point we'll have to decide which ones to toss, and which ones to
-          move forward with. That's where evaluation comes into play. Design
-          thinking generally looks at evaluating <em>feasibility</em>,{" "}
+          While it's clear we shouldn't put fresh ideas down, at some point
+          we'll have to decide which ones to toss, and which to move forward
+          with. That's where evaluation comes into play. Design thinking
+          generally looks at evaluating <em>feasibility</em>,{" "}
           <em>desirability</em> and <em>viability</em>{" "}
           <Citation id="designThinkingIDEO" />, integrating human needs with
           business needs. When we zoom in on the people's needs we find research
@@ -99,22 +105,26 @@ const DevelopPage = () => (
           of product experience they define are aesthetic pleasure, attribution
           of meaning and emotional response.
         </p>
+        <ul>
+          <li>Aesthetic: a product’s capacity to delight one or more senses</li>
+          <li>
+            Meaning: users' tendency to attach personal or symbolic significance
+            to the products they use
+          </li>
+          <li>
+            Emotional: he emotional response we have when interacting with
+            products
+          </li>
+        </ul>
         <p>
-          At the aesthetic level, they consider a product’s capacity to delight
-          one or more senses. Products can be beautiful to look at or pleasant
-          to touch, these micro-experiences all add up to the total experience
-          users have with the product. At the level of meaning, cognition comes
-          into play. This defines how users attach personal or symbolic
-          significance to the products they use. At the emotional level, they
-          refer to the emotional response we have when interacting with products
-          (emotion as in everyday language like love and disgust). These lenses
-          can be considered to ensure all bases are covered by our evaluation
-          process.{" "}
+          These lenses can be considered to ensure all bases are covered by our
+          evaluation process.{" "}
         </p>
       </ContentContainer>
     </PageWrapper>
     <CaseStudyWrapper>
       <ContentContainer>
+        <h2>In Practice</h2>
         <p>
           Our ideation sessions were mostly done synchronously as a group. We
           started the process by clearing our head, writing down our initial
@@ -126,14 +136,25 @@ const DevelopPage = () => (
           journey was inspired by The Pop-up Agency's variation of Crazy 8's.
           Their method provides several prompts to encourage diverse ideas,
           like; <em>“Idea your granny can understand”</em>,{" "}
-          <em>“Zero budget idea”</em> and <em>“Unlimited budget idea”</em>.
+          <em>“Zero budget idea”</em> and <em>“Unlimited budget idea”</em>. I
+          generally take a little time to get into <em>ideation zone</em>, but
+          the prompts helped me get there a little sooner than usual.
         </p>
         <h3>Evaluation</h3>
+        <figure>
+          <img
+            style={{ maxWidth: "600px" }}
+            src="/img/ideation-evaluation.png"
+          />
+          <figcaption>
+            Figure: A visual representation of idea selection
+          </figcaption>
+        </figure>
         <p>
-          Our evaluation came quite naturally, we personally filtered the ideas
-          we personally weren't fond of. That cut our idea pool from around 30
-          to roughly 12. We quickly saw some overlapping ideas, which we
-          combined into two larger ideas:
+          Our evaluation came quite naturally, we individually filtered the
+          ideas we personally weren't fond of. That cut our idea pool from
+          around 30 to roughly 12. We quickly saw some overlapping ideas, which
+          we combined into two larger ideas:
         </p>
         <ul>
           <li>
