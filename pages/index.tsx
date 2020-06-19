@@ -11,15 +11,15 @@ const IndexPage = () => (
           Experience <br /> Design
         </h1>
         <p>
-          This is an interactive and experiential special on{" "}
+          This is an interactive and experiential research activity about
           <i>Experience Design</i>. It gives an overview of a design process and
           the tools that could be used during each step of a design process.
-          Each step of the process will be backed by a case study, that
-          demonstrate the key findings these tools bring. <br />
+          Each step of the process will be backed by a practical approach, which
+          demonstrates the key findings these tools might bring. <br />
         </p>
         <p style={{ fontSize: ".8em", border: "none", opacity: 0.8 }}>
           WRITTEN & PRODUCED BY: NILS WESTHOFF <br />
-          17 JUNE 2020
+          JUNE 2020 | WORD COUNT: 4947
         </p>
       </PageIntroduction>
 
@@ -32,10 +32,10 @@ const IndexPage = () => (
       </ChapterBlock>
 
       <ChapterBlock title="Discover" index={1} reverse>
-        Every good design process begins with research, to learn about and
+        Every good design process begins with research. To learn about and
         discover the context designed experiences are happening in. This phase
-        of analysis serves two main purposes, to inspire us in preparation of
-        idea generation, and provide constraints during evaluation.
+        of analysis serves two main purposes: to inspire us in preparation of
+        idea generation and provide constraints during evaluation.
       </ChapterBlock>
 
       <ChapterBlock title="Define" index={2}>
