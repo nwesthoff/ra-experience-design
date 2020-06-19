@@ -2,6 +2,13 @@ import React, { Fragment } from "react";
 import styled from "styled-components";
 import { theme } from "../config/theme";
 
+const PersonaName = styled.div`
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: black;
+  margin: 1.2rem 0 0;
+`;
+
 const FlickitySlide = styled.div`
   width: 66%;
   margin-right: 1.2rem;
@@ -30,14 +37,11 @@ const PersonaContentContainer = styled.div`
   -webkit-column-gap: 2rem;
   max-width: 500px;
 
-  h3 {
-    font-size: 2.6rem;
-    color: black;
-    margin: 1.2rem 0 0;
-  }
-
   h5 {
+    color: ${theme.colors.primary};
     margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
   }
 
   ul {
@@ -99,7 +103,7 @@ const PersonaCard = ({
           <PersonaImage src={imageUrl} loading="lazy" />
         </PersonaImageContainer>
         <PersonaContentContainer>
-          <h3>{name}</h3>
+          <PersonaName>{name}</PersonaName>
           <i>{occupation}</i>
           <h5>Bio</h5>
           <p>{bio}</p>
