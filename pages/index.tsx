@@ -29,7 +29,7 @@ const IndexPage = () => (
         </p>
         <p style={{ fontSize: ".8em", border: "none" }}>
           BY{" "}
-          <NameLink href="https://nilswesthoff/com" target="blank">
+          <NameLink href="https://nilswesthoff.com" target="blank">
             NILS WESTHOFF
           </NameLink>{" "}
           <br />

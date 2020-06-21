@@ -45,7 +45,7 @@ const DefinePage = () => (
         <p>
           Many aspects of design are visible activities and easy to grasp even
           for non-designers. They are easily understood by watching our idols.
-          Synthesis is often a lot more solitary and completely hidden and as a
+          Synthesis is often a lot more solitary and completely hidden as a
           result. Some (good) designers have magical status because synthesis is
           often performed privately <Citation id="abductiveThinkingKolko" />.{" "}
         </p>
@@ -145,11 +145,11 @@ const DefinePage = () => (
         </p>
         <h3>Interview Downloads</h3>
         <p>
-          Digesting our 20+ thirty to sixty minute provided quite a challenge.
-          Interview downloads <Citation id="arunimaIDEO" /> are a great way to
-          collaboratively summarise our results. Afterwards they were easy to
-          share with the team, which proved necessary because some of our
-          interviews were in Portuguese and Russian.
+          Digesting our 20+ thirty to sixty minute interviews provided quite a
+          challenge. Interview downloads <Citation id="arunimaIDEO" /> are a
+          great way to collaboratively summarise our results. Afterwards they
+          were easy to share with the team, which proved necessary because some
+          of our interviews were in Portuguese and Russian.
         </p>
         <h3>Affinity Mapping</h3>
         <p>
@@ -177,7 +177,7 @@ const DefinePage = () => (
     <CaseStudyWrapper style={{ margin: "0" }}>
       <ContentContainer>
         <p>
-          A common pitfall to personas that they become one-dimensional,
+          A common pitfall to personas is that they become one-dimensional,
           hypothetical stereotypes <Citation id="dscoutPersona" />. Personas
           aren't supposed to be a caricature, they exist to create empathy, to
           remind us of who we spoke with and who we're designing for. As our

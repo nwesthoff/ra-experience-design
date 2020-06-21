@@ -106,6 +106,7 @@ const GlobalStyle = createGlobalStyle`
   figcaption {
     margin-top: 1.2rem;
     text-align: center;
+    font-size: .9em;
     font-style: italic;
   }
 

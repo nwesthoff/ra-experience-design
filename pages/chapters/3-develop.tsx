@@ -22,13 +22,6 @@ const DevelopPage = () => (
     </PageWrapper>
     <PageWrapper>
       <ContentContainer>
-        <p>
-          After successfully defining what the right problem is to solve, it is
-          time to embark on an ideation journey. Ideation is the process of{" "}
-          <em>generating a broad set of ideas</em> to solve a previously defined
-          problem, with no attempt to judge or evaluate them mid-session{" "}
-          <Citation id="nngroupIdeation" />.
-        </p>
         <h2>Ideation</h2>
         <p>
           The objective of ideation is to improve user experience. By
@@ -58,7 +51,7 @@ const DevelopPage = () => (
         </p>
         <h3>Volume and Diversity</h3>
         <p>
-          The metrics of for measuring ideation effectiveness is defined by the
+          The metrics for measuring ideation effectiveness is defined by the
           volume and differentiation of the pool of ideas{" "}
           <Citation id="ideationMetrics" />. The quality of design space
           exploration is a key component to good user experience Nielsen writes{" "}

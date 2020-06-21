@@ -126,8 +126,9 @@ const IntroductionPage: NextPage = () => (
         <h2>Vision within Reason</h2>
         <p>
           Hekkert and van Dijk, explain in their book <em>Vision in Design</em>{" "}
-          how a design process is a balancing act between forward-thinking,
-          visionary, inspiration and making reasonable decisions.
+          (ViP) <Citation id="ViP" page="128-129" hideAuthor /> how a design
+          process is a balancing act between forward-thinking, visionary,
+          inspiration and making reasonable decisions.
         </p>
         <blockquote>
           <p>
