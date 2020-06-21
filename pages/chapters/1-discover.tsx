@@ -31,7 +31,7 @@ const DiscoverPage: NextPage = () => (
         <p>
           Businesses often think they know what their customers want, but they
           don't actively seek it out. They might hear bits and pieces, but in
-          Matt (experience designer at{" "}
+          Matt's (experience designer at{" "}
           <a href="https://www.retrofuzz.com/">RetroFuzz</a> and our Industry
           Leader at Hyper Island) experience there's often no structure to it{" "}
           <Citation id="mattInterview" />. Some clients have <em>no idea</em> of
